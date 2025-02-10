@@ -6,6 +6,7 @@ import { createTheme } from "@mui/material/styles";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { useTheme } from '@mui/material';
+import DataAccordianModel from "../../components/DataAccordianModel";
 
 const Home = () => {
   const [tripType, setTripType] = useState("Round trip");
@@ -206,14 +207,14 @@ const Home = () => {
           returnDate={returnDate}
           setReturnDate={setReturnDate}
         />
+        <button
+          onClick={() => onSubmit()}
+          className="bg-blue rounded-full h-[40px] w-[110px] text-white -translate-y-5 flex justify-center items-center gap-2"
+        >
+          <FontAwesomeIcon icon={faMagnifyingGlass} /> Search
+        </button>
+        <DataAccordianModel />
       </ThemeProvider>
-      <button
-        onClick={() => onSubmit()}
-        className="bg-blue rounded-full h-[40px] w-[110px] text-white -translate-y-5 flex justify-center items-center gap-2"
-      >
-        <FontAwesomeIcon icon={faMagnifyingGlass} /> Search
-      </button>
-
 
     </div>
   );
