@@ -152,7 +152,7 @@ const Home = () => {
 
     let accordionDataList = [];
 
-    for (let id = 0; id<dataList.length; id++) {
+    for(let id = 0; id<dataList.length; id++){
       const dataItem = dataList[id];
       console.log(dataItem.price.formatted);
       const legs = dataItem.legs;
