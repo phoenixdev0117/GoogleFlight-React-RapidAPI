@@ -144,14 +144,20 @@ const Home = () => {
 
     dataList = dataList.sort((a, b) => b.score - a.score);
     setData((d) => dataList);
-    console.log(data);
     setLoading(false);
+    console.log(dataList);
 
+    for(let id=0; id<dataList.length; id++){
+      const dataItem = dataList[id];
+      console.log(dataItem.price.formatted);
+    }
+
+    
     // navigate('/search');
   };
   useEffect(() => {
     if (loading == false) {
-      console.log(data);
+      // console.log(data);
     }
   }, [data, loading]);
   // }, [adults, cabinClass, carriersIds, childrens, countryCode, currency, date, destinationEntityId, destinationLocation, destinationSkyId, infants, limit, market, originEntityId, originLocation, originSkyId, returnDate, sortBy]);
