@@ -5,6 +5,8 @@ import { ThemeProvider, CssBaseline } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import { useTheme } from '@mui/material';
+import DataAccordianModel from "../../components/DataAccordianModel";
 
 const Home = () => {
   const [tripType, setTripType] = useState("Round trip");
@@ -172,12 +174,15 @@ const Home = () => {
     "(prefers-color-scheme: dark)"
   ).matches;
   const theme = prefersDarkMode ? darkTheme : lightTheme;
+  const banner = prefersDarkMode ?
+    "https://www.gstatic.com/travel-frontend/animation/hero/flights_nc_dark_theme_4.svg" :
+    "https://www.gstatic.com/travel-frontend/animation/hero/flights_nc_4.svg";
 
   return (
     <div className="flex flex-col justify-center w-screen items-center">
       <div className=" flex flex-col items-center">
         <img
-          src="https://www.gstatic.com/travel-frontend/animation/hero/flights_nc_4.svg"
+          src={banner}
           alt="flight"
           className="xl:w-[1248px] w-screen"
         />
@@ -202,14 +207,14 @@ const Home = () => {
           returnDate={returnDate}
           setReturnDate={setReturnDate}
         />
+        <button
+          onClick={() => onSubmit()}
+          className="bg-blue rounded-full h-[40px] w-[110px] text-white -translate-y-5 flex justify-center items-center gap-2"
+        >
+          <FontAwesomeIcon icon={faMagnifyingGlass} /> Search
+        </button>
+        <DataAccordianModel />
       </ThemeProvider>
-      <button
-        onClick={() => onSubmit()}
-        className="bg-blue rounded-full h-[40px] w-[110px] text-white -translate-y-5 flex justify-center items-center gap-2"
-      >
-        <FontAwesomeIcon icon={faMagnifyingGlass} /> Search
-      </button>
-
 
     </div>
   );
