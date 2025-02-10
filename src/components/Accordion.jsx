@@ -26,12 +26,15 @@ const LineBar = () => (
 export default function AccordionExpandDefault({ props, tripType }) {
   const theme = useTheme();
   
-  // State to track the currently expanded accordion index
-  const [expandedIndex, setExpandedIndex] = React.useState(null);
+  // Initialize expanded state as an array of false values
+  const [expanded, setExpanded] = React.useState(Array(props.length).fill(false));
 
   const handleChange = (index) => {
-    // Toggle the accordion: if the same index is clicked, close it; otherwise, open the new one
-    setExpandedIndex(expandedIndex === index ? null : index);
+    setExpanded((prev) => {
+      const newExpanded = [...prev];
+      newExpanded[index] = !newExpanded[index]; // Toggle the specific accordion
+      return newExpanded;
+    });
   };
 
   return (
@@ -39,7 +42,7 @@ export default function AccordionExpandDefault({ props, tripType }) {
       {props.map((prop, index) => (
         <Accordion
           key={index} // Always add a unique key for each item
-          expanded={expandedIndex === index} // Check if this index is the currently expanded one
+          expanded={expanded[index]} // Use the expanded state for the specific index
           onChange={() => handleChange(index)} // Pass the index to handleChange
           sx={{ backgroundColor: theme.palette.background.default, border: "1px solid white" }}
         >
