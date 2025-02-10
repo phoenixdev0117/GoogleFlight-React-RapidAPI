@@ -219,7 +219,7 @@ const Home = () => {
         >
           <FontAwesomeIcon icon={faMagnifyingGlass} /> Search
         </button>
-        <DataAccordianModel />
+        <DataAccordianModel tripType={tripType} />
       </ThemeProvider>
 
     </div>
