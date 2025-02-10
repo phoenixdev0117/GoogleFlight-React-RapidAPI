@@ -143,7 +143,7 @@ const Home = () => {
 
     dataList = dataList.sort((a, b) => b.score - a.score);
     setData((d) => dataList);
-    console.log(dataList);
+    console.log(data);
     setLoading(false);
 
     // navigate('/search');
@@ -209,6 +209,8 @@ const Home = () => {
       >
         <FontAwesomeIcon icon={faMagnifyingGlass} /> Search
       </button>
+
+
     </div>
   );
 };
