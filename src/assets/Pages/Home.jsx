@@ -5,7 +5,7 @@ import { ThemeProvider, CssBaseline } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
-import { useTheme } from "@mui/material";
+import { useTheme } from '@mui/material';
 import DataAccordianModel from "../../components/DataAccordianModel";
 
 const Home = () => {
@@ -161,7 +161,7 @@ const Home = () => {
       let sublogoflag = true;
       let sublogo = legs[0].carriers.marketing[0].logoUrl;
 
-      for (let i = 0; i < legs.length; i++) {
+      for(let i=0; i < legs.length; i++) {
         const eachlegs = legs[i];
 
         if (sublogoflag && sublogo != legs[i].carriers.marketing[0].logoUrl)
@@ -192,6 +192,7 @@ const Home = () => {
       accordionDataList = accordionDataList.concat(virtdata);
     }
 
+
     // navigate('/search');
   };
   useEffect(() => {
@@ -218,14 +219,18 @@ const Home = () => {
     "(prefers-color-scheme: dark)"
   ).matches;
   const theme = prefersDarkMode ? darkTheme : lightTheme;
-  const banner = prefersDarkMode ? 
+  const banner = prefersDarkMode ?
     "https://www.gstatic.com/travel-frontend/animation/hero/flights_nc_dark_theme_4.svg" :
     "https://www.gstatic.com/travel-frontend/animation/hero/flights_nc_4.svg";
 
   return (
     <div className="flex flex-col justify-center w-screen items-center">
       <div className=" flex flex-col items-center">
-        <img src={banner} alt="flight" className="xl:w-[1248px] w-screen" />
+        <img
+          src={banner}
+          alt="flight"
+          className="xl:w-[1248px] w-screen"
+        />
         <div className=" text-[56px] -translate-y-10 ">Flights</div>
       </div>
 
@@ -253,7 +258,7 @@ const Home = () => {
         >
           <FontAwesomeIcon icon={faMagnifyingGlass} /> Search
         </button>
-        {/* <DataAccordianModel /> */}
+        <DataAccordianModel />
       </ThemeProvider>
     </div>
   );
