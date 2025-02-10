@@ -8,9 +8,15 @@ import AccordionExpandIcon from "./Accordion";
 export default function DataAccordianModel() {
   const theme = useTheme(); // Access the current theme
 
+  const data = [
+    {
+      icon: "https://www.gstatic.com/flights/airline_logos/70px/dark/BR.png"
+    }
+  ];
+
   return (
-    <div className={`w-1/2 ${theme.palette.mode}-date-theme`}>
-      <AccordionExpandIcon />
+    <div className={`w-[1000px] ${theme.palette.mode}-date-theme`}>
+      <AccordionExpandIcon props={data} />
     </div>
   );
 }
