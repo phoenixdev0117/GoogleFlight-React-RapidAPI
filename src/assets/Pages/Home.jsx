@@ -192,7 +192,7 @@ const Home = () => {
       accordionDataList = accordionDataList.concat(virtdata);
     }
 
-
+    
     // navigate('/search');
   };
   useEffect(() => {
@@ -260,6 +260,7 @@ const Home = () => {
         </button>
         <DataAccordianModel />
       </ThemeProvider>
+
     </div>
   );
 };
