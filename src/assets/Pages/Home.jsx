@@ -148,9 +148,46 @@ const Home = () => {
     setLoading(false);
     console.log(dataList);
 
+    let accordionDataList = [];
+
     for(let id=0; id<dataList.length; id++){
       const dataItem = dataList[id];
       console.log(dataItem.price.formatted);
+      const legs = dataItem.legs;
+
+      let legsNeedDataList = [];
+      let sublogoflag = true;
+      let sublogo = legs[0].carriers.marketing[0].logoUrl;
+
+      for(let i=0; i < legs.length; i++) {
+        const eachlegs = legs[i];
+
+        if (sublogoflag && sublogo != legs[i].carriers.marketing[0].logoUrl)
+          sublogoflag = false;
+
+        const legsEachdata = {
+          departure: eachlegs.departure,
+          origin: `${eachlegs.origin.name} Airport (${eachlegs.origin.displayCode})`,
+          arrival: eachlegs.arrival,
+          destination: `${eachlegs.destination.name} Airport (${eachlegs.destination.displayCode})`,
+          sublogo: legs[i].carriers.marketing[0].logoUrl,
+        };
+
+        legsNeedDataList = legsNeedDataList.concat(legsEachdata);
+      }
+
+
+      const virtdata = {
+
+        price: dataItem.price.formatted,
+        legs: legsNeedDataList,
+        logo: sublogoflag
+          ? dataItem.legs[0].carriers.marketing[0].logoUrl
+          : "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+        logoFlag: sublogoflag,
+      };
+
+      accordionDataList = accordionDataList.concat(virtdata);
     }
 
     
