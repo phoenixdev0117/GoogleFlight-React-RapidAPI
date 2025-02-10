@@ -4,9 +4,9 @@ import SkySearchForm from "../../components/SkySearchForm";
 import { ThemeProvider, CssBaseline } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faL, faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { useTheme } from "@mui/material";
-// import DataAccordianModel from "../../components/DataAccordianModel";
+import DataAccordianModel from "../../components/DataAccordianModel";
 
 const Home = () => {
   const [tripType, setTripType] = useState("Round trip");
@@ -152,7 +152,7 @@ const Home = () => {
 
     let accordionDataList = [];
 
-    for (let id = 0; id < dataList.length; id++) {
+    for (let id = 0; id<dataList.length; id++) {
       const dataItem = dataList[id];
       console.log(dataItem.price.formatted);
       const legs = dataItem.legs;
@@ -192,8 +192,6 @@ const Home = () => {
       accordionDataList = accordionDataList.concat(virtdata);
     }
 
-    console.log(accordionDataList);
-
     // navigate('/search');
   };
   useEffect(() => {
@@ -220,7 +218,9 @@ const Home = () => {
     "(prefers-color-scheme: dark)"
   ).matches;
   const theme = prefersDarkMode ? darkTheme : lightTheme;
-  const banner = prefersDarkMode ? "https://www.gstatic.com/travel-frontend/animation/hero/flights_nc_dark_theme_4.svg":"https://www.gstatic.com/travel-frontend/animation/hero/flights_nc_4.svg";
+  const banner = prefersDarkMode ? 
+    "https://www.gstatic.com/travel-frontend/animation/hero/flights_nc_dark_theme_4.svg" :
+    "https://www.gstatic.com/travel-frontend/animation/hero/flights_nc_4.svg";
 
   return (
     <div className="flex flex-col justify-center w-screen items-center">
