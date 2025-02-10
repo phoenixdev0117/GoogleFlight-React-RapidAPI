@@ -4,9 +4,9 @@ import SkySearchForm from "../../components/SkySearchForm";
 import { ThemeProvider, CssBaseline } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
-import { useTheme } from '@mui/material';
-import DataAccordianModel from "../../components/DataAccordianModel";
+import { faL, faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import { useTheme } from "@mui/material";
+// import DataAccordianModel from "../../components/DataAccordianModel";
 
 const Home = () => {
   const [tripType, setTripType] = useState("Round trip");
@@ -144,16 +144,56 @@ const Home = () => {
     // console.log(data);
 
     dataList = dataList.sort((a, b) => b.score - a.score);
+
     setData((d) => dataList);
     setLoading(false);
+
     console.log(dataList);
 
-    for(let id=0; id<dataList.length; id++){
+    let accordionDataList = [];
+
+    for (let id = 0; id < dataList.length; id++) {
       const dataItem = dataList[id];
       console.log(dataItem.price.formatted);
+      const legs = dataItem.legs;
+
+      let legsNeedDataList = [];
+      let sublogoflag = true;
+      let sublogo = legs[0].carriers.marketing[0].logoUrl;
+
+      for (let i = 0; i < legs.length; i++) {
+        const eachlegs = legs[i];
+
+        if (sublogoflag && sublogo != legs[i].carriers.marketing[0].logoUrl)
+          sublogoflag = false;
+
+        const legsEachdata = {
+          departure: eachlegs.departure,
+          origin: `${eachlegs.origin.name} Airport (${eachlegs.origin.displayCode})`,
+          arrival: eachlegs.arrival,
+          destination: `${eachlegs.destination.name} Airport (${eachlegs.destination.displayCode})`,
+          sublogo: legs[i].carriers.marketing[0].logoUrl,
+        };
+
+        legsNeedDataList = legsNeedDataList.concat(legsEachdata);
+      }
+
+
+      const virtdata = {
+
+        price: dataItem.price.formatted,
+        legs: legsNeedDataList,
+        logo: sublogoflag
+          ? dataItem.legs[0].carriers.marketing[0].logoUrl
+          : "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+        logoFlag: sublogoflag,
+      };
+
+      accordionDataList = accordionDataList.concat(virtdata);
     }
 
-    
+    console.log(accordionDataList);
+
     // navigate('/search');
   };
   useEffect(() => {
@@ -180,18 +220,12 @@ const Home = () => {
     "(prefers-color-scheme: dark)"
   ).matches;
   const theme = prefersDarkMode ? darkTheme : lightTheme;
-  const banner = prefersDarkMode ?
-    "https://www.gstatic.com/travel-frontend/animation/hero/flights_nc_dark_theme_4.svg" :
-    "https://www.gstatic.com/travel-frontend/animation/hero/flights_nc_4.svg";
+  const banner = prefersDarkMode ? "https://www.gstatic.com/travel-frontend/animation/hero/flights_nc_dark_theme_4.svg":"https://www.gstatic.com/travel-frontend/animation/hero/flights_nc_4.svg";
 
   return (
     <div className="flex flex-col justify-center w-screen items-center">
       <div className=" flex flex-col items-center">
-        <img
-          src={banner}
-          alt="flight"
-          className="xl:w-[1248px] w-screen"
-        />
+        <img src={banner} alt="flight" className="xl:w-[1248px] w-screen" />
         <div className=" text-[56px] -translate-y-10 ">Flights</div>
       </div>
 
@@ -219,9 +253,8 @@ const Home = () => {
         >
           <FontAwesomeIcon icon={faMagnifyingGlass} /> Search
         </button>
-        <DataAccordianModel />
+        {/* <DataAccordianModel /> */}
       </ThemeProvider>
-
     </div>
   );
 };
