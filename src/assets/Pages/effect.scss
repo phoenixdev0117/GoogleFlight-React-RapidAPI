@@ -1,0 +1,71 @@
+.skew-button-container {
+  .skew-button-hover {
+    scale: 0;
+  }  
+
+  .skew-button-white-hover {
+    opacity: 0;
+    background-color: inherit;
+  }
+}
+
+.skew-button-container:hover {
+  .skew-button-hover {
+    scale: 1;
+  }  
+
+  .skew-button-white-hover {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+.country-select-container {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.country-selector {
+  position: relative; 
+}
+
+.selector-header {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+  width: 80px;
+  background-color: #20202011;
+}
+
+.flag {
+  width: 20px; /* Adjust flag size */
+  height: 20px; /* Adjust flag size */
+  margin-right: 10px;
+}
+
+.country-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  z-index: 1000;
+  width: 200px;
+}
+
+.country-option {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.country-option:hover {
+  background-color: #f0f0f0; /* Highlight on hover */
+}
+
+.get-otp-btn:active {
+  background-color: #007bff;
+}

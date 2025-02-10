@@ -1,0 +1,108 @@
+.dark-date-theme {
+
+  .month-name,
+  .weekdays,
+  .week {
+    color: white;
+  }
+
+  .date-picker,
+  .date-picker-input,
+  .date-picker-date-group,
+  .date,
+  .dialog-date-picker,
+  .dialog-header,
+  .date-picker-input,
+  .date-picker-date-group,
+  .dialog-content,
+  .dialog-footer {
+    background-color: #333333 !important;
+    color: white;
+  }
+
+  .hovered,
+  .flipper-button {
+    background-color: #666666 !important;
+    color: white;
+  }
+
+  .day.selected.hovered {
+    background-color: #666666 !important;
+    color: white;
+
+    &::after {
+      background-color: #333333 !important;
+      color: white;
+    }
+  }
+
+  .react-google-flight-datepicker .day.selected.hovered {
+    background-color: #666666 !important;
+    color: white;
+  }
+}
+
+.react-google-flight-datepicker .dialog-header {
+  flex-direction: row-reverse;
+}
+
+.react-google-flight-datepicker .dialog-date-picker {
+  right: 2px;
+  left: auto;
+}
+
+
+.input-location-container {
+  .input-location-button {
+    border: 2px solid #555555;
+    z-index: 0;
+  }
+
+  .input-location-span {
+    border: 2px solid #555555;
+    z-index: 0;
+  }
+
+  z-index: 0;
+}
+
+.input-location-container:hover {
+  .input-location-button {
+    border: 2px solid #aaaaaa;
+  }
+
+  .input-location-span {
+    border: 2px solid #aaaaaa
+  }
+}
+
+.input-location-middle {
+  z-index: 100;
+  font-size: 20px;
+  position: relative;
+
+  .input-location-middle-icon {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+}
+
+.FcFFRbG7l2HbNMm5M {
+  margin-left: 12px;
+  transition: transform .3s 0ms cubic-bezier(.4, 0, .2, 1);
+  z-index: 1;
+
+  &::after {
+    border-bottom: 2px solid var(--ta83cba65577ef850);
+    bottom: 0;
+    content: "";
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    transition: transform .18s cubic-bezier(.4, 0, .2, 1), opacity .18s cubic-bezier(.4, 0, .2, 1);
+    transform: scaleX(0);
+    width: 100%;
+  }
+}
