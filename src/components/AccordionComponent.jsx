@@ -116,7 +116,7 @@ export function AccordionSummaryDesktopExpand({ prop, tripType }) {
           alt=""
         />
       }
-      
+
       <Typography className='lg:w-[400px] md:w-[200px]'
         sx={{
           fontSize: "16px",
@@ -165,11 +165,11 @@ export function AccordionDetailedDesktop({ prop }) {
           alt=""
         />
       }
-      <LegsImg/>
+      <LegsImg />
       <Box className="flex flex-col w-full mr-[1px]">
         {prop.legs.map((leg, index) => (
           <Box key={index} sx={{ display: "flex", flexDirection: "column", marginLeft: "20px", width: "100%" }}>
-            <Box sx={{display: "flex", justifyContent: "space-between"}}>
+            <Box sx={{ display: "flex", justifyContent: "space-between" }}>
               <Box>
                 <Typography sx={{ display: "flex" }}>{formatTimeManual(leg.departure)}{getDateDiff(prop.legs[index].departure, prop.legs[0].departure) ? <span className='text-[12px]'>+{getDateDiff(prop.legs[index].departure, prop.legs[0].departure)}</span> : ""} · {prop.legs[index].origin}</Typography>
                 <Typography sx={{ fontSize: "14px", color: "#70757a", margin: "12px 0" }}>Travel time: {calculateTimeDifference(leg.arrival, leg.departure)}</Typography>
@@ -189,6 +189,83 @@ export function AccordionDetailedDesktop({ prop }) {
             }}>{calculateTimeDifference(prop.legs[index + 1].departure, prop.legs[index].arrival)} {prop.legs[index].destination}</Typography> : <></>}
           </Box>
         ))}
+      </Box>
+    </Box>
+  );
+}
+
+export function AccordionSummaryMobileUnexpand({ prop, tripType }) {
+  const theme = useTheme();
+
+  return (
+    <Box className='flex w-full justify-between p-4 md:hidden border-[1px] border-gray-300 rounded-t-md'>
+      {/* sky logo */}
+      {
+        prop.flag ? <img
+          src={prop.logo}
+          style={{ width: "35px", height: "35px", marginRight: '20px' }}
+          alt=""
+        /> : <img
+          src={"https://www.gstatic.com/flights/airline_logos/70px/multi.png"}
+          style={{ width: "35px", height: "35px", marginRight: '20px' }}
+          alt=""
+        />
+      }
+
+      {/* time of flight */}
+      <Box className='flex flex-col justify-between lg:w-[300px] w-[200px]'>
+        <Box className='flex'>
+          <Typography sx={{ fontSize: "16px", display: "flex", alignItems: "center" }}>
+            <Typography sx={{ fontSize: "16px", fontWeight: "bold", display: "flex", flexDirection: "column" }}>{formatTimeManual(prop.legs[0].departure)}</Typography>
+            
+            <img src={"//www.gstatic.com/flights/app/2x/arrow_0.png"} className='w-[32px] h-[16px]' />
+            {formatTimeManual(prop.legs[prop.legs.length - 1].arrival)}
+          </Typography>
+          {getDateDiff(prop.legs[prop.legs.length - 1].arrival, prop.legs[0].departure) ? <Typography sx={{ fontSize: "10px" }}>+{getDateDiff(prop.legs[prop.legs.length - 1].arrival, prop.legs[0].departure)}</Typography> : ""}
+        </Box>
+        <Typography sx={{ fontSize: "12px", color: theme.palette.text.primary, opacity: '0.7' }}>ANA · United</Typography>
+      </Box>
+
+      {/* duration of flight */}
+      <Box className='flex flex-col justify-between lg:w-[130px] w-[80px]'>
+        <Typography className='md:truncate lg:text-ellipsis text-[16px]'>{calculateTimeDifference(prop.legs[prop.legs.length - 1].arrival, prop.legs[0].departure)}</Typography>
+        <Typography
+          className='md:truncate lg:text-ellipsis opacity-70'
+          sx={{ color: theme.palette.text.primary, fontSize: "12px" }}
+        >
+          JFK-HND
+        </Typography>
+      </Box>
+
+      {/* stop count and location */}
+      <Box className='flex flex-col justify-between' style={{ width: "130px" }}>
+        <Typography sx={{ fontSize: "16px" }}>{prop.legs.length - 1} stops</Typography>
+        <Typography sx={{ fontSize: "12px", color: theme.palette.text.primary, opacity: '0.7' }}>IAH, SEA</Typography>
+      </Box>
+
+      {/* fuel amount and emissions */}
+      <Box className='flex flex-col justify-between lg:w-[130px] w-[80px]'>
+        <Typography className='md:truncate lg:text-ellipsis text-[16px]'>{getWeight()} kg CO2e</Typography>
+        <Typography className='md:truncate lg:text-ellipsis text-[12px] opacity-70' sx={{ fontSize: "12px", color: theme.palette.text.primary, opacity: '0.7' }}>
+          +22% emissions
+          <FontAwesomeIcon
+            icon={faInfo}
+            style={{
+              fontSize: "10px",
+              border: '1px solid',
+              borderRadius: "1000px",
+              width: '8px',
+              height: '8px',
+              marginLeft: '5px',
+            }}
+          />
+        </Typography>
+      </Box>
+
+      {/* price and trip type */}
+      <Box className='flex flex-col justify-between items-end'>
+        <Typography sx={{ fontSize: "16px" }}>{prop.price}</Typography>
+        <Typography sx={{ fontSize: "12px", color: theme.palette.text.primary, opacity: '0.7' }}>{tripType}</Typography>
       </Box>
     </Box>
   );

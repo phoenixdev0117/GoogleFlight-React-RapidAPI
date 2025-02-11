@@ -19,9 +19,10 @@ export default function AccordionSkyEstimate({ prop, tripType }) {
   const theme = useTheme();
 
   return (
-      <ul className='w-[280px]'>
-        <li className="flex text-[12px] opacity-70 gap-2 mb-2">
-          <div className='w-[14px] h-[14px]'><svg focusable="false" width="16" height="16" viewBox="0 0 24 24" className="qqxCKc NMm5M" aria-hidden="true"><circle cx="8.5" cy="4" r="2"></circle><path d="M5.03 7H2.99l2.28 11.39c.18.94 1 1.61 1.96 1.61H14v-2H7.23L5.03 7z"></path><path d="M18 15.4l-.23-.4c-.36-.62-1.02-1-1.73-1H13l-1.48-5.17a2.53 2.53 0 0 0-4.91 1.2l1.07 5.37c.19.93 1.01 1.6 1.96 1.6h6.97l2.89 5 1.73-1L18 15.4z"></path></svg></div>
+
+      <ul className='w-[240px]'>
+        <li class="flex text-[12px] opacity-70 gap-2 mb-2">
+          <div className='w-[14px] h-[14px]'><svg focusable="false" width="16" height="16" viewBox="0 0 24 24" class="qqxCKc NMm5M" aria-hidden="true"><circle cx="8.5" cy="4" r="2"></circle><path d="M5.03 7H2.99l2.28 11.39c.18.94 1 1.61 1.96 1.61H14v-2H7.23L5.03 7z"></path><path d="M18 15.4l-.23-.4c-.36-.62-1.02-1-1.73-1H13l-1.48-5.17a2.53 2.53 0 0 0-4.91 1.2l1.07 5.37c.19.93 1.01 1.6 1.96 1.6h6.97l2.89 5 1.73-1L18 15.4z"></path></svg></div>
           Extra reclining seat
         </li>
         <li className="flex text-[12px] opacity-70 gap-2 mb-2">
