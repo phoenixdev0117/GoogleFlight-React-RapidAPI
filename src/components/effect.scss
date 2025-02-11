@@ -128,3 +128,7 @@
   display: flex;
   flex-direction: column;
 }
+
+.css-pdgawm-MuiInputBase-root-MuiFilledInput-root-MuiSelect-root::before {
+  border-bottom: "0px" !important;
+}
