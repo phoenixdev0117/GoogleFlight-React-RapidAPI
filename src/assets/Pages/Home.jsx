@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { useTheme } from '@mui/material';
 import DataAccordianModel from "../../components/DataAccordianModel";
+import BestSwitch from "../../components/BestSwitch";
 
 const Home = () => {
   const [tripType, setTripType] = useState("Round trip");
@@ -40,6 +41,9 @@ const Home = () => {
   const [openIndex, setOpenIndex] = useState(null);
   const [data, setData] = useState([]);
   const [accordionData, setAccordionData] = useState([]);
+
+
+  const [switchBestToCheapest, setSwitchBestToCheapest] = useState(false);
 
   function formatDate(date) {
     const year = date.getFullYear();
@@ -259,6 +263,9 @@ const Home = () => {
         >
           <FontAwesomeIcon icon={faMagnifyingGlass} /> Search
         </button>
+
+        <BestSwitch switchBestToCheapest={switchBestToCheapest} setSwitchBestToCheapest={setSwitchBestToCheapest}/>
+
         <DataAccordianModel tripType={tripType} accordionData = {accordionData}/>
       </ThemeProvider>
 
