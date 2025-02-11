@@ -16,6 +16,9 @@ import {
 } from '../action/date';
 import AccordionSkyEstimate from './AccordionSkyEstimate';
 
+import LegsImg from './legsImg';
+
+
 export default function AccordionComponent({ prop, tripType }) {
   const theme = useTheme();
 
@@ -162,6 +165,7 @@ export function AccordionDetailedDesktop({ prop }) {
           alt=""
         />
       }
+      <LegsImg/>
       <Box className="flex flex-col w-full mr-[1px]">
         {prop.legs.map((leg, index) => (
           <Box key={index} sx={{ display: "flex", flexDirection: "column", marginLeft: "20px", width: "100%" }}>
