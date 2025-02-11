@@ -162,11 +162,13 @@ const Home = () => {
       let legsNeedDataList = [];
       let sublogoflag = true;
       if (dataItem.legs[0].carriers.marketing.length > 1) sublogoflag = false;
+
       let sublogo = dataItem.legs[0].carriers.marketing[0].logoUrl;
+      
       for (let i = 0; i < legs.length; i++) {
+
         const eachlegs = legs[i];
-        if (dataItem.legs[0].carriers.marketing[i])
-          sublogo = dataItem.legs[0].carriers.marketing[i].logoUrl;
+        if (sublogoflag)  dataItem.legs[0].carriers.marketing[i] ? sublogo = dataItem.legs[0].carriers.marketing[i].logoUrl : dataItem.legs[0].carriers.marketing[0];
 
         const legsEachdata = {
           departure: eachlegs.departure,
