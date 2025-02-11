@@ -39,7 +39,7 @@ export default function AccordionExpandDefault({ props, tripType }) {
               <AccordionSummaryDesktopExpand prop={prop} tripType={tripType} />
             )}
           </AccordionSummary>
-          <AccordionDetails sx={{ backgroundColor: theme.palette.background.default }}>
+          <AccordionDetails sx={{ backgroundColor: theme.palette.background.default, padding: "0px" }}>
             <AccordionDetailedDesktop prop={prop} />
           </AccordionDetails>
         </Accordion>
