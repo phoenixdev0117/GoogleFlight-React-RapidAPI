@@ -87,7 +87,7 @@ export default function DataAccordianModel({tripType, accordionData}) {
   return (
 
     <div className={`w-11/12 md:w-[736px] lg:w-[900px] ${theme.palette.mode}-date-theme`}>
-      <AccordionExpandIcon props={data} tripType={tripType} />
+      <AccordionExpandIcon props={accordionData} tripType={tripType} />
 
     </div>
   );
