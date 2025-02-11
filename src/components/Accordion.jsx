@@ -45,7 +45,7 @@ export default function AccordionExpandDefault({ props, tripType }) {
         </Accordion>
       ))}
       {props.map((prop, index) => (
-        <AccordionSummaryMobileUnexpand prop={prop} tripType={tripType} key={index}/>
+        <AccordionSummaryMobileUnexpand prop={prop} tripType={tripType} key={index} />
       ))}
     </div>
   );
