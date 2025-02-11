@@ -91,11 +91,11 @@ const SkySearchForm = ({
 
   return (
     <div
-      className="flex flex-col justify-center items-center w-[1000px] "
+      className="flex flex-col justify-center items-center w-full md:w-[736px] lg:w-[900px]"
       style={{
         backgroundColor: theme.palette.background.default,
         color: theme.palette.text.primary,
-        padding: "20px 25px 30px 30px ",
+        padding: "20px 5px 30px 5px ",
         borderRadius: "8px",
         boxShadow:
           "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
@@ -106,7 +106,7 @@ const SkySearchForm = ({
         <SelectMemberCount counts={counts} setCounts={setCounts} />
         <SelectEconomy cabinClass={cabinClass} setCabinClass={setCabinClass} />
       </div>
-      <div className="flex gap-4 w-full">
+      <div className="flex md:flex-row flex-col w-full">
         <CustomizedLocationPicker
           originLocation={originLocation}
           handleInputChange1={handleInputChange1}

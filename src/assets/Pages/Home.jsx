@@ -185,7 +185,7 @@ const Home = () => {
     "https://www.gstatic.com/travel-frontend/animation/hero/flights_nc_4.svg";
 
   return (
-    <div className="flex flex-col justify-center w-screen items-center">
+    <div className="flex flex-col justify-center w-full items-center">
       <div className=" flex flex-col items-center">
         <img
           src={banner}

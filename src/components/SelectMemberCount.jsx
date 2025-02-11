@@ -74,7 +74,7 @@ const Item = styled(Paper)(({ theme }) => ({
   color: theme.palette.text.secondary,
 }));
 
-export default function BasicPopover({ counts, setCounts }) {
+export default function SelectMemberCount({ counts, setCounts }) {
   const theme = useTheme(); // Access the current theme
   const [anchorEl, setAnchorEl] = useState(null);
 
