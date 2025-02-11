@@ -131,10 +131,10 @@ export default function SelectMemberCount({ counts, setCounts }) {
   ];
 
   return (
-    <div className="w-[100px] h-[40px]">
+    <div className="w-1/3 max-w-[100px] h-[40px]">
       <Button
         aria-describedby={id}
-        variant="contained"
+        variant="text"
         onClick={handleClick}
         sx={{
           backgroundColor: "inherit",

@@ -91,7 +91,7 @@ const SkySearchForm = ({
 
   return (
     <div
-      className="flex flex-col justify-center items-center w-full md:w-[736px] lg:w-[900px]"
+      className="flex flex-col justify-center w-full md:w-[736px] lg:w-[900px]"
       style={{
         backgroundColor: theme.palette.background.default,
         color: theme.palette.text.primary,
@@ -101,7 +101,7 @@ const SkySearchForm = ({
           "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
       }}
     >
-      <div className="flex gap-4 w-full mb-4 items-center">
+      <div className="flex mb-4 items-center">
         <SelectTrip tripType={tripType} setTripType={setTripType} />
         <SelectMemberCount counts={counts} setCounts={setCounts} />
         <SelectEconomy cabinClass={cabinClass} setCabinClass={setCabinClass} />

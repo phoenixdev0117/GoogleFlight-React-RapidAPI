@@ -14,6 +14,7 @@ import {
   formatTimeManual,
   getWeight
 } from '../action/date';
+import AccordionSkyEstimate from './AccordionSkyEstimate';
 
 export default function AccordionComponent({ prop, tripType }) {
   const theme = useTheme();
@@ -53,7 +54,12 @@ export function AccordionSummaryDesktopUnexpand({ prop, tripType }) {
       {/* duration of flight */}
       <Box className='flex flex-col justify-between lg:w-[130px] w-[80px]'>
         <Typography className='md:truncate lg:text-ellipsis text-[16px]'>{calculateTimeDifference(prop.legs[prop.legs.length - 1].arrival, prop.legs[0].departure)}</Typography>
-        <Typography className='md:truncate lg:text-ellipsis text-[12px] opacity-70' sx={{ color: theme.palette.text.primary }}>JFK-HND</Typography>
+        <Typography
+          className='md:truncate lg:text-ellipsis opacity-70'
+          sx={{ color: theme.palette.text.primary, fontSize: "12px" }}
+        >
+          JFK-HND
+        </Typography>
       </Box>
 
       {/* stop count and location */}
@@ -92,6 +98,7 @@ export function AccordionSummaryDesktopUnexpand({ prop, tripType }) {
 
 export function AccordionSummaryDesktopExpand({ prop, tripType }) {
   const theme = useTheme();
+  const handleSelectFlight = () => {}
 
   return (
     <Box className='flex w-full justify-between pl-2 pr-8'>
@@ -106,19 +113,17 @@ export function AccordionSummaryDesktopExpand({ prop, tripType }) {
           alt=""
         />
       }
-      <Typography
+      <Typography className='lg:w-[400px] md:w-[200px]'
         sx={{
           fontSize: "16px",
           color: theme.palette.text.primary,
-          width: '400px',
           display: 'flex',
           alignItems: 'center',
-          fontWeight: '700'
         }}
       >
         Departure · {formatDate2(prop.legs[0].departure.split("T")[0])}
       </Typography>
-      <Box className='flex flex-col justify-between' style={{ width: "130px" }}>
+      <Box className='flex flex-col justify-between lg:w-[130px] w-[110px]'>
         <Typography sx={{ fontSize: "16px" }}>{getWeight()} kg CO2e</Typography>
         <Typography sx={{ fontSize: "12px", color: theme.palette.text.primary, opacity: '0.7' }}>
           +22% emissions
@@ -135,7 +140,7 @@ export function AccordionSummaryDesktopExpand({ prop, tripType }) {
           />
         </Typography>
       </Box>
-      <button className='w-[128px] h-[32px] rounded-full border-[1px] border-gray-400 bg-inherit text-[14px] text-[rgb(138,180,248)]'>Select flight</button>
+      <button className='w-[128px] h-[32px] rounded-full border-[1px] border-gray-400 bg-inherit text-[14px] text-[rgb(138,180,248)]' onClick={handleSelectFlight}>Select flight</button>
       <Box className='flex flex-col justify-between items-end'>
         <Typography sx={{ fontSize: "16px" }}>{prop.price}</Typography>
         <Typography sx={{ fontSize: "12px", color: theme.palette.text.primary, opacity: '0.7' }}>{tripType}</Typography>
@@ -173,6 +178,9 @@ export function AccordionDetailedDesktop({ prop }) {
             }}>{calculateTimeDifference(prop.legs[index + 1].departure, prop.legs[index].arrival)} {prop.legs[index].destination}</Typography> : <></>}
           </Box>
         ))}
+      </Box>
+      <Box className="w-[200px]">
+        <AccordionSkyEstimate />
       </Box>
     </Box>
   );
