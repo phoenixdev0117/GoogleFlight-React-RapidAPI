@@ -16,7 +16,7 @@ const CustomizedLocationPicker = ({
   const theme = useTheme(); // Access the current theme
 
   return (
-    <div className="flex justify-center items-center w-1/2">
+    <div className="flex justify-center items-center w-full px-4 md:w-1/2 md:ml-4 md:mb-0 mb-4">
       {/* First Input */}
       <div className="w-1/2 h-[56px] relative overflow-hidden input-location-container" style={{ backgroundColor: theme.palette.background.paper, color: theme.palette.text.primary }}>
         <input

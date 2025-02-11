@@ -18,7 +18,7 @@ export default function GoogleDatePicker({
   };
 
   return (
-    <div className={`w-1/2 ${theme.palette.mode}-date-theme`}>
+    <div className={`md:w-1/2 w-full p-4 md:px-0 ${theme.palette.mode}-date-theme h-full md:mx-2`}>
       <RangeDatePicker
         startDate={date}
         endDate={returnDate}

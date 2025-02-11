@@ -18,7 +18,7 @@ export default function SelectTrip({ tripType, setTripType }) {
   };
 
   return (
-    <div>
+    <div className='w-1/3'>
       <FormControl variant="filled" sx={{ m: 1, minWidth: 120 }}>
         <Select
           labelId="demo-simple-select-standard-label"
@@ -26,7 +26,6 @@ export default function SelectTrip({ tripType, setTripType }) {
           value={tripType}
           onChange={handleChange}
           displayEmpty
-          sx={{ backgroundColor: 'inherit', height: "40px" }} // Set backgroundColor to inherit
           renderValue={(value) => {
             return (
               <div className='flex gap-4'>
@@ -38,6 +37,7 @@ export default function SelectTrip({ tripType, setTripType }) {
           sx={{
             backgroundColor: theme.palette.background.paper, // Background color based on theme
             color: theme.palette.text.primary, // Text color based on theme
+            fontSize: "14px",
             '& .MuiSelect-select': {
               padding: '10px 20px', // Adjust padding if needed
             },
