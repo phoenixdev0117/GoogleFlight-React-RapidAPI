@@ -16,7 +16,7 @@ import {
 } from '../action/date';
 import AccordionSkyEstimate from './AccordionSkyEstimate';
 
-import LegsImg from './legsImg';
+import LegsImg from './LegsImg';
 
 
 export default function AccordionComponent({ prop, tripType }) {
