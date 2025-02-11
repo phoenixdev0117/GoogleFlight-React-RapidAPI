@@ -98,10 +98,10 @@ export function AccordionSummaryDesktopUnexpand({ prop, tripType }) {
 
 export function AccordionSummaryDesktopExpand({ prop, tripType }) {
   const theme = useTheme();
-  const handleSelectFlight = () => {}
 
   return (
     <Box className='flex w-full justify-between pl-2 pr-8'>
+      {/* sky logo */}
       {
         prop.flag ? <img
           src={prop.logo}
@@ -113,6 +113,7 @@ export function AccordionSummaryDesktopExpand({ prop, tripType }) {
           alt=""
         />
       }
+      
       <Typography className='lg:w-[400px] md:w-[200px]'
         sx={{
           fontSize: "16px",
@@ -140,7 +141,7 @@ export function AccordionSummaryDesktopExpand({ prop, tripType }) {
           />
         </Typography>
       </Box>
-      <button className='w-[128px] h-[32px] rounded-full border-[1px] border-gray-400 bg-inherit text-[14px] text-[rgb(138,180,248)]' onClick={handleSelectFlight}>Select flight</button>
+      <button className='w-[128px] h-[32px] rounded-full border-[1px] border-gray-400 bg-inherit text-[14px] text-[rgb(138,180,248)]'>Select flight</button>
       <Box className='flex flex-col justify-between items-end'>
         <Typography sx={{ fontSize: "16px" }}>{prop.price}</Typography>
         <Typography sx={{ fontSize: "12px", color: theme.palette.text.primary, opacity: '0.7' }}>{tripType}</Typography>
@@ -164,9 +165,15 @@ export function AccordionDetailedDesktop({ prop }) {
       <Box className="flex flex-col w-full mr-[1px]">
         {prop.legs.map((leg, index) => (
           <Box key={index} sx={{ display: "flex", flexDirection: "column", marginLeft: "20px", width: "100%" }}>
-            <Typography sx={{ display: "flex" }}>{formatTimeManual(leg.departure)}{getDateDiff(prop.legs[index].departure, prop.legs[0].departure) ? <span className='text-[12px]'>+{getDateDiff(prop.legs[index].departure, prop.legs[0].departure)}</span> : ""} · {prop.legs[index].origin}</Typography>
-            <Typography sx={{ fontSize: "14px", color: "#70757a", margin: "12px 0" }}>Travel time: {calculateTimeDifference(leg.arrival, leg.departure)}</Typography>
-            <Typography sx={{ display: "flex" }}>{formatTimeManual(leg.arrival)}{getDateDiff(prop.legs[index].arrival, prop.legs[0].departure) ? <span className='text-[12px]'>+{getDateDiff(prop.legs[index].arrival, prop.legs[0].departure)}</span> : ""} · {prop.legs[index].destination}</Typography>
+            <Box sx={{display: "flex", justifyContent: "space-between"}}>
+              <Box>
+                <Typography sx={{ display: "flex" }}>{formatTimeManual(leg.departure)}{getDateDiff(prop.legs[index].departure, prop.legs[0].departure) ? <span className='text-[12px]'>+{getDateDiff(prop.legs[index].departure, prop.legs[0].departure)}</span> : ""} · {prop.legs[index].origin}</Typography>
+                <Typography sx={{ fontSize: "14px", color: "#70757a", margin: "12px 0" }}>Travel time: {calculateTimeDifference(leg.arrival, leg.departure)}</Typography>
+                <Typography sx={{ display: "flex" }}>{formatTimeManual(leg.arrival)}{getDateDiff(prop.legs[index].arrival, prop.legs[0].departure) ? <span className='text-[12px]'>+{getDateDiff(prop.legs[index].arrival, prop.legs[0].departure)}</span> : ""} · {prop.legs[index].destination}</Typography>
+                <Typography sx={{ fontSize: "12px", color: "#70757a", margin: "12px 0" }}>JAL · Premium Economy · Boeing 777 · JL 2</Typography>
+              </Box>
+              <AccordionSkyEstimate />
+            </Box>
             {index != prop.legs.length - 1 ? <Typography sx={{
               fontSize: "14px",
               margin: "20px 0",
@@ -178,9 +185,6 @@ export function AccordionDetailedDesktop({ prop }) {
             }}>{calculateTimeDifference(prop.legs[index + 1].departure, prop.legs[index].arrival)} {prop.legs[index].destination}</Typography> : <></>}
           </Box>
         ))}
-      </Box>
-      <Box className="w-[200px]">
-        <AccordionSkyEstimate />
       </Box>
     </Box>
   );
