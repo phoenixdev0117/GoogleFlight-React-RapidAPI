@@ -78,13 +78,13 @@ const SkySearchForm = ({
   };
 
   const handleAirportSelect1 = (airport) => {
-    setOriginLocation(`${airport.city}, ${airport.country} (${airport.code})`); // Set the input value to the selected airport
+    setOriginLocation(`${airport.city}`); // Set the input value to the selected airport
     setFilteredAirports1([]); // Clear the dropdown
   };
 
   const handleAirportSelect2 = (airport) => {
     setDestinationLocation(
-      `${airport.city}, ${airport.country} (${airport.code})`
+      `${airport.city}`
     ); // Set the input value to the selected airport
     setFilteredAirports2([]); // Clear the dropdown
   };

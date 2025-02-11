@@ -21,7 +21,7 @@
       "code": "ABZ"
     },
     {
-      "city": "Aberdeen (SD)",
+      "city": "Aberdeen",
       "country": "USA",
       "code": "ABR"
     },
@@ -31,17 +31,17 @@
       "code": "ABJ"
     },
     {
-      "city": "Abilene (TX)",
+      "city": "Abilene",
       "country": "USA",
       "code": "ABI"
     },
     {
-      "city": "Abu Dhabi - Abu Dhabi International",
+      "city": "Abu Dhabi",
       "country": "United Arab Emirates",
       "code": "AUH"
     },
     {
-      "city": "Abuja - Nnamdi Azikiwe International Airport",
+      "city": "Abuja",
       "country": "Nigeria",
       "code": "ABV"
     },
@@ -61,7 +61,7 @@
       "code": "ACA"
     },
     {
-      "city": "Accra - Kotoka International Airport",
+      "city": "Accra",
       "country": "Ghana",
       "code": "ACC"
     },
@@ -71,7 +71,7 @@
       "code": "ADA"
     },
     {
-      "city": "Addis Ababa - Bole International Airport",
+      "city": "Addis Ababa",
       "country": "Ethiopia",
       "code": "ADD"
     },
@@ -81,7 +81,7 @@
       "code": "ADL"
     },
     {
-      "city": "Aden - Aden International Airport",
+      "city": "Aden",
       "country": "Yemen",
       "code": "ADE"
     },
@@ -106,7 +106,7 @@
       "code": "AGA"
     },
     {
-      "city": "Agana (Hagåtña)",
+      "city": "Agana",
       "country": "Guam",
       "code": "SUM"
     },
@@ -146,12 +146,12 @@
       "code": "AXT"
     },
     {
-      "city": "Akron (OH)",
+      "city": "Akron",
       "country": "USA",
       "code": "CAK"
     },
     {
-      "city": "Akrotiri - RAF",
+      "city": "Akrotiri",
       "country": "Cyprus",
       "code": "AKT"
     },
@@ -171,12 +171,12 @@
       "code": "ALH"
     },
     {
-      "city": "Albany (GA)",
+      "city": "Albany",
       "country": "USA",
       "code": "ABY"
     },
     {
-      "city": "Albany (NY) - Albany International Airport",
+      "city": "Albany",
       "country": "USA",
       "code": "ALB"
     },
@@ -191,7 +191,7 @@
       "code": "AAL"
     },
     {
-      "city": "Albuquerque (NM)",
+      "city": "Albuquerque",
       "country": "USA",
       "code": "ABQ"
     },
@@ -216,27 +216,27 @@
       "code": "AES"
     },
     {
-      "city": "Alexander Bay - Kortdoorn",
+      "city": "Alexander Bay",
       "country": "South Africa",
       "code": "ALJ"
     },
     {
-      "city": "Alexandria - Borg el Arab Airport",
+      "city": "Alexandria",
       "country": "Egypt",
       "code": "HBH"
     },
     {
-      "city": "Alexandria - El Nhouza Airport",
+      "city": "Alexandria",
       "country": "Egypt",
       "code": "ALY"
     },
     {
-      "city": "Alexandria - Esler Field",
-      "country": "USA (LA)",
+      "city": "Alexandria",
+      "country": "USA",
       "code": "ESF"
     },
     {
-      "city": "Alfujairah (Fujairah)",
+      "city": "Alfujairah",
       "country": "United Arab Emirates",
       "code": "FJR"
     },
@@ -246,7 +246,7 @@
       "code": "AHO"
     },
     {
-      "city": "Algiers, Houari Boumediene Airport",
+      "city": "Algiers",
       "country": "Algeria",
       "code": "ALG"
     },
@@ -271,12 +271,12 @@
       "code": "ADY"
     },
     {
-      "city": "Allentown (PA)",
+      "city": "Allentown",
       "country": "USA",
       "code": "ABE"
     },
     {
-      "city": "Almaty (Alma Ata) - Almaty International Airport",
+      "city": "Almaty",
       "country": "Kazakhstan",
       "code": "ALA"
     },
@@ -301,7 +301,7 @@
       "code": "ACH"
     },
     {
-      "city": "Altoona (PA)",
+      "city": "Altoona",
       "country": "USA",
       "code": "AOO"
     },
@@ -316,7 +316,7 @@
       "code": "ASJ"
     },
     {
-      "city": "Amarillo (TX)",
+      "city": "Amarillo",
       "country": "USA",
       "code": "AMA"
     },
@@ -326,12 +326,12 @@
       "code": "AZB"
     },
     {
-      "city": "Amman - Queen Alia International Airport",
+      "city": "Amman",
       "country": "Jordan",
       "code": "AMM"
     },
     {
-      "city": "Amman - Amman-Marka International Airport",
+      "city": "Amman",
       "country": "Jordan",
       "code": "ADJ"
     },
@@ -341,7 +341,7 @@
       "code": "ATQ"
     },
     {
-      "city": "Amsterdam - Amsterdam Airport Schiphol",
+      "city": "Amsterdam",
       "country": "Netherlands",
       "code": "AMS"
     },
@@ -351,17 +351,17 @@
       "code": "QNB"
     },
     {
-      "city": "Anchorage (AK) - Ted Stevens Anchorage International",
+      "city": "Anchorage",
       "country": "USA",
       "code": "ANC"
     },
     {
-      "city": "Ancona - Ancona Falconara Airport",
+      "city": "Ancona",
       "country": "Italy",
       "code": "AOI"
     },
     {
-      "city": "Andorra La Vella - Heliport",
+      "city": "Andorra La Vella",
       "country": "Andorra",
       "code": "ALV"
     },
@@ -371,8 +371,8 @@
       "code": "AXA"
     },
     {
-      "city": "Anjouan - Anjouan Airport",
-      "country": "Comoros (Comores)",
+      "city": "Anjouan",
+      "country": "Comoros",
       "code": "AJN"
     },
     {
@@ -381,7 +381,7 @@
       "code": "ANK"
     },
     {
-      "city": "Ankara - Esenboğa International Airport",
+      "city": "Ankara",
       "country": "Turkey",
       "code": "ESB"
     },
@@ -391,7 +391,7 @@
       "code": "AAE"
     },
     {
-      "city": "Ann Arbor (MI)",
+      "city": "Ann Arbor",
       "country": "USA",
       "code": "ARB"
     },
@@ -401,7 +401,7 @@
       "code": "NCY"
     },
     {
-      "city": "Anniston (AL)",
+      "city": "Anniston",
       "country": "USA",
       "code": "ANB"
     },
@@ -411,12 +411,12 @@
       "code": "AYT"
     },
     {
-      "city": "Antananarivo (Tanannarive) - Ivato International Airport",
+      "city": "Antananarivo",
       "country": "Madagascar",
       "code": "TNR"
     },
     {
-      "city": "Antigua, V.C. Bird International",
+      "city": "Antigua",
       "country": "Antigua and Barbuda",
       "code": "ANU"
     },
@@ -431,12 +431,12 @@
       "code": "AOJ"
     },
     {
-      "city": "Apia - Faleolo International Airport",
+      "city": "Apia",
       "country": "Samoa",
       "code": "APW"
     },
     {
-      "city": "Appelton/Neenah/Menasha (WI)",
+      "city": "Appelton/Neenah/Menasha",
       "country": "USA",
       "code": "ATW"
     },
@@ -476,27 +476,27 @@
       "code": "ACE"
     },
     {
-      "city": "Aruba - Reina Beatrix International, Oranjestad",
+      "city": "Aruba",
       "country": "Aruba",
       "code": "AUA"
     },
     {
-      "city": "Asheville (NC)",
+      "city": "Asheville",
       "country": "USA",
       "code": "AVL"
     },
     {
-      "city": "Ashgabat - Saparmurat Turkmenbashy Int. Airport",
+      "city": "Ashgabat",
       "country": "Turkmenistan",
       "code": "ASB"
     },
     {
-      "city": "Asmara - Asmara International",
+      "city": "Asmara",
       "country": "Eritrea",
       "code": "ASM"
     },
     {
-      "city": "Aspen, (CO) - Aspen-Pitkin County Airport",
+      "city": "Aspen,",
       "country": "USA",
       "code": "ASE"
     },
@@ -506,72 +506,72 @@
       "code": "ATZ"
     },
     {
-      "city": "Astana - Astana International Airport",
+      "city": "Astana",
       "country": "Kazakhstan",
       "code": "TSE"
     },
     {
-      "city": "Asuncion - Asunción International Airport",
+      "city": "Asuncion",
       "country": "Paraguay",
       "code": "ASU"
     },
     {
-      "city": "Aswan - Daraw Airport",
+      "city": "Aswan",
       "country": "Egypt",
       "code": "ASW"
     },
     {
-      "city": "Athens - Elefthérios Venizélos International Airport",
+      "city": "Athens",
       "country": "Greece",
       "code": "ATH"
     },
     {
-      "city": "Athens, Hellinikon Airport",
+      "city": "Athens",
       "country": "Greece",
       "code": "HEW"
     },
     {
-      "city": "Athens (GA)",
+      "city": "Athens",
       "country": "USA",
       "code": "AHN"
     },
     {
-      "city": "Athens (OH)",
+      "city": "Athens",
       "country": "USA",
       "code": "ATO"
     },
     {
-      "city": "Atlanta (GA) - Hartsfield Atlanta International Airport",
+      "city": "Atlanta",
       "country": "USA",
       "code": "ATL"
     },
     {
-      "city": "Atlantic City (NJ) - Atlantic City International",
+      "city": "Atlantic City",
       "country": "USA",
       "code": "ACY"
     },
     {
-      "city": "Attawapiskat, NT",
+      "city": "Attawapiskat",
       "country": "Canada",
       "code": "YAT"
     },
     {
-      "city": "Auckland - Auckland International Airport",
+      "city": "Auckland",
       "country": "New Zealand",
       "code": "AKL"
     },
     {
-      "city": "Augsburg - Augsbur gAirport",
+      "city": "Augsburg",
       "country": "Germany",
       "code": "AGB"
     },
     {
-      "city": "Augusta (GA)",
+      "city": "Augusta",
       "country": "USA",
       "code": "AGS"
     },
     {
-      "city": "Augusta (ME) - Augusta State Airport",
+      "city": "Augusta",
       "country": "USA",
       "code": "AUG"
     },
@@ -581,7 +581,7 @@
       "code": "AUR"
     },
     {
-      "city": "Austin (TX) - Austin-Bergstrom Airport",
+      "city": "Austin",
       "country": "USA",
       "code": "AUS"
     },
@@ -591,7 +591,7 @@
       "code": "AYW"
     },
     {
-      "city": "Ayers Rock - Connellan",
+      "city": "Ayers Rock",
       "country": "Australia",
       "code": "AYQ"
     },
@@ -606,7 +606,7 @@
       "code": "BJZ"
     },
     {
-      "city": "Bagdad - Baghdad International Airport",
+      "city": "Bagdad",
       "country": "Iraq",
       "code": "BGW"
     },
@@ -616,7 +616,7 @@
       "code": "IXB"
     },
     {
-      "city": "Bahamas - Lynden Pindling International Airport",
+      "city": "Bahamas",
       "country": "The Bahamas",
       "code": "NAS"
     },
@@ -626,17 +626,17 @@
       "code": "BHV"
     },
     {
-      "city": "Bahrain - Bahrain International Airport",
+      "city": "Bahrain",
       "country": "Bahrain",
       "code": "BAH"
     },
     {
-      "city": "Bakersfield (CA)",
+      "city": "Bakersfield",
       "country": "USA",
       "code": "BFL"
     },
     {
-      "city": "Baku - Heydar Aliyev International Airport",
+      "city": "Baku",
       "country": "Azerbaijan",
       "code": "BAK"
     },
@@ -646,7 +646,7 @@
       "code": "BNK"
     },
     {
-      "city": "Baltimore (MD) - Washington International Airport",
+      "city": "Baltimore",
       "country": "USA",
       "code": "BWI"
     },
@@ -656,7 +656,7 @@
       "code": "ABM"
     },
     {
-      "city": "Bamako - Bamako-Sénou International Airport",
+      "city": "Bamako",
       "country": "Mali",
       "code": "BKO"
     },
@@ -666,12 +666,12 @@
       "code": "BBY"
     },
     {
-      "city": "Bandar Seri Begawan - Brunei International Airport",
+      "city": "Bandar Seri Begawan",
       "country": "Brunei",
       "code": "BWN"
     },
     {
-      "city": "Bandung - Husein Sastranegara International Airport",
+      "city": "Bandung",
       "country": "Indonesia",
       "code": "BDO"
     },
@@ -686,27 +686,27 @@
       "code": "BGU"
     },
     {
-      "city": "Bangkok, Don Muang",
+      "city": "Bangkok",
       "country": "Thailand",
       "code": "DMK"
     },
     {
-      "city": "Bangkok, Suvarnabhumi International",
+      "city": "Bangkok",
       "country": "Thailand",
       "code": "BKK"
     },
     {
-      "city": "Bangor (ME)",
+      "city": "Bangor",
       "country": "USA",
       "code": "BGR"
     },
     {
-      "city": "Bangui - M'Poko International Airport",
+      "city": "Bangui",
       "country": "Central African Republic",
       "code": "BGF"
     },
     {
-      "city": "Banjul - Banjul International Airport (Yundum International)",
+      "city": "Banjul",
       "country": "Gambia",
       "code": "BJL"
     },
@@ -746,7 +746,7 @@
       "code": "BDQ"
     },
     {
-      "city": "Barra (the famous tidal beach landing)",
+      "city": "Barra",
       "country": "United Kingdom",
       "code": "BRR"
     },
@@ -766,17 +766,17 @@
       "code": "EAP"
     },
     {
-      "city": "Basra, Basrah",
+      "city": "Basra",
       "country": "Iraq",
       "code": "BSR"
     },
     {
-      "city": "Basse-Terre - Pointe-à-Pitre International Airport",
+      "city": "Basse-Terre",
       "country": "Guadeloupe",
       "code": "PTP"
     },
     {
-      "city": "Basseterre - Robert L. Bradshaw International Airport",
+      "city": "Basseterre",
       "country": "Saint Kitts and Nevis",
       "code": "SKB"
     },
@@ -786,28 +786,28 @@
       "code": "BIA"
     },
     {
-      "city": "Baton Rouge (LA) - Baton Rouge Metropolitan Airport",
+      "city": "Baton Rouge",
       "country": "USA",
       "code": "BTR"
     },
     {
-      "city": "Bayreuth - Bindlacher-Berg",
+      "city": "Bayreuth",
       "country": "Germany",
       "code": "BYU"
     },
     {
-      "city": "Beaumont/Pt. Arthur (TX)",
+      "city": "Beaumont/Pt. Arthur",
       "country": "USA",
       "code": "BPT"
     },
     {
-      "city": "Beckley (WV)",
+      "city": "Beckley",
       "country": "USA",
       "code": "BKW"
     },
     {
-      "city": "Beef Island - Terrance B. Lettsome",
-      "country": "Virgin Islands (British)",
+      "city": "Beef Island",
+      "country": "Virgin Islands",
       "code": "EIS"
     },
     {
@@ -816,7 +816,7 @@
       "code": "PEK"
     },
     {
-      "city": "Beijing - Nanyuan Airport",
+      "city": "Beijing",
       "country": "China",
       "code": "NAY"
     },
@@ -826,22 +826,22 @@
       "code": "BEW"
     },
     {
-      "city": "Beirut - Beirut Rafic Hariri International Airport",
+      "city": "Beirut",
       "country": "Lebanon",
       "code": "BEY"
     },
     {
-      "city": "Belem - Val de Cans International Airport",
+      "city": "Belem",
       "country": "Brazil",
       "code": "BEL"
     },
     {
-      "city": "Belfast - George Best Belfast City Airport",
+      "city": "Belfast",
       "country": "United Kingdom",
       "code": "BHD"
     },
     {
-      "city": "Belfast - Belfast International Airport",
+      "city": "Belfast",
       "country": "United Kingdom",
       "code": "BFS"
     },
@@ -851,27 +851,27 @@
       "code": "IXG"
     },
     {
-      "city": "Belgrad (Beograd) - Belgrade Nikola Tesla International",
+      "city": "Belgrad",
       "country": "Serbia",
       "code": "BEG"
     },
     {
-      "city": "Belize City - Philip S.W.Goldson International",
+      "city": "Belize City",
       "country": "Belize",
       "code": "BZE"
     },
     {
-      "city": "Bellingham (WA)",
+      "city": "Bellingham",
       "country": "USA",
       "code": "BLI"
     },
     {
-      "city": "Belo Horizonte - Tancredo Neves International Airport",
+      "city": "Belo Horizonte",
       "country": "Brazil",
       "code": "CNF"
     },
     {
-      "city": "Bemidji (MN)",
+      "city": "Bemidji",
       "country": "USA",
       "code": "BJI"
     },
@@ -881,7 +881,7 @@
       "code": "BEB"
     },
     {
-      "city": "Benghazi (Bengasi)",
+      "city": "Benghazi",
       "country": "Libya",
       "code": "BEN"
     },
@@ -891,7 +891,7 @@
       "code": "BUG"
     },
     {
-      "city": "Benton Harbour (MI)",
+      "city": "Benton Harbour",
       "country": "USA",
       "code": "BEH"
     },
@@ -901,7 +901,7 @@
       "code": "BBT"
     },
     {
-      "city": "Bergamo/Milan - Orio Al Serio",
+      "city": "Bergamo/Milan",
       "country": "Italy",
       "code": "BGY"
     },
@@ -911,7 +911,7 @@
       "code": "BGO"
     },
     {
-      "city": "Bergerac - Roumanieres",
+      "city": "Bergerac",
       "country": "France",
       "code": "EGC"
     },
@@ -921,37 +921,37 @@
       "code": "BER"
     },
     {
-      "city": "Berlin, Schoenefeld",
+      "city": "Berlin",
       "country": "Germany",
       "code": "SXF"
     },
     {
-      "city": "Berlin, Tegel",
+      "city": "Berlin",
       "country": "Germany",
       "code": "TXL"
     },
     {
-      "city": "Berlin, Tempelhof (ceased operating in 2008)",
+      "city": "Berlin",
       "country": "Germany",
       "code": "THF"
     },
     {
-      "city": "Bermuda - L.F. Wade International Airport",
+      "city": "Bermuda",
       "country": "Bermuda",
       "code": "BDA"
     },
     {
-      "city": "Berne, Bern-Belp",
+      "city": "Berne",
       "country": "Switzerland",
       "code": "BRN"
     },
     {
-      "city": "Berne, Railway Service",
+      "city": "Berne",
       "country": "Switzerland",
       "code": "ZDJ"
     },
     {
-      "city": "Bethel (AK)",
+      "city": "Bethel",
       "country": "USA",
       "code": "BET"
     },
@@ -976,7 +976,7 @@
       "code": "BIO"
     },
     {
-      "city": "Billings (MT)",
+      "city": "Billings",
       "country": "USA",
       "code": "BIL"
     },
@@ -996,27 +996,27 @@
       "code": "IRO"
     },
     {
-      "city": "Birmingham - Birmingham International Airport",
+      "city": "Birmingham",
       "country": "United Kingdom",
       "code": "BHX"
     },
     {
-      "city": "Birmingham (AL)",
+      "city": "Birmingham",
       "country": "USA",
       "code": "BHM"
     },
     {
-      "city": "Bishkek - Manas International Airport",
+      "city": "Bishkek",
       "country": "Kyrgyzstan",
       "code": "FRU"
     },
     {
-      "city": "Bismarck (ND) - Bismarck Municipal Airport",
+      "city": "Bismarck",
       "country": "USA",
       "code": "BIS"
     },
     {
-      "city": "Bissau - Osvaldo Vieiro International Airport",
+      "city": "Bissau",
       "country": "Guinea-Bissau",
       "code": "BXO"
     },
@@ -1031,7 +1031,7 @@
       "code": "BLT"
     },
     {
-      "city": "Blantyre (Mandala) - Chileka International Airport",
+      "city": "Blantyre",
       "country": "Malawi",
       "code": "BLZ"
     },
@@ -1041,22 +1041,22 @@
       "code": "BHE"
     },
     {
-      "city": "Bloemfontein - Bloemfontein Airport",
+      "city": "Bloemfontein",
       "country": "South Africa",
       "code": "BFN"
     },
     {
-      "city": "Bloomington (IL)",
+      "city": "Bloomington",
       "country": "USA",
       "code": "BMI"
     },
     {
-      "city": "Bloomington (IN)",
+      "city": "Bloomington",
       "country": "USA",
       "code": "BMG"
     },
     {
-      "city": "Bluefield (WV)",
+      "city": "Bluefield",
       "country": "USA",
       "code": "BLF"
     },
@@ -1076,17 +1076,17 @@
       "code": "BOO"
     },
     {
-      "city": "Bodrum - Milas Airport",
+      "city": "Bodrum",
       "country": "Turkey",
       "code": "BJV"
     },
     {
-      "city": "Bogota - El Nuevo Dorado International Airport",
+      "city": "Bogota",
       "country": "Colombia",
       "code": "BOG"
     },
     {
-      "city": "Boise (ID) - Boise Air Terminal",
+      "city": "Boise",
       "country": "USA",
       "code": "BOI"
     },
@@ -1096,7 +1096,7 @@
       "code": "BLQ"
     },
     {
-      "city": "Bombay (Mumbai) - Chhatrapati Shivaji International",
+      "city": "Bombay",
       "country": "India",
       "code": "BOM"
     },
@@ -1106,7 +1106,7 @@
       "code": "BON"
     },
     {
-      "city": "Bonaventure, PQ",
+      "city": "Bonaventure",
       "country": "Canada",
       "code": "YVB"
     },
@@ -1116,17 +1116,17 @@
       "code": "BOB"
     },
     {
-      "city": "Bordeaux - Bordeaux Airport",
+      "city": "Bordeaux",
       "country": "France",
       "code": "BOD"
     },
     {
-      "city": "Borrego Springs (CA)",
+      "city": "Borrego Springs",
       "country": "USA",
       "code": "BXS"
     },
     {
-      "city": "Boston (MA) - General Edward Lawrence Logan",
+      "city": "Boston",
       "country": "USA",
       "code": "BOS"
     },
@@ -1151,17 +1151,17 @@
       "code": "ZBO"
     },
     {
-      "city": "Bozeman (MT)",
+      "city": "Bozeman",
       "country": "USA",
       "code": "BZN"
     },
     {
-      "city": "Bradford/Warren (PA) /Olean (NY)",
+      "city": "Bradford/Warren",
       "country": "USA",
       "code": "BFD"
     },
     {
-      "city": "Brainerd (MN)",
+      "city": "Brainerd",
       "country": "USA",
       "code": "BRD"
     },
@@ -1171,27 +1171,27 @@
       "code": "BMP"
     },
     {
-      "city": "Brasilia - President Juscelino Kubitschek International",
+      "city": "Brasilia",
       "country": "Brazil",
       "code": "BSB"
     },
     {
-      "city": "Bratislava - M. R. Štefánik Airport",
+      "city": "Bratislava",
       "country": "Slovakia",
       "code": "BTS"
     },
     {
-      "city": "Brazzaville - Maya-Maya Airport",
-      "country": "Congo (ROC)",
+      "city": "Brazzaville",
+      "country": "Congo",
       "code": "BZV"
     },
     {
-      "city": "Bremen - Bremen Airport (Flughafen Bremen)",
+      "city": "Bremen",
       "country": "Germany",
       "code": "BRE"
     },
     {
-      "city": "Brescia, Montichiari",
+      "city": "Brescia",
       "country": "Italy",
       "code": "VBS"
     },
@@ -1206,12 +1206,12 @@
       "code": "BIV"
     },
     {
-      "city": "Bridgeport (CT)",
+      "city": "Bridgeport",
       "country": "USA",
       "code": "BDR"
     },
     {
-      "city": "Bridgetown - Grantley Adams International",
+      "city": "Bridgetown",
       "country": "Barbados",
       "code": "BGI"
     },
@@ -1241,7 +1241,7 @@
       "code": "BHQ"
     },
     {
-      "city": "Brookings (SD)",
+      "city": "Brookings",
       "country": "USA",
       "code": "BKX"
     },
@@ -1251,12 +1251,12 @@
       "code": "BME"
     },
     {
-      "city": "Brunswick (GA)",
+      "city": "Brunswick",
       "country": "USA",
       "code": "BQK"
     },
     {
-      "city": "Brussels - Brussels Airport",
+      "city": "Brussels",
       "country": "Belgium",
       "code": "BRU"
     },
@@ -1271,12 +1271,12 @@
       "code": "BUH"
     },
     {
-      "city": "Bucharest - Henri Coandă International Airport",
+      "city": "Bucharest",
       "country": "Romania",
       "code": "OTP"
     },
     {
-      "city": "Budapest - Budapest Ferihegy International Airport",
+      "city": "Budapest",
       "country": "Hungary",
       "code": "BUD"
     },
@@ -1286,12 +1286,12 @@
       "code": "BUE"
     },
     {
-      "city": "Buenos Aires, Ezeiza International Airport",
+      "city": "Buenos Aires",
       "country": "Argentina",
       "code": "EZE"
     },
     {
-      "city": "Buenos Aires, Jorge Newbery",
+      "city": "Buenos Aires",
       "country": "Argentina",
       "code": "AEP"
     },
@@ -1301,12 +1301,12 @@
       "code": "BFO"
     },
     {
-      "city": "Buffalo/Niagara Falls (NY)",
+      "city": "Buffalo/Niagara Falls",
       "country": "USA",
       "code": "BUF"
     },
     {
-      "city": "Bujumbura - Bujumbura International Airport",
+      "city": "Bujumbura",
       "country": "Burundi",
       "code": "BJM"
     },
@@ -1316,7 +1316,7 @@
       "code": "BUQ"
     },
     {
-      "city": "Bullhead City (NV)",
+      "city": "Bullhead City",
       "country": "USA",
       "code": "BHC"
     },
@@ -1326,7 +1326,7 @@
       "code": "BDB"
     },
     {
-      "city": "Burbank (CA)",
+      "city": "Burbank",
       "country": "USA",
       "code": "BUR"
     },
@@ -1336,17 +1336,17 @@
       "code": "BRL"
     },
     {
-      "city": "Burlington (VT)",
+      "city": "Burlington",
       "country": "USA",
       "code": "BTV"
     },
     {
-      "city": "Burnie (Wynyard)",
+      "city": "Burnie",
       "country": "Australia",
       "code": "BWT"
     },
     {
-      "city": "Butte (MT)",
+      "city": "Butte",
       "country": "USA",
       "code": "BTM"
     },
@@ -1366,22 +1366,22 @@
       "code": "CNS"
     },
     {
-      "city": "Cairo - Cairo International Airport",
+      "city": "Cairo",
       "country": "Egypt",
       "code": "CAI"
     },
     {
-      "city": "Calama - El Loa",
+      "city": "Calama",
       "country": "Chile",
       "code": "CJC"
     },
     {
-      "city": "Calcutta (Kolkata) - Netaji Subhas Chandra",
+      "city": "Calcutta",
       "country": "India",
       "code": "CCU"
     },
     {
-      "city": "Calgary - Calgary International Airport",
+      "city": "Calgary",
       "country": "Canada",
       "code": "YYC"
     },
@@ -1421,7 +1421,7 @@
       "code": "CGR"
     },
     {
-      "city": "Canberra - Canberra Airport",
+      "city": "Canberra",
       "country": "Australia",
       "code": "CBR"
     },
@@ -1431,27 +1431,27 @@
       "code": "CUN"
     },
     {
-      "city": "Canouan (island) - Canouan Airport",
+      "city": "Canouan",
       "country": "Saint Vincent & the Grenadines",
       "code": "CIW"
     },
     {
-      "city": "Cape Town - Cape Town International Airport",
+      "city": "Cape Town",
       "country": "South Africa",
       "code": "CPT"
     },
     {
-      "city": "Caracas - Simón Bolívar International Airport",
+      "city": "Caracas",
       "country": "Venezuela",
       "code": "CCS"
     },
     {
-      "city": "Cardiff - Cardiff Airport",
+      "city": "Cardiff",
       "country": "United Kingdom",
       "code": "CWL"
     },
     {
-      "city": "Carlsbad (CA)",
+      "city": "Carlsbad",
       "country": "USA",
       "code": "CLD"
     },
@@ -1466,12 +1466,12 @@
       "code": "CRF"
     },
     {
-      "city": "Carson City (NV)",
+      "city": "Carson City",
       "country": "USA",
       "code": "CSN"
     },
     {
-      "city": "La Romana - La Romana International Airport",
+      "city": "La Romana",
       "country": "Dominican Republic",
       "code": "LRM"
     },
@@ -1481,7 +1481,7 @@
       "code": "CAS"
     },
     {
-      "city": "Casablanca, Mohamed V",
+      "city": "Casablanca",
       "country": "Morocco",
       "code": "CMN"
     },
@@ -1491,7 +1491,7 @@
       "code": "CSI"
     },
     {
-      "city": "Casper (WY)",
+      "city": "Casper",
       "country": "USA",
       "code": "CPR"
     },
@@ -1501,12 +1501,12 @@
       "code": "CST"
     },
     {
-      "city": "Cartagena - Rafael Núñez International Airport",
+      "city": "Cartagena",
       "country": "Colombia",
       "code": "CTG"
     },
     {
-      "city": "Castries - George F. L. Charles Airport",
+      "city": "Castries",
       "country": "Saint Lucia",
       "code": "SLU"
     },
@@ -1516,22 +1516,22 @@
       "code": "CTA"
     },
     {
-      "city": "Cayenne - Cayenne-Rochambeau Airport",
+      "city": "Cayenne",
       "country": "French Guiana",
       "code": "CAY"
     },
     {
-      "city": "Cottbus - Cottbus-Drewitz Airport",
+      "city": "Cottbus",
       "country": "Germany",
       "code": "CBU"
     },
     {
-      "city": "Cebu City - Mactan-Cebu International",
+      "city": "Cebu City",
       "country": "Philippines",
       "code": "CEB"
     },
     {
-      "city": "Cedar City (UT)",
+      "city": "Cedar City",
       "country": "USA",
       "code": "CDC"
     },
@@ -1551,7 +1551,7 @@
       "code": "CES"
     },
     {
-      "city": "Chabarovsk (Khabarovsk)",
+      "city": "Chabarovsk",
       "country": "Russia",
       "code": "KHV"
     },
@@ -1561,18 +1561,18 @@
       "code": "CMF"
     },
     {
-      "city": "Champaign (IL)",
+      "city": "Champaign",
       "country": "USA",
       "code": "CMI"
     },
     {
-      "city": "Chandigarh - Chandigarh International Airport",
+      "city": "Chandigarh",
       "country": "India",
       "code": "IXC"
     },
     {
       "city": "Changchun",
-      "country": "Jilin, PR China",
+      "country": "Jilin,",
       "code": "CGQ"
     },
     {
@@ -1581,27 +1581,27 @@
       "code": "CHQ"
     },
     {
-      "city": "Chaoyang, Beijing - Chaoyang Airport",
+      "city": "Chaoyang",
       "country": "PR China",
       "code": "CHG"
     },
     {
-      "city": "Charleston (SC)",
+      "city": "Charleston",
       "country": "USA",
       "code": "CHS"
     },
     {
-      "city": "Charleston (WV) - Yeager Airport",
+      "city": "Charleston",
       "country": "USA",
       "code": "CRW"
     },
     {
-      "city": "Charlotte (NC)",
+      "city": "Charlotte",
       "country": "USA",
       "code": "CLT"
     },
     {
-      "city": "Charlottesville (VA)",
+      "city": "Charlottesville",
       "country": "USA",
       "code": "CHO"
     },
@@ -1611,27 +1611,27 @@
       "code": "CXT"
     },
     {
-      "city": "Chattanooga (TN)",
+      "city": "Chattanooga",
       "country": "USA",
       "code": "CHA"
     },
     {
-      "city": "Chengdu - Shuangliu",
-      "country": "Sichuan, PR China",
+      "city": "Chengdu",
+      "country": "Sichuan,",
       "code": "CTU"
     },
     {
-      "city": "Chennai (Madras)",
+      "city": "Chennai",
       "country": "India",
       "code": "MAA"
     },
     {
-      "city": "Cheyenne (WY) - Cheyenne Regional Airport",
+      "city": "Cheyenne",
       "country": "USA",
       "code": "CYS"
     },
     {
-      "city": "Chiang Mai - Chiang Mai International Airport",
+      "city": "Chiang Mai",
       "country": "Thailand",
       "code": "CNX"
     },
@@ -1641,17 +1641,17 @@
       "code": "QCB"
     },
     {
-      "city": "Chicago (IL), Midway",
+      "city": "Chicago",
       "country": "USA",
       "code": "MDW"
     },
     {
-      "city": "Chicago (IL), O'Hare International Airport",
+      "city": "Chicago",
       "country": "USA",
       "code": "ORD"
     },
     {
-      "city": "Chicago (IL)",
+      "city": "Chicago",
       "country": "USA",
       "code": "CHI"
     },
@@ -1661,12 +1661,12 @@
       "code": "CZA"
     },
     {
-      "city": "Chico (CA)",
+      "city": "Chico",
       "country": "USA",
       "code": "CIC"
     },
     {
-      "city": "Chihuahua, Gen Fierro Villalobos",
+      "city": "Chihuahua",
       "country": "Mexico",
       "code": "CUU"
     },
@@ -1681,17 +1681,17 @@
       "code": "CIP"
     },
     {
-      "city": "Chisinau - Chişinău International Airport",
+      "city": "Chisinau",
       "country": "Moldova",
       "code": "KIV"
     },
     {
-      "city": "Chita (Tschita)",
+      "city": "Chita",
       "country": "Russia",
       "code": "HTA"
     },
     {
-      "city": "Sapporo - New Chitose Airport",
+      "city": "Sapporo",
       "country": "Japan",
       "code": "CTS"
     },
@@ -1706,8 +1706,8 @@
       "code": "CGP"
     },
     {
-      "city": "Chongqing - Jiangbei International Airport",
-      "country": "Sichuan, PR China",
+      "city": "Chongqing",
+      "country": "Sichuan,",
       "code": "CKG"
     },
     {
@@ -1726,12 +1726,12 @@
       "code": "YYQ"
     },
     {
-      "city": "Cienfuegos - Jaime González Airport",
+      "city": "Cienfuegos",
       "country": "Cuba",
       "code": "CFG"
     },
     {
-      "city": "Cincinnati (OH) - Cincinnati/Northern Kentucky Int'l",
+      "city": "Cincinnati",
       "country": "USA",
       "code": "CVG"
     },
@@ -1761,7 +1761,7 @@
       "code": "CVM"
     },
     {
-      "city": "Clarksburg (WV)",
+      "city": "Clarksburg",
       "country": "USA",
       "code": "CKB"
     },
@@ -1776,12 +1776,12 @@
       "code": "CFE"
     },
     {
-      "city": "Cleveland (OH) , Burke Lakefront",
+      "city": "Cleveland",
       "country": "USA",
       "code": "BKL"
     },
     {
-      "city": "Cleveland (OH) , Hopkins",
+      "city": "Cleveland",
       "country": "USA",
       "code": "CLE"
     },
@@ -1796,12 +1796,12 @@
       "code": "COK"
     },
     {
-      "city": "Cody/Powell/Yellowstone (WY)",
+      "city": "Cody/Powell/Yellowstone",
       "country": "USA",
       "code": "COD"
     },
     {
-      "city": "Coffmann Cove (AK)",
+      "city": "Coffmann Cove",
       "country": "USA",
       "code": "KCC"
     },
@@ -1821,7 +1821,7 @@
       "code": "CLQ"
     },
     {
-      "city": "College Station/Bryan (TX)",
+      "city": "College Station/Bryan",
       "country": "USA",
       "code": "CLL"
     },
@@ -1831,47 +1831,47 @@
       "code": "KCE"
     },
     {
-      "city": "Cologne - Cologne Airport (Flughafen Köln/Bonn)",
+      "city": "Cologne",
       "country": "Germany",
       "code": "CGN"
     },
     {
-      "city": "Colombo - Bandaranaike International Airport",
+      "city": "Colombo",
       "country": "Sri Lanka",
       "code": "CMB"
     },
     {
-      "city": "Colorado Springs (CO)",
+      "city": "Colorado Springs",
       "country": "USA",
       "code": "COS"
     },
     {
-      "city": "Columbia (SC) - Columbia Metropolitan Airport",
+      "city": "Columbia",
       "country": "USA",
       "code": "CAE"
     },
     {
-      "city": "Columbus (GA)",
+      "city": "Columbus",
       "country": "USA",
       "code": "CSG"
     },
     {
-      "city": "Columbus (OH) - Port Columbus International Airport",
+      "city": "Columbus",
       "country": "USA",
       "code": "CMH"
     },
     {
-      "city": "Conakry - Conakry International Airport",
+      "city": "Conakry",
       "country": "Guinea",
       "code": "CKY"
     },
     {
-      "city": "Concord (CA) - Buchanan Field",
+      "city": "Concord",
       "country": "USA",
       "code": "CCR"
     },
     {
-      "city": "Concord (NH) - Concord Municipal Airport",
+      "city": "Concord",
       "country": "USA",
       "code": "CON"
     },
@@ -1881,7 +1881,7 @@
       "code": "CZL"
     },
     {
-      "city": "Constanta (Constanța) - Constanta Int'l Airport",
+      "city": "Constanta",
       "country": "Romania",
       "code": "CND"
     },
@@ -1901,7 +1901,7 @@
       "code": "OOM"
     },
     {
-      "city": "Copenhagen - Copenhagen Airport",
+      "city": "Copenhagen",
       "country": "Denmark",
       "code": "CPH"
     },
@@ -1916,7 +1916,7 @@
       "code": "ODB"
     },
     {
-      "city": "Cordova (AK)",
+      "city": "Cordova",
       "country": "USA",
       "code": "CDV"
     },
@@ -1931,17 +1931,17 @@
       "code": "ORK"
     },
     {
-      "city": "Corpus Christi (TX)",
+      "city": "Corpus Christi",
       "country": "USA",
       "code": "CRP"
     },
     {
-      "city": "Cotonou - Cotonou Cadjehoun Airport",
+      "city": "Cotonou",
       "country": "Benin",
       "code": "COO"
     },
     {
-      "city": "Coventry - Baginton",
+      "city": "Coventry",
       "country": "United Kingdom",
       "code": "CVT"
     },
@@ -1951,17 +1951,17 @@
       "code": "CZM"
     },
     {
-      "city": "Craig (AK)",
+      "city": "Craig",
       "country": "USA",
       "code": "CGA"
     },
     {
-      "city": "Crescent City (CA)",
+      "city": "Crescent City",
       "country": "USA",
       "code": "CEC"
     },
     {
-      "city": "Cuiaba - Marechal Rondon International Airport",
+      "city": "Cuiaba",
       "country": "Brazil",
       "code": "CGB"
     },
@@ -1971,12 +1971,12 @@
       "code": "CUL"
     },
     {
-      "city": "Curacao - Curaçao International Airport",
+      "city": "Curacao",
       "country": "Netherlands Antilles",
       "code": "CUR"
     },
     {
-      "city": "Curitiba - Afonso Pena International Airport",
+      "city": "Curitiba",
       "country": "Brazil",
       "code": "CWB"
     },
@@ -1986,7 +1986,7 @@
       "code": "CYU"
     },
     {
-      "city": "Dakar - Léopold Sédar Senghor International Airport",
+      "city": "Dakar",
       "country": "Senegal",
       "code": "DKR"
     },
@@ -2001,17 +2001,17 @@
       "code": "DBY"
     },
     {
-      "city": "Dalian - Zhoushuizi International Airport",
-      "country": "Liaoning, PR China",
+      "city": "Dalian",
+      "country": "Liaoning,",
       "code": "DLC"
     },
     {
-      "city": "Dallas (TX) , Love Field",
+      "city": "Dallas",
       "country": "USA",
       "code": "DAL"
     },
     {
-      "city": "Dallas/Ft. Worth (TX) - Dallas/Fort Worth International",
+      "city": "Dallas/Ft. Worth",
       "country": "USA",
       "code": "DFW"
     },
@@ -2021,22 +2021,22 @@
       "code": "DJO"
     },
     {
-      "city": "Damascus, International",
+      "city": "Damascus",
       "country": "Syria",
       "code": "DAM"
     },
     {
-      "city": "Dammam, King Fahad International",
+      "city": "Dammam",
       "country": "Saudi Arabien",
       "code": "DMM"
     },
     {
-      "city": "Danville (VA)",
+      "city": "Danville",
       "country": "USA",
       "code": "DAN"
     },
     {
-      "city": "Dar es Salam (Daressalam) - Julius Nyerere Int'l",
+      "city": "Dar es Salam",
       "country": "Tanzania",
       "code": "DAR"
     },
@@ -2051,17 +2051,17 @@
       "code": "DDI"
     },
     {
-      "city": "Dayton (OH)",
+      "city": "Dayton",
       "country": "USA",
       "code": "DAY"
     },
     {
-      "city": "Daytona Beach (FL)",
+      "city": "Daytona Beach",
       "country": "USA",
       "code": "DAB"
     },
     {
-      "city": "Decatur (IL)",
+      "city": "Decatur",
       "country": "USA",
       "code": "DEC"
     },
@@ -2071,12 +2071,12 @@
       "code": "YDF"
     },
     {
-      "city": "Delhi - Indira Gandhi International Airport",
+      "city": "Delhi",
       "country": "India",
       "code": "DEL"
     },
     {
-      "city": "Den Haag (The Hague)",
+      "city": "Den Haag",
       "country": "Netherlands",
       "code": "HAG"
     },
@@ -2091,12 +2091,12 @@
       "code": "DPS"
     },
     {
-      "city": "Denver (CO) - Denver International Airport",
+      "city": "Denver",
       "country": "USA",
       "code": "DEN"
     },
     {
-      "city": "Dera Ismail Khan - Dera Ismail Khan Airport",
+      "city": "Dera Ismail Khan",
       "country": "Pakistan",
       "code": "DSK"
     },
@@ -2106,32 +2106,32 @@
       "code": "DRB"
     },
     {
-      "city": "Derry (Londonderry)",
+      "city": "Derry",
       "country": "United Kingdom",
       "code": "LDY"
     },
     {
-      "city": "Des Moines (IA) - Des Moines International Airport",
+      "city": "Des Moines",
       "country": "USA",
       "code": "DSM"
     },
     {
-      "city": "Detroit (MI) , Coleman A. Young Municipal",
+      "city": "Detroit",
       "country": "USA",
       "code": "DET"
     },
     {
-      "city": "Detroit (MI) , Wayne County Airport",
+      "city": "Detroit",
       "country": "USA",
       "code": "DTW"
     },
     {
-      "city": "Detroit (MI) , Metropolitan Area",
+      "city": "Detroit",
       "country": "USA",
       "code": "DTT"
     },
     {
-      "city": "Devils Lake (ND)",
+      "city": "Devils Lake",
       "country": "USA",
       "code": "DVL"
     },
@@ -2146,17 +2146,17 @@
       "code": "DHA"
     },
     {
-      "city": "Dhaka - Zia International Airport",
+      "city": "Dhaka",
       "country": "Bangladesh",
       "code": "DAC"
     },
     {
-      "city": "Dili - Nicolau Lobato International Airport",
-      "country": "Timor Leste (East Timor)",
+      "city": "Dili",
+      "country": "Timor Leste",
       "code": "DIL"
     },
     {
-      "city": "Dillingham (AK)",
+      "city": "Dillingham",
       "country": "USA",
       "code": "DLG"
     },
@@ -2176,27 +2176,27 @@
       "code": "DJE"
     },
     {
-      "city": "Djibouti (city) - Djibouti-Ambouli International Airport",
+      "city": "Djibouti",
       "country": "Djibouti",
       "code": "JIB"
     },
     {
-      "city": "Dodoma - Dodoma Airport",
+      "city": "Dodoma",
       "country": "Tanzania",
       "code": "DOD"
     },
     {
-      "city": "Doha - Doha International Airport",
+      "city": "Doha",
       "country": "Qatar",
       "code": "DOH"
     },
     {
-      "city": "Doncaster/Sheffield, Robin Hood International Airport",
+      "city": "Doncaster/Sheffield",
       "country": "United Kingdom",
       "code": "DSA"
     },
     {
-      "city": "Donegal (Carrickfin)",
+      "city": "Donegal",
       "country": "Ireland",
       "code": "CFN"
     },
@@ -2206,7 +2206,7 @@
       "code": "DTM"
     },
     {
-      "city": "Dothan (AL)",
+      "city": "Dothan",
       "country": "USA",
       "code": "DHN"
     },
@@ -2216,12 +2216,12 @@
       "code": "DLA"
     },
     {
-      "city": "Dresden - Dresden Airport",
+      "city": "Dresden",
       "country": "Germany",
       "code": "DRS"
     },
     {
-      "city": "Dubai - Dubai International Airport",
+      "city": "Dubai",
       "country": "United Arab Emirates",
       "code": "DXB"
     },
@@ -2231,18 +2231,18 @@
       "code": "DBO"
     },
     {
-      "city": "Dublin - Dublin International Airport",
+      "city": "Dublin",
       "country": "Ireland",
       "code": "DUB"
     },
     {
-      "city": "Dubois (PA)",
+      "city": "Dubois",
       "country": "USA",
       "code": "DUJ"
     },
     {
       "city": "Dubrovnik",
-      "country": "Croatia (Hrvatska)",
+      "country": "Croatia",
       "code": "DBV"
     },
     {
@@ -2251,12 +2251,12 @@
       "code": "DBQ"
     },
     {
-      "city": "Duesseldorf - Düsseldorf International Airport",
+      "city": "Duesseldorf",
       "country": "Germany",
       "code": "DUS"
     },
     {
-      "city": "Duluth (MN) /Superior (WI)",
+      "city": "Duluth",
       "country": "USA",
       "code": "DLH"
     },
@@ -2276,7 +2276,7 @@
       "code": "DKI"
     },
     {
-      "city": "Durango (CO)",
+      "city": "Durango",
       "country": "USA",
       "code": "DRO"
     },
@@ -2286,12 +2286,12 @@
       "code": "DUR"
     },
     {
-      "city": "Dushanbe (Duschanbe) - Dushanbe Airport",
+      "city": "Dushanbe",
       "country": "Tajikistan",
       "code": "DYU"
     },
     {
-      "city": "Dutch Harbor (AK)",
+      "city": "Dutch Harbor",
       "country": "USA",
       "code": "DUT"
     },
@@ -2316,13 +2316,13 @@
       "code": "IPC"
     },
     {
-      "city": "Eau Clarie (WI)",
+      "city": "Eau Clarie",
       "country": "USA",
       "code": "EAU"
     },
     {
-      "city": "Edinburgh - Edinburgh Airport",
-      "country": "Scotland, UK",
+      "city": "Edinburgh",
+      "country": "Scotland,",
       "code": "EDI"
     },
     {
@@ -2331,12 +2331,12 @@
       "code": "YEA"
     },
     {
-      "city": "Edmonton, International",
+      "city": "Edmonton",
       "country": "Canada",
       "code": "YEG"
     },
     {
-      "city": "Edmonton, Municipal",
+      "city": "Edmonton",
       "country": "Canada",
       "code": "YXD"
     },
@@ -2351,12 +2351,12 @@
       "code": "EIN"
     },
     {
-      "city": "Samana - Samaná El Catey International Airport",
+      "city": "Samana",
       "country": "Dominican Republic",
       "code": "AZS"
     },
     {
-      "city": "Elba Island, Marina Di Campo",
+      "city": "Elba Island",
       "country": "Italy",
       "code": "EBA"
     },
@@ -2366,17 +2366,17 @@
       "code": "ETH"
     },
     {
-      "city": "Elat, Ovula",
+      "city": "Elat",
       "country": "Israel",
       "code": "VDA"
     },
     {
-      "city": "Elkhart (IN)",
+      "city": "Elkhart",
       "country": "USA",
       "code": "EKI"
     },
     {
-      "city": "Elko (NV)",
+      "city": "Elko",
       "country": "USA",
       "code": "EKO"
     },
@@ -2391,17 +2391,17 @@
       "code": "EMY"
     },
     {
-      "city": "Elmira (NY)",
+      "city": "Elmira",
       "country": "USA",
       "code": "ELM"
     },
     {
-      "city": "El Paso (TX) - El Paso International Airport",
+      "city": "El Paso",
       "country": "USA",
       "code": "ELP"
     },
     {
-      "city": "Ely (NV)",
+      "city": "Ely",
       "country": "USA",
       "code": "ELY"
     },
@@ -2421,22 +2421,22 @@
       "code": "ENF"
     },
     {
-      "city": "Entebbe - Entebbe International Airport",
+      "city": "Entebbe",
       "country": "Uganda",
       "code": "EBB"
     },
     {
-      "city": "Erfurt - Erfurt Airport (Flughafen Erfurt)",
+      "city": "Erfurt",
       "country": "Germany",
       "code": "ERF"
     },
     {
-      "city": "Erie (PA)",
+      "city": "Erie",
       "country": "USA",
       "code": "ERI"
     },
     {
-      "city": "Eriwan (Yerevan, Jerevan)",
+      "city": "Eriwan",
       "country": "Armenia",
       "code": "EVN"
     },
@@ -2456,7 +2456,7 @@
       "code": "EBJ"
     },
     {
-      "city": "Escanaba (MI)",
+      "city": "Escanaba",
       "country": "USA",
       "code": "ESC"
     },
@@ -2466,17 +2466,17 @@
       "code": "EPR"
     },
     {
-      "city": "Eugene (OR)",
+      "city": "Eugene",
       "country": "USA",
       "code": "EUG"
     },
     {
-      "city": "Eureka (CA)",
+      "city": "Eureka",
       "country": "USA",
       "code": "ACV"
     },
     {
-      "city": "Evansville (IN)",
+      "city": "Evansville",
       "country": "USA",
       "code": "EVV"
     },
@@ -2491,12 +2491,12 @@
       "code": "EXT"
     },
     {
-      "city": "Fairbanks (AK)",
+      "city": "Fairbanks",
       "country": "USA",
       "code": "FAI"
     },
     {
-      "city": "Fair Isle (Shetland)",
+      "city": "Fair Isle",
       "country": "United Kingdom",
       "code": "FIE"
     },
@@ -2506,12 +2506,12 @@
       "code": "LYP"
     },
     {
-      "city": "Fargo (ND) (MN)",
+      "city": "Fargo",
       "country": "USA",
       "code": "FAR"
     },
     {
-      "city": "Farmington (NM)",
+      "city": "Farmington",
       "country": "USA",
       "code": "FMN"
     },
@@ -2521,17 +2521,17 @@
       "code": "FAO"
     },
     {
-      "city": "Faroer - Vágar Airport",
+      "city": "Faroer",
       "country": "Denmark",
       "code": "FAE"
     },
     {
-      "city": "Fayetteville (AR)",
+      "city": "Fayetteville",
       "country": "USA",
       "code": "FYV"
     },
     {
-      "city": "Fayetteville/Ft. Bragg (NC)",
+      "city": "Fayetteville/Ft. Bragg",
       "country": "USA",
       "code": "FAY"
     },
@@ -2546,7 +2546,7 @@
       "code": "FSC"
     },
     {
-      "city": "Flagstaff (AZ)",
+      "city": "Flagstaff",
       "country": "USA",
       "code": "FLG"
     },
@@ -2556,17 +2556,17 @@
       "code": "YFO"
     },
     {
-      "city": "Flint (MI)",
+      "city": "Flint",
       "country": "USA",
       "code": "FNT"
     },
     {
-      "city": "Florence (Firenze) - Peretola Airport",
+      "city": "Florence",
       "country": "Italy",
       "code": "FLR"
     },
     {
-      "city": "Florence (SC)",
+      "city": "Florence",
       "country": "USA",
       "code": "FLO"
     },
@@ -2586,12 +2586,12 @@
       "code": "YFA"
     },
     {
-      "city": "Fortaleza - Pinto Martins Airport",
+      "city": "Fortaleza",
       "country": "Brazil",
       "code": "FOR"
     },
     {
-      "city": "Fort de France - Martinique Aimé Césaire International",
+      "city": "Fort de France",
       "country": "Martinique",
       "code": "FDF"
     },
@@ -2601,12 +2601,12 @@
       "code": "FOD"
     },
     {
-      "city": "Fort Huachuca/Sierra Vista (AZ)",
+      "city": "Fort Huachuca/Sierra Vista",
       "country": "USA",
       "code": "FHU"
     },
     {
-      "city": "Fort Lauderdale/Hollywood (FL)",
+      "city": "Fort Lauderdale/Hollywood",
       "country": "USA",
       "code": "FLL"
     },
@@ -2616,17 +2616,17 @@
       "code": "YMM"
     },
     {
-      "city": "Fort Myers, Metropolitan Area (FL)",
+      "city": "Fort Myers",
       "country": "USA",
       "code": "FMY"
     },
     {
-      "city": "Fort Myers, Southwest Florida Reg (FL)",
+      "city": "Fort Myers",
       "country": "USA",
       "code": "RSW"
     },
     {
-      "city": "Fort Riley (KS) - Marshall AAF",
+      "city": "Fort Riley",
       "country": "USA",
       "code": "FRI"
     },
@@ -2636,7 +2636,7 @@
       "code": "YSM"
     },
     {
-      "city": "Fort Smith (AR)",
+      "city": "Fort Smith",
       "country": "USA",
       "code": "FSM"
     },
@@ -2646,22 +2646,22 @@
       "code": "YXJ"
     },
     {
-      "city": "Fort Walton Beach (FL)",
+      "city": "Fort Walton Beach",
       "country": "USA",
       "code": "VPS"
     },
     {
-      "city": "Fort Wayne (IN)",
+      "city": "Fort Wayne",
       "country": "USA",
       "code": "FWA"
     },
     {
-      "city": "Fort Worth (TX) - Dallas/Fort Worth International Airport",
+      "city": "Fort Worth",
       "country": "USA",
       "code": "DFW"
     },
     {
-      "city": "Foula (Shetland)",
+      "city": "Foula",
       "country": "United Kingdom",
       "code": "FOU"
     },
@@ -2671,7 +2671,7 @@
       "code": "FRW"
     },
     {
-      "city": "Frankfurt/Main - Frankfurt Airport (Rhein-Main-Flughafen)",
+      "city": "Frankfurt/Main",
       "country": "Germany",
       "code": "FRA"
     },
@@ -2681,7 +2681,7 @@
       "code": "HHN"
     },
     {
-      "city": "Franklin/Oil City (PA)",
+      "city": "Franklin/Oil City",
       "country": "USA",
       "code": "FKL"
     },
@@ -2691,12 +2691,12 @@
       "code": "YFC"
     },
     {
-      "city": "Freeport - Grand Bahama International Airport",
+      "city": "Freeport",
       "country": "Bahamas",
       "code": "FPO"
     },
     {
-      "city": "Freetown - Freetown-Lungi International Airport",
+      "city": "Freetown",
       "country": "Sierra Leone",
       "code": "FNA"
     },
@@ -2706,12 +2706,12 @@
       "code": "FRJ"
     },
     {
-      "city": "Fresno (CA)",
+      "city": "Fresno",
       "country": "USA",
       "code": "FAT"
     },
     {
-      "city": "Friedrichshafen - Bodensee-Airport Friedrichshafen",
+      "city": "Friedrichshafen",
       "country": "Germany",
       "code": "FDH"
     },
@@ -2721,7 +2721,7 @@
       "code": "FUE"
     },
     {
-      "city": "Fujairah, International Airport",
+      "city": "Fujairah",
       "country": "United Arab Emirates",
       "code": "FJR"
     },
@@ -2731,7 +2731,7 @@
       "code": "FUK"
     },
     {
-      "city": "Fukushima - Fukushima Airport",
+      "city": "Fukushima",
       "country": "Japan",
       "code": "FKS"
     },
@@ -2746,17 +2746,17 @@
       "code": "FUT"
     },
     {
-      "city": "Gaborone - Sir Seretse Khama International Airport",
+      "city": "Gaborone",
       "country": "Botswana",
       "code": "GBE"
     },
     {
-      "city": "Gadsden (AL)",
+      "city": "Gadsden",
       "country": "USA",
       "code": "GAD"
     },
     {
-      "city": "Gainesville (FL)",
+      "city": "Gainesville",
       "country": "USA",
       "code": "GNV"
     },
@@ -2776,7 +2776,7 @@
       "code": "GOU"
     },
     {
-      "city": "Gaza City - Gaza International Airport",
+      "city": "Gaza City",
       "country": "Palestinian Territory",
       "code": "GZA"
     },
@@ -2796,7 +2796,7 @@
       "code": "GEX"
     },
     {
-      "city": "Geneva - Geneva-Cointrin International Airport",
+      "city": "Geneva",
       "country": "Switzerland",
       "code": "GVA"
     },
@@ -2811,7 +2811,7 @@
       "code": "GRJ"
     },
     {
-      "city": "Georgetown - Cheddi Jagan International Airport",
+      "city": "Georgetown",
       "country": "Guyana",
       "code": "GEO"
     },
@@ -2826,7 +2826,7 @@
       "code": "GRO"
     },
     {
-      "city": "Ghent (Gent)",
+      "city": "Ghent",
       "country": "Belgium",
       "code": "GNE"
     },
@@ -2836,7 +2836,7 @@
       "code": "GIB"
     },
     {
-      "city": "Gilette (WY)",
+      "city": "Gilette",
       "country": "USA",
       "code": "GCC"
     },
@@ -2856,7 +2856,7 @@
       "code": "GLT"
     },
     {
-      "city": "Glasgow, Prestwick",
+      "city": "Glasgow",
       "country": "United Kingdom",
       "code": "PIK"
     },
@@ -2866,12 +2866,12 @@
       "code": "GLA"
     },
     {
-      "city": "Glasgow (MT)",
+      "city": "Glasgow",
       "country": "USA",
       "code": "GGW"
     },
     {
-      "city": "Glendive (MT)",
+      "city": "Glendive",
       "country": "USA",
       "code": "GDV"
     },
@@ -2881,7 +2881,7 @@
       "code": "GOI"
     },
     {
-      "city": "Goiania, Santa Genoveva Airport",
+      "city": "Goiania",
       "country": "Brazil",
       "code": "GYN"
     },
@@ -2906,12 +2906,12 @@
       "code": "GOZ"
     },
     {
-      "city": "Gothenburg (Göteborg) - Landvetter",
+      "city": "Gothenburg",
       "country": "Sweden",
       "code": "GOT"
     },
     {
-      "city": "Gove (Nhulunbuy)",
+      "city": "Gove",
       "country": "Australia",
       "code": "GOV"
     },
@@ -2926,37 +2926,37 @@
       "code": "GRX"
     },
     {
-      "city": "Grand Bahama International",
+      "city": "Grand Bahama",
       "country": "Bahamas",
       "code": "FPO"
     },
     {
-      "city": "Grand Canyon (AZ)",
+      "city": "Grand Canyon",
       "country": "USA",
       "code": "GCN"
     },
     {
-      "city": "Grand Cayman - Owen Roberts International",
+      "city": "Grand Cayman",
       "country": "Cayman Islands",
       "code": "GCM"
     },
     {
-      "city": "Grand Forks (ND)",
+      "city": "Grand Forks",
       "country": "USA",
       "code": "GFK"
     },
     {
-      "city": "Grand Junction (CO)",
+      "city": "Grand Junction",
       "country": "USA",
       "code": "GJT"
     },
     {
-      "city": "Grand Rapids (MI)",
+      "city": "Grand Rapids",
       "country": "USA",
       "code": "GRR"
     },
     {
-      "city": "Grand Rapids (MN)",
+      "city": "Grand Rapids",
       "country": "USA",
       "code": "GPZ"
     },
@@ -2966,7 +2966,7 @@
       "code": "GRZ"
     },
     {
-      "city": "Great Falls (MT)",
+      "city": "Great Falls",
       "country": "USA",
       "code": "GTF"
     },
@@ -2976,37 +2976,37 @@
       "code": "GKL"
     },
     {
-      "city": "Green Bay (WI)",
+      "city": "Green Bay",
       "country": "USA",
       "code": "GRB"
     },
     {
-      "city": "Greenbrier/Lewisburg (WV)",
+      "city": "Greenbrier/Lewisburg",
       "country": "USA",
       "code": "LWB"
     },
     {
-      "city": "Greensboro/Winston Salem (NC)",
+      "city": "Greensboro/Winston Salem",
       "country": "USA",
       "code": "GSO"
     },
     {
-      "city": "Greenville (MS)",
+      "city": "Greenville",
       "country": "USA",
       "code": "GLH"
     },
     {
-      "city": "Greenville (NC)",
+      "city": "Greenville",
       "country": "USA",
       "code": "PGV"
     },
     {
-      "city": "Greenville/Spartanburg (SC)",
+      "city": "Greenville/Spartanburg",
       "country": "USA",
       "code": "GSP"
     },
     {
-      "city": "Grenada - Point Salines Airport also Maurice Bishop",
+      "city": "Grenada",
       "country": "Grenada",
       "code": "GND"
     },
@@ -3021,17 +3021,17 @@
       "code": "GFF"
     },
     {
-      "city": "Groningen - Eelde",
+      "city": "Groningen",
       "country": "Netherlands",
       "code": "GRQ"
     },
     {
-      "city": "Groote Eylandt - Alyangula",
+      "city": "Groote Eylandt",
       "country": "Australia",
       "code": "GTE"
     },
     {
-      "city": "Groton/New London (CT)",
+      "city": "Groton/New London",
       "country": "USA",
       "code": "GON"
     },
@@ -3051,22 +3051,22 @@
       "code": "GUM"
     },
     {
-      "city": "Guangzhou (Canton) - Baiyun International Airport",
-      "country": "Guangdong, PR China",
+      "city": "Guangzhou",
+      "country": "Guangdong,",
       "code": "CAN"
     },
     {
-      "city": "Sao Paulo - Guarulhos International",
+      "city": "Sao Paulo",
       "country": "Brazil",
       "code": "GRU"
     },
     {
-      "city": "Guatemala City - La Aurora International Airport",
+      "city": "Guatemala City",
       "country": "Guatemala",
       "code": "GUA"
     },
     {
-      "city": "Guayaquil - Simon Bolivar",
+      "city": "Guayaquil",
       "country": "Ecuador",
       "code": "GYE"
     },
@@ -3081,13 +3081,13 @@
       "code": "GTI"
     },
     {
-      "city": "Gulfport/Biloxi (MS)",
+      "city": "Gulfport/Biloxi",
       "country": "USA",
       "code": "GPT"
     },
     {
-      "city": "Guilin - Liangjiang",
-      "country": "Guangxi, PR China",
+      "city": "Guilin",
+      "country": "Guangxi,",
       "code": "KWL"
     },
     {
@@ -3096,7 +3096,7 @@
       "code": "ULU"
     },
     {
-      "city": "Gunnison/Crested Butte (CO)",
+      "city": "Gunnison/Crested Butte",
       "country": "USA",
       "code": "GUC"
     },
@@ -3126,7 +3126,7 @@
       "code": "HAC"
     },
     {
-      "city": "Hagåtña - Guam International Airport",
+      "city": "Hagåtña",
       "country": "Guam",
       "code": "GUM"
     },
@@ -3136,7 +3136,7 @@
       "code": "HFA"
     },
     {
-      "city": "Haines (AK)",
+      "city": "Haines",
       "country": "USA",
       "code": "HNS"
     },
@@ -3156,7 +3156,7 @@
       "code": "YUX"
     },
     {
-      "city": "Hamburg - Fuhlsbuettel",
+      "city": "Hamburg",
       "country": "Germany",
       "code": "HAM"
     },
@@ -3186,13 +3186,13 @@
       "code": "HFT"
     },
     {
-      "city": "Hancock (MI)",
+      "city": "Hancock",
       "country": "USA",
       "code": "CMX"
     },
     {
-      "city": "Hangchow (Hangzhou)",
-      "country": "Zhejiang, PR China",
+      "city": "Hangchow",
+      "country": "Zhejiang,",
       "code": "HGH"
     },
     {
@@ -3201,47 +3201,47 @@
       "code": "HAJ"
     },
     {
-      "city": "Hanoi - Noi Bai International Airport",
+      "city": "Hanoi",
       "country": "Vietnam",
       "code": "HAN"
     },
     {
-      "city": "Harare - Harare International Airport",
+      "city": "Harare",
       "country": "Zimbabwe",
       "code": "HRE"
     },
     {
-      "city": "Harbin (Haerbin)",
-      "country": "Heilongjiang, PR China",
+      "city": "Harbin",
+      "country": "Heilongjiang,",
       "code": "HRB"
     },
     {
-      "city": "Harlingen/South Padre Island (TX)",
+      "city": "Harlingen/South Padre Island",
       "country": "USA",
       "code": "HRL"
     },
     {
-      "city": "Harrington Harbour, PQ",
+      "city": "Harrington Harbour",
       "country": "Canada",
       "code": "YHR"
     },
     {
-      "city": "Harrisburg (PA) - Harrisburg Skyport",
+      "city": "Harrisburg",
       "country": "USA",
       "code": "HAR"
     },
     {
-      "city": "Harrisburg (PA) - Harrisburg International",
+      "city": "Harrisburg",
       "country": "USA",
       "code": "MDT"
     },
     {
-      "city": "Hartford (CT) /Springfield (MA)",
+      "city": "Hartford",
       "country": "USA",
       "code": "BDL"
     },
     {
-      "city": "Hatyai (Hat Yai)",
+      "city": "Hatyai",
       "country": "Thailand",
       "code": "HDY"
     },
@@ -3251,12 +3251,12 @@
       "code": "HAU"
     },
     {
-      "city": "Havana - José Martí International",
+      "city": "Havana",
       "country": "Cuba",
       "code": "HAV"
     },
     {
-      "city": "Havre (MT)",
+      "city": "Havre",
       "country": "USA",
       "code": "HVR"
     },
@@ -3266,7 +3266,7 @@
       "code": "HIS"
     },
     {
-      "city": "Helena (MT)",
+      "city": "Helena",
       "country": "USA",
       "code": "HLN"
     },
@@ -3276,7 +3276,7 @@
       "code": "JHE"
     },
     {
-      "city": "Helsinki - Vantaa",
+      "city": "Helsinki",
       "country": "Finland",
       "code": "HEL"
     },
@@ -3286,7 +3286,7 @@
       "code": "HER"
     },
     {
-      "city": "Hermosillo - Gen. Pesqueira Garcia",
+      "city": "Hermosillo",
       "country": "Mexico",
       "code": "HMO"
     },
@@ -3296,22 +3296,22 @@
       "code": "HVB"
     },
     {
-      "city": "Hibbing (MN)",
+      "city": "Hibbing",
       "country": "USA",
       "code": "HIB"
     },
     {
-      "city": "Hickory (NC)",
+      "city": "Hickory",
       "country": "USA",
       "code": "HKY"
     },
     {
-      "city": "Hilo (HI)",
+      "city": "Hilo",
       "country": "USA",
       "code": "ITO"
     },
     {
-      "city": "Hilton Head Island (SC)",
+      "city": "Hilton Head Island",
       "country": "USA",
       "code": "HHH"
     },
@@ -3326,7 +3326,7 @@
       "code": "HIJ"
     },
     {
-      "city": "Ho Chi Minh City (Saigon) - Tan Son Nhat International",
+      "city": "Ho Chi Minh City",
       "country": "Viet Nam",
       "code": "SGN"
     },
@@ -3351,32 +3351,32 @@
       "code": "HMH"
     },
     {
-      "city": "Homer (AK)",
+      "city": "Homer",
       "country": "USA",
       "code": "HOM"
     },
     {
-      "city": "Hong Kong - International Airport (HKIA)",
+      "city": "Hong Kong",
       "country": "Hong Kong",
       "code": "HKG"
     },
     {
-      "city": "Hong Kong - Chek Lap Kok",
+      "city": "Hong Kong",
       "country": "Hong Kong",
       "code": "ZJK"
     },
     {
-      "city": "Honiara Henderson International",
+      "city": "Honiara",
       "country": "Solomon Islands",
       "code": "HIR"
     },
     {
-      "city": "Honolulu (HI) - Honolulu International Airport",
+      "city": "Honolulu",
       "country": "USA",
       "code": "HNL"
     },
     {
-      "city": "Hoonah (AK)",
+      "city": "Hoonah",
       "country": "USA",
       "code": "HNH"
     },
@@ -3386,12 +3386,12 @@
       "code": "HOR"
     },
     {
-      "city": "Houston (TX) , Hobby",
+      "city": "Houston",
       "country": "USA",
       "code": "HOU"
     },
     {
-      "city": "Houston, TX - George Bush Intercontinental Airport",
+      "city": "Houston",
       "country": "USA",
       "code": "IAH"
     },
@@ -3406,7 +3406,7 @@
       "code": "HUX"
     },
     {
-      "city": "Hue - Phu Bai",
+      "city": "Hue",
       "country": "Viet Nam",
       "code": "HUI"
     },
@@ -3416,12 +3416,12 @@
       "code": "HUY"
     },
     {
-      "city": "Huntington (WV)",
+      "city": "Huntington",
       "country": "USA",
       "code": "HTS"
     },
     {
-      "city": "Huntsville (AL)",
+      "city": "Huntsville",
       "country": "USA",
       "code": "HSV"
     },
@@ -3431,7 +3431,7 @@
       "code": "HRG"
     },
     {
-      "city": "Huron (SD)",
+      "city": "Huron",
       "country": "USA",
       "code": "HON"
     },
@@ -3441,17 +3441,17 @@
       "code": "HWN"
     },
     {
-      "city": "Hyannis (MA)",
+      "city": "Hyannis",
       "country": "USA",
       "code": "HYA"
     },
     {
-      "city": "Hydaburg (AK)",
+      "city": "Hydaburg",
       "country": "USA",
       "code": "HYG"
     },
     {
-      "city": "Hyderabad - Rajiv Gandhi International Airport",
+      "city": "Hyderabad",
       "country": "India",
       "code": "HYD"
     },
@@ -3466,12 +3466,12 @@
       "code": "IBZ"
     },
     {
-      "city": "Idaho Falls (ID)",
+      "city": "Idaho Falls",
       "country": "USA",
       "code": "IDA"
     },
     {
-      "city": "Iguazu, Cataratas",
+      "city": "Iguazu",
       "country": "Argentina",
       "code": "IGR"
     },
@@ -3486,12 +3486,12 @@
       "code": "IOU"
     },
     {
-      "city": "Iliamna (AK)",
+      "city": "Iliamna",
       "country": "USA",
       "code": "ILI"
     },
     {
-      "city": "Imperial (CA)",
+      "city": "Imperial",
       "country": "USA",
       "code": "IPL"
     },
@@ -3501,12 +3501,12 @@
       "code": "IVC"
     },
     {
-      "city": "Incheon, Incheon International Airport",
+      "city": "Incheon",
       "country": "Korea South",
       "code": "ICN"
     },
     {
-      "city": "Indianapolis (IN) International",
+      "city": "Indianapolis",
       "country": "USA",
       "code": "IND"
     },
@@ -3521,12 +3521,12 @@
       "code": "IFL"
     },
     {
-      "city": "Innsbruck - Kranebitten",
+      "city": "Innsbruck",
       "country": "Austria",
       "code": "INN"
     },
     {
-      "city": "International Falls (MN)",
+      "city": "International Falls",
       "country": "USA",
       "code": "INL"
     },
@@ -3546,12 +3546,12 @@
       "code": "INV"
     },
     {
-      "city": "Inykern (CA)",
+      "city": "Inykern",
       "country": "USA",
       "code": "IYK"
     },
     {
-      "city": "Iqaluit (Frobisher Bay)",
+      "city": "Iqaluit",
       "country": "Canada",
       "code": "YFB"
     },
@@ -3566,12 +3566,12 @@
       "code": "IKT"
     },
     {
-      "city": "Ishigaki - New Ishigaki Airport",
+      "city": "Ishigaki",
       "country": "Japan",
       "code": "ISG"
     },
     {
-      "city": "Islamabad - Benazir Bhutto International Airport",
+      "city": "Islamabad",
       "country": "Pakistan",
       "code": "ISB"
     },
@@ -3586,17 +3586,17 @@
       "code": "IOM"
     },
     {
-      "city": "Istanbul - Istanbul Atatürk Airport",
+      "city": "Istanbul",
       "country": "Turkey",
       "code": "IST"
     },
     {
-      "city": "Istanbul - Sabiha Gokcen",
+      "city": "Istanbul",
       "country": "Turkey",
       "code": "SAW"
     },
     {
-      "city": "Ithaca/Cortland (NY)",
+      "city": "Ithaca/Cortland",
       "country": "USA",
       "code": "ITH"
     },
@@ -3616,87 +3616,87 @@
       "code": "IZM"
     },
     {
-      "city": "Izmir - Adnan Menderes",
+      "city": "Izmir",
       "country": "Turkey",
       "code": "ADB"
     },
     {
-      "city": "Jackson Hole (WY)",
+      "city": "Jackson Hole",
       "country": "USA",
       "code": "JAC"
     },
     {
-      "city": "Jackson (MI) - Reynolds Municipal",
+      "city": "Jackson",
       "country": "USA",
       "code": "JXN"
     },
     {
-      "city": "Jackson,  MN  ",
+      "city": "Jackson",
       "country": "USA",
       "code": "MJQ"
     },
     {
-      "city": "Jackson (MS) - Jackson Internationall",
+      "city": "Jackson",
       "country": "USA",
       "code": "JAN"
     },
     {
-      "city": "Jackson (MS) - Hawkins Field   ",
+      "city": "Jackson",
       "country": "USA",
       "code": "HKS"
     },
     {
-      "city": "Jackson (TN) - Mckellar",
+      "city": "Jackson",
       "country": "USA",
       "code": "MKL"
     },
     {
-      "city": "Jackson Hole (WY)",
+      "city": "Jackson Hole",
       "country": "USA",
       "code": "JAC"
     },
     {
-      "city": "Jacksonville (AR)  Little Rock AFB   ",
+      "city": "Jacksonville",
       "country": "USA",
       "code": "LRF"
     },
     {
-      "city": "Jacksonville (FL) - Cecil Field NAS   ",
+      "city": "Jacksonville",
       "country": "USA",
       "code": "NZC"
     },
     {
-      "city": "Jacksonville (FL) Jacksonville NAS   ",
+      "city": "Jacksonville",
       "country": "USA",
       "code": "NIP"
     },
     {
-      "city": "Jacksonville (FL) - International",
+      "city": "Jacksonville",
       "country": "USA",
       "code": "JAX"
     },
     {
-      "city": "Jacksonville (FL) - Craig Municipal   ",
+      "city": "Jacksonville",
       "country": "USA",
       "code": "CRG"
     },
     {
-      "city": "Jacksonville (IL) - Municipal Airport",
+      "city": "Jacksonville",
       "country": "USA",
       "code": "IJX"
     },
     {
-      "city": "Jacksonville (NC)",
+      "city": "Jacksonville",
       "country": "USA",
       "code": "OAJ"
     },
     {
-      "city": "Jacksonville (TX)",
+      "city": "Jacksonville",
       "country": "USA",
       "code": "JKV"
     },
     {
-      "city": "Jacmel   ",
+      "city": "Jacmel ",
       "country": "Haiti",
       "code": "JAK"
     },
@@ -3706,7 +3706,7 @@
       "code": "JAG"
     },
     {
-      "city": "Jacobina   ",
+      "city": "Jacobina ",
       "country": "Brazil",
       "code": "JCM"
     },
@@ -3716,7 +3716,7 @@
       "code": "JAQ"
     },
     {
-      "city": "Jaffna - Kankesanturai",
+      "city": "Jaffna",
       "country": "Sri Lanka",
       "code": "JAF"
     },
@@ -3726,32 +3726,32 @@
       "code": "JGB"
     },
     {
-      "city": "Jaipur - Sanganeer",
+      "city": "Jaipur",
       "country": "India",
       "code": "JAI"
     },
     {
-      "city": "Jaisalmer   ",
+      "city": "Jaisalmer ",
       "country": "India",
       "code": "JSA"
     },
     {
-      "city": "Jakarta - Halim Perdana Kusuma",
+      "city": "Jakarta",
       "country": "Indonesia",
       "code": "HLP"
     },
     {
-      "city": "Jakarta - Metropolitan Area",
+      "city": "Jakarta",
       "country": "Indonesia",
       "code": "JKT"
     },
     {
-      "city": "Jakarta - Soekarno-Hatta International",
+      "city": "Jakarta",
       "country": "Indonesia",
       "code": "CGK"
     },
     {
-      "city": "Jalalabad    ",
+      "city": "Jalalabad ",
       "country": "Afghanistan",
       "code": "JAA"
     },
@@ -3771,7 +3771,7 @@
       "code": "JLS"
     },
     {
-      "city": "Jaluit Island  ",
+      "city": "Jaluit Island ",
       "country": "Marshall Islands",
       "code": "UIT"
     },
@@ -3781,8 +3781,8 @@
       "code": "JMB"
     },
     {
-      "city": "Jambi - Sultan Taha Syarifudn",
-      "country": "Indonesia ",
+      "city": "Jambi",
+      "country": "Indonesia",
       "code": "DJB"
     },
     {
@@ -3791,27 +3791,27 @@
       "code": "JAM"
     },
     {
-      "city": "Jamestown (ND)",
+      "city": "Jamestown",
       "country": "USA",
       "code": "JMS"
     },
     {
-      "city": "Jamestown (NY)",
+      "city": "Jamestown",
       "country": "USA",
       "code": "JHW"
     },
     {
-      "city": "Jammu - Satwari",
+      "city": "Jammu",
       "country": "India",
       "code": "IXJ"
     },
     {
-      "city": "Jamnagar - Govardhanpur",
+      "city": "Jamnagar",
       "country": "India",
       "code": "JGA"
     },
     {
-      "city": "Jamshedpur - Sonari Airport",
+      "city": "Jamshedpur",
       "country": "India",
       "code": "IXW"
     },
@@ -3826,7 +3826,7 @@
       "code": "JAD"
     },
     {
-      "city": "Janesville (WI) - Rock County",
+      "city": "Janesville",
       "country": "USA",
       "code": "JVL"
     },
@@ -3836,7 +3836,7 @@
       "code": "JNA"
     },
     {
-      "city": "Jaque   ",
+      "city": "Jaque ",
       "country": "Panama",
       "code": "JQE"
     },
@@ -3851,27 +3851,27 @@
       "code": "JAU"
     },
     {
-      "city": "Jayapura - Sentani",
+      "city": "Jayapura",
       "country": "Indonesia",
       "code": "DJJ"
     },
     {
-      "city": "Jeddah - King Abdulaziz International",
+      "city": "Jeddah",
       "country": "Saudi Arabia",
       "code": "JED"
     },
     {
-      "city": "Jefferson City (MO) - Jefferson Memorial",
+      "city": "Jefferson City",
       "country": "USA",
       "code": "JEF"
     },
     {
-      "city": "Jeremie - Jeremie Airport",
+      "city": "Jeremie",
       "country": "Haiti",
       "code": "JEE"
     },
     {
-      "city": "Jerez de la Frontera/Cadiz - La Parra",
+      "city": "Jerez de la Frontera/Cadiz",
       "country": "Spain",
       "code": "XRY"
     },
@@ -3881,32 +3881,32 @@
       "code": "JER"
     },
     {
-      "city": "Jerusalem - Atarot Airport (closed)",
+      "city": "Jerusalem",
       "country": "Israel",
       "code": "JRS"
     },
     {
-      "city": "Jessore - Jessore Airport",
+      "city": "Jessore",
       "country": "Bangladesh",
       "code": "JSR"
     },
     {
-      "city": "Jeypore - Jeypore Airport",
+      "city": "Jeypore",
       "country": "India",
       "code": "PYB"
     },
     {
       "city": "Ji'an",
-      "country": "Jiangxi, China",
+      "country": "Jiangxi,",
       "code": "JGS"
     },
     {
-      "city": "Jiamusi - Jiamusi Airport",
+      "city": "Jiamusi",
       "country": "PR China",
       "code": "JMU"
     },
     {
-      "city": "Jiayuguan - Jiayuguan Airport",
+      "city": "Jiayuguan",
       "country": "PR China",
       "code": "JGN"
     },
@@ -3932,7 +3932,7 @@
     },
     {
       "city": "Jinan",
-      "country": "Shandong, PR China",
+      "country": "Shandong,",
       "code": "TNA"
     },
     {
@@ -3941,7 +3941,7 @@
       "code": "JDZ"
     },
     {
-      "city": "Jinghong - Gasa Airport",
+      "city": "Jinghong",
       "country": "PR China",
       "code": "JHG"
     },
@@ -3961,12 +3961,12 @@
       "code": "JJN"
     },
     {
-      "city": "Jinka - Baco/Jinka Airport",
+      "city": "Jinka",
       "country": "Ethiopia",
       "code": "BCO"
     },
     {
-      "city": "Jinzhou - Jinzhou Airport",
+      "city": "Jinzhou",
       "country": "PR China",
       "code": "JNZ"
     },
@@ -3981,7 +3981,7 @@
       "code": "JIR"
     },
     {
-      "city": "Jiujiang - Jiujiang Lushan Airport",
+      "city": "Jiujiang",
       "country": "PR China",
       "code": "JIU"
     },
@@ -3996,7 +3996,7 @@
       "code": "JCB"
     },
     {
-      "city": "Joao Pessoa - Castro Pinto Airport",
+      "city": "Joao Pessoa",
       "country": "Brazil",
       "code": "JPA"
     },
@@ -4006,7 +4006,7 @@
       "code": "JDH"
     },
     {
-      "city": "Jönköping (Jonkoping) - Axamo Airport",
+      "city": "Jönköping",
       "country": "Sweden",
       "code": "JKG"
     },
@@ -4016,12 +4016,12 @@
       "code": "JOE"
     },
     {
-      "city": "Johannesburg - OR Tambo International Airport",
+      "city": "Johannesburg",
       "country": "South Africa",
       "code": "JNB"
     },
     {
-      "city": "Johnson City (NY) - Binghamton/Endicott/Johnson",
+      "city": "Johnson City",
       "country": "USA",
       "code": "BGM"
     },
@@ -4031,17 +4031,17 @@
       "code": "JON"
     },
     {
-      "city": "Johnstown (PA)",
+      "city": "Johnstown",
       "country": "USA",
       "code": "JST"
     },
     {
-      "city": "Johor Bahru - Sultan Ismail International",
+      "city": "Johor Bahru",
       "country": "Malaysia",
       "code": "JHB"
     },
     {
-      "city": "Joinville - Cubatao Airport",
+      "city": "Joinville",
       "country": "Brazil",
       "code": "JOI"
     },
@@ -4056,17 +4056,17 @@
       "code": "JMO"
     },
     {
-      "city": "Jonesboro (AR)  Jonesboro Airport",
+      "city": "Jonesboro",
       "country": "USA",
       "code": "JBR"
     },
     {
-      "city": "Joplin (MO)",
+      "city": "Joplin",
       "country": "USA",
       "code": "JLN"
     },
     {
-      "city": "Jorhat - Rowriah Airport",
+      "city": "Jorhat",
       "country": "India",
       "code": "JRH"
     },
@@ -4096,17 +4096,17 @@
       "code": "JUB"
     },
     {
-      "city": "Juist (island)",
+      "city": "Juist",
       "country": "Germany",
       "code": "JUI"
     },
     {
-      "city": "Juiz De Fora - Francisco De Assis Airport",
+      "city": "Juiz De Fora",
       "country": "Brazil",
       "code": "JDF"
     },
     {
-      "city": "Jujuy - El Cadillal Airport",
+      "city": "Jujuy",
       "country": "Argentina",
       "code": "JUJ"
     },
@@ -4131,7 +4131,7 @@
       "code": "JUN"
     },
     {
-      "city": "Juneau (AK) - Juneau International Airport",
+      "city": "Juneau",
       "country": "USA",
       "code": "JNU"
     },
@@ -4151,12 +4151,12 @@
       "code": "JWA"
     },
     {
-      "city": "Jyväskylä (Jyvaskyla)",
+      "city": "Jyväskylä",
       "country": "Finland",
       "code": "JYV"
     },
     {
-      "city": "Kabul - Khwaja Rawash Airport",
+      "city": "Kabul",
       "country": "Afghanistan",
       "code": "KBL"
     },
@@ -4171,7 +4171,7 @@
       "code": "KCM"
     },
     {
-      "city": "Kahului (HI)",
+      "city": "Kahului",
       "country": "USA",
       "code": "OGG"
     },
@@ -4186,7 +4186,7 @@
       "code": "KLX"
     },
     {
-      "city": "Kalamazoo/Battle Creek (MI)",
+      "city": "Kalamazoo/Battle Creek",
       "country": "USA",
       "code": "AZO"
     },
@@ -4196,7 +4196,7 @@
       "code": "KGI"
     },
     {
-      "city": "Kalispell (MT)",
+      "city": "Kalispell",
       "country": "USA",
       "code": "FCA"
     },
@@ -4206,12 +4206,12 @@
       "code": "KLR"
     },
     {
-      "city": "Kamloops, BC",
+      "city": "Kamloops",
       "country": "Canada",
       "code": "YKA"
     },
     {
-      "city": "Kamuela (HI)",
+      "city": "Kamuela",
       "country": "USA",
       "code": "MUE"
     },
@@ -4226,7 +4226,7 @@
       "code": "KNU"
     },
     {
-      "city": "Kansas City (MO) - Kansas City International Airport",
+      "city": "Kansas City",
       "country": "USA",
       "code": "MCI"
     },
@@ -4236,17 +4236,17 @@
       "code": "KHH"
     },
     {
-      "city": "Kapalua West (HI)",
+      "city": "Kapalua West",
       "country": "USA",
       "code": "JHM"
     },
     {
-      "city": "Karachi - Jinnah International Airport",
+      "city": "Karachi",
       "country": "Pakistan",
       "code": "KHI"
     },
     {
-      "city": "Karlsruhe-Baden - Soellingen",
+      "city": "Karlsruhe-Baden",
       "country": "Germany",
       "code": "FKB"
     },
@@ -4281,7 +4281,7 @@
       "code": "KRP"
     },
     {
-      "city": "Kaschechawan, PQ",
+      "city": "Kaschechawan",
       "country": "Canada",
       "code": "ZKE"
     },
@@ -4296,7 +4296,7 @@
       "code": "KTR"
     },
     {
-      "city": "Kathmandu - Tribhuvan International Airport",
+      "city": "Kathmandu",
       "country": "Nepal",
       "code": "KTM"
     },
@@ -4311,7 +4311,7 @@
       "code": "KHJ"
     },
     {
-      "city": "Kaunakakai (HI)",
+      "city": "Kaunakakai",
       "country": "USA",
       "code": "MKK"
     },
@@ -4326,7 +4326,7 @@
       "code": "ASR"
     },
     {
-      "city": "Kazan (Ka San)",
+      "city": "Kazan",
       "country": "Russia",
       "code": "KZN"
     },
@@ -4336,7 +4336,7 @@
       "code": "KMP"
     },
     {
-      "city": "Kelowna, BC",
+      "city": "Kelowna",
       "country": "Canada",
       "code": "YLW"
     },
@@ -4346,12 +4346,12 @@
       "code": "KEM"
     },
     {
-      "city": "Kenai (AK)",
+      "city": "Kenai",
       "country": "USA",
       "code": "ENA"
     },
     {
-      "city": "Kent (Manston) Kent International",
+      "city": "Kent",
       "country": "United Kingdom",
       "code": "MSE"
     },
@@ -4361,12 +4361,12 @@
       "code": "KIR"
     },
     {
-      "city": "Ketchikan (AK)",
+      "city": "Ketchikan",
       "country": "USA",
       "code": "KTN"
     },
     {
-      "city": "Key West (FL)",
+      "city": "Key West",
       "country": "USA",
       "code": "EYW"
     },
@@ -4376,7 +4376,7 @@
       "code": "AHB"
     },
     {
-      "city": "Kharga - New Valley",
+      "city": "Kharga",
       "country": "Egypt",
       "code": "UVL"
     },
@@ -4386,7 +4386,7 @@
       "code": "HRK"
     },
     {
-      "city": "Khartoum - Khartoum International Airport",
+      "city": "Khartoum",
       "country": "Sudan",
       "code": "KRT"
     },
@@ -4396,22 +4396,22 @@
       "code": "KDD"
     },
     {
-      "city": "Kiel - Holtenau",
+      "city": "Kiel",
       "country": "Germany",
       "code": "KEL"
     },
     {
-      "city": "Kiev - Borispol",
+      "city": "Kiev",
       "country": "Ukraine",
       "code": "KBP"
     },
     {
-      "city": "Kiev - Zhulhany",
+      "city": "Kiev",
       "country": "Ukraine",
       "code": "IEV"
     },
     {
-      "city": "Kigali - Gregoire Kayibanda",
+      "city": "Kigali",
       "country": "Rwanda",
       "code": "KGL"
     },
@@ -4421,7 +4421,7 @@
       "code": "JRO"
     },
     {
-      "city": "Killeem (TX)",
+      "city": "Killeem",
       "country": "USA",
       "code": "ILE"
     },
@@ -4432,11 +4432,11 @@
     },
     {
       "city": "King Island",
-      "country": "King Island (Australia)",
+      "country": "King Island",
       "code": "KNS"
     },
     {
-      "city": "King Salomon (AK)",
+      "city": "King Salomon",
       "country": "USA",
       "code": "AKN"
     },
@@ -4446,27 +4446,27 @@
       "code": "KGC"
     },
     {
-      "city": "Kingston - Norman Manley",
+      "city": "Kingston",
       "country": "Jamaica",
       "code": "KIN"
     },
     {
-      "city": "Kingston (NC)",
+      "city": "Kingston",
       "country": "USA",
       "code": "ISO"
     },
     {
-      "city": "Kingstown - E. T. Joshua Airport",
+      "city": "Kingstown",
       "country": "Saint Vincent and the Grenadines",
       "code": "SVD"
     },
     {
-      "city": "Kinshasa - N'Djili",
-      "country": "Congo (DRC)",
+      "city": "Kinshasa",
+      "country": "Congo",
       "code": "FIH"
     },
     {
-      "city": "Kiritimati (island) - Cassidy International Airport",
+      "city": "Kiritimati",
       "country": "Kiribati",
       "code": "CXI"
     },
@@ -4481,7 +4481,7 @@
       "code": "KIK"
     },
     {
-      "city": "Kirkwall (Orkney)",
+      "city": "Kirkwall",
       "country": "United Kingdom",
       "code": "KOI"
     },
@@ -4492,7 +4492,7 @@
     },
     {
       "city": "Kisangani",
-      "country": "Congo (DRC)",
+      "country": "Congo",
       "code": "FKI"
     },
     {
@@ -4511,12 +4511,12 @@
       "code": "KLU"
     },
     {
-      "city": "Klamath Fall (OR)",
+      "city": "Klamath Fall",
       "country": "USA",
       "code": "LMT"
     },
     {
-      "city": "Klawock (AK)",
+      "city": "Klawock",
       "country": "USA",
       "code": "KLW"
     },
@@ -4531,7 +4531,7 @@
       "code": "NOC"
     },
     {
-      "city": "Knoxville (TN)",
+      "city": "Knoxville",
       "country": "USA",
       "code": "TYS"
     },
@@ -4546,12 +4546,12 @@
       "code": "KCZ"
     },
     {
-      "city": "Köln, Köln/Bonn",
+      "city": "Köln",
       "country": "Germany",
       "code": "CGN"
     },
     {
-      "city": "Kodiak (AK)",
+      "city": "Kodiak",
       "country": "USA",
       "code": "ADQ"
     },
@@ -4566,7 +4566,7 @@
       "code": "KOK"
     },
     {
-      "city": "Kolkata (Calcutta) - Netaji Subhas Chandra",
+      "city": "Kolkata",
       "country": "India",
       "code": "CCU"
     },
@@ -4576,7 +4576,7 @@
       "code": "KMQ"
     },
     {
-      "city": "Kona (HI)",
+      "city": "Kona",
       "country": "USA",
       "code": "KOA"
     },
@@ -4601,7 +4601,7 @@
       "code": "BKI"
     },
     {
-      "city": "Kotzbue (AK)",
+      "city": "Kotzbue",
       "country": "USA",
       "code": "OTZ"
     },
@@ -4611,7 +4611,7 @@
       "code": "KWM"
     },
     {
-      "city": "Krakow (Cracow) - John Paul II International Airport",
+      "city": "Krakow",
       "country": "Poland",
       "code": "KRK"
     },
@@ -4631,12 +4631,12 @@
       "code": "KSU"
     },
     {
-      "city": "Kuala Lumpur - International Airport",
+      "city": "Kuala Lumpur",
       "country": "Malaysia",
       "code": "KUL"
     },
     {
-      "city": "Kuala Lumpur - Sultan Abdul Aziz Shah",
+      "city": "Kuala Lumpur",
       "country": "Malaysia",
       "code": "SZB"
     },
@@ -4671,7 +4671,7 @@
       "code": "KUH"
     },
     {
-      "city": "Kuujjuaq (FortChimo)",
+      "city": "Kuujjuaq",
       "country": "Canada",
       "code": "YVP"
     },
@@ -4686,7 +4686,7 @@
       "code": "KAO"
     },
     {
-      "city": "Kuwait - Kuwait International",
+      "city": "Kuwait",
       "country": "Kuwait",
       "code": "KWI"
     },
@@ -4701,7 +4701,7 @@
       "code": "LEK"
     },
     {
-      "city": "Labouchere Bay (AK)",
+      "city": "Labouchere Bay",
       "country": "USA",
       "code": "WLB"
     },
@@ -4711,7 +4711,7 @@
       "code": "LBU"
     },
     {
-      "city": "Lac Brochet, MB",
+      "city": "Lac Brochet",
       "country": "Canada",
       "code": "XLB"
     },
@@ -4721,12 +4721,12 @@
       "code": "LCG"
     },
     {
-      "city": "La Crosse (WI)",
+      "city": "La Crosse",
       "country": "USA",
       "code": "LSE"
     },
     {
-      "city": "Lae - Lae Nadzab Airport",
+      "city": "Lae",
       "country": "Papua New Guinea",
       "code": "LAE"
     },
@@ -4736,17 +4736,17 @@
       "code": "LRH"
     },
     {
-      "city": "Lafayette (IN)",
+      "city": "Lafayette",
       "country": "USA",
       "code": "LAF"
     },
     {
-      "city": "Lafayette, La",
+      "city": "Lafayette",
       "country": "USA",
       "code": "LFT"
     },
     {
-      "city": "Lagos - Murtala Muhammed",
+      "city": "Lagos",
       "country": "Nigeria",
       "code": "LOS"
     },
@@ -4761,17 +4761,17 @@
       "code": "LHE"
     },
     {
-      "city": "Lake Charles (LA)",
+      "city": "Lake Charles",
       "country": "USA",
       "code": "LCH"
     },
     {
-      "city": "Lake Havasu City (AZ)",
+      "city": "Lake Havasu City",
       "country": "USA",
       "code": "HII"
     },
     {
-      "city": "Lake Tahoe (CA)",
+      "city": "Lake Tahoe",
       "country": "USA",
       "code": "TVL"
     },
@@ -4796,12 +4796,12 @@
       "code": "LMP"
     },
     {
-      "city": "Lanai City (HI)",
+      "city": "Lanai City",
       "country": "USA",
       "code": "LNY"
     },
     {
-      "city": "Lancaster (PA)",
+      "city": "Lancaster",
       "country": "USA",
       "code": "LNS"
     },
@@ -4811,7 +4811,7 @@
       "code": "LEQ"
     },
     {
-      "city": "Langkawi (islands)",
+      "city": "Langkawi",
       "country": "Malaysia",
       "code": "LGK"
     },
@@ -4826,17 +4826,17 @@
       "code": "HLA"
     },
     {
-      "city": "Lansing (MI)",
+      "city": "Lansing",
       "country": "USA",
       "code": "LAN"
     },
     {
-      "city": "La Paz - El Alto",
+      "city": "La Paz",
       "country": "Bolivia",
       "code": "LPB"
     },
     {
-      "city": "La Paz - Leon",
+      "city": "La Paz",
       "country": "Mexico",
       "code": "LAP"
     },
@@ -4846,12 +4846,12 @@
       "code": "LPP"
     },
     {
-      "city": "Laramie (WY)",
+      "city": "Laramie",
       "country": "USA",
       "code": "LAR"
     },
     {
-      "city": "Laredo (TX)",
+      "city": "Laredo",
       "country": "USA",
       "code": "LRD"
     },
@@ -4866,12 +4866,12 @@
       "code": "LPA"
     },
     {
-      "city": "Las Vegas (NV)",
+      "city": "Las Vegas",
       "country": "USA",
       "code": "LAS"
     },
     {
-      "city": "Latrobe (PA)",
+      "city": "Latrobe",
       "country": "USA",
       "code": "LBE"
     },
@@ -4881,7 +4881,7 @@
       "code": "LST"
     },
     {
-      "city": "Laurel/Hattisburg (MS)",
+      "city": "Laurel/Hattisburg",
       "country": "USA",
       "code": "PIB"
     },
@@ -4891,7 +4891,7 @@
       "code": "LVO"
     },
     {
-      "city": "Lawton (OK)",
+      "city": "Lawton",
       "country": "USA",
       "code": "LAW"
     },
@@ -4906,12 +4906,12 @@
       "code": "YLR"
     },
     {
-      "city": "Learmouth (Exmouth)",
+      "city": "Learmouth",
       "country": "Australia",
       "code": "LEA"
     },
     {
-      "city": "Lebanon (NH)",
+      "city": "Lebanon",
       "country": "USA",
       "code": "LEB"
     },
@@ -4946,22 +4946,22 @@
       "code": "LNO"
     },
     {
-      "city": "Lerwick/Tingwall (Shetland Islands)",
+      "city": "Lerwick/Tingwall",
       "country": "United Kingdom",
       "code": "LWK"
     },
     {
-      "city": "Lewiston (ID)",
+      "city": "Lewiston",
       "country": "USA",
       "code": "LWS"
     },
     {
-      "city": "Lewistown (MT)",
+      "city": "Lewistown",
       "country": "USA",
       "code": "LWT"
     },
     {
-      "city": "Lexington (KY)",
+      "city": "Lexington",
       "country": "USA",
       "code": "LEX"
     },
@@ -4982,11 +4982,11 @@
     },
     {
       "city": "Lifou",
-      "country": "Loyaute, Pazifik",
+      "country": "Loyaute",
       "code": "LIF"
     },
     {
-      "city": "Lihue (HI)",
+      "city": "Lihue",
       "country": "USA",
       "code": "LIH"
     },
@@ -4996,12 +4996,12 @@
       "code": "LIL"
     },
     {
-      "city": "Lilongwe - Lilongwe International",
+      "city": "Lilongwe",
       "country": "Malawi",
       "code": "LLW"
     },
     {
-      "city": "Lima - J Chavez International",
+      "city": "Lima",
       "country": "Peru",
       "code": "LIM"
     },
@@ -5016,7 +5016,7 @@
       "code": "LIG"
     },
     {
-      "city": "Lincoln (NE)",
+      "city": "Lincoln",
       "country": "USA",
       "code": "LNK"
     },
@@ -5026,17 +5026,17 @@
       "code": "LDC"
     },
     {
-      "city": "Linz - Hoersching",
+      "city": "Linz",
       "country": "Austria",
       "code": "LNZ"
     },
     {
       "city": "Lisala",
-      "country": "Congo (DRC)",
+      "country": "Congo",
       "code": "LIQ"
     },
     {
-      "city": "Lisbon - Lisboa",
+      "city": "Lisbon",
       "country": "Portugal",
       "code": "LIS"
     },
@@ -5046,7 +5046,7 @@
       "code": "LSY"
     },
     {
-      "city": "Little Rock (AR)",
+      "city": "Little Rock",
       "country": "USA",
       "code": "LIT"
     },
@@ -5061,7 +5061,7 @@
       "code": "LZR"
     },
     {
-      "city": "Ljubljana - Brnik",
+      "city": "Ljubljana",
       "country": "Slovenia",
       "code": "LJU"
     },
@@ -5081,52 +5081,52 @@
       "code": "YXU"
     },
     {
-      "city": "London Metropolitan Area",
+      "city": "London",
       "country": "United Kingdom",
       "code": "LON"
     },
     {
-      "city": "London - City Airport",
+      "city": "London",
       "country": "United Kingdom",
       "code": "LCY"
     },
     {
-      "city": "London - Gatwick",
+      "city": "London",
       "country": "United Kingdom",
       "code": "LGW"
     },
     {
-      "city": "London - Heathrow",
+      "city": "London",
       "country": "United Kingdom",
       "code": "LHR"
     },
     {
-      "city": "London - Luton",
+      "city": "London",
       "country": "United Kingdom",
       "code": "LTN"
     },
     {
-      "city": "London - Stansted",
+      "city": "London",
       "country": "United Kingdom",
       "code": "STN"
     },
     {
-      "city": "Londonderry - Eglinton",
+      "city": "Londonderry",
       "country": "United Kingdom",
       "code": "LDY"
     },
     {
-      "city": "Long Beach (CA)",
+      "city": "Long Beach",
       "country": "USA",
       "code": "LGB"
     },
     {
-      "city": "Long Island (AK)",
+      "city": "Long Island",
       "country": "USA",
       "code": "LIJ"
     },
     {
-      "city": "Long Island, Islip (NY) - Mac Arthur",
+      "city": "Long Island",
       "country": "USA",
       "code": "ISP"
     },
@@ -5136,12 +5136,12 @@
       "code": "LRE"
     },
     {
-      "city": "Longview/Kilgore (TX)",
+      "city": "Longview/Kilgore",
       "country": "USA",
       "code": "GGG"
     },
     {
-      "city": "Longyearbyen - Svalbard",
+      "city": "Longyearbyen",
       "country": "Svalbard/Norway",
       "code": "LYR"
     },
@@ -5156,7 +5156,7 @@
       "code": "LRT"
     },
     {
-      "city": "Los Angeles (CA) - International",
+      "city": "Los Angeles",
       "country": "USA",
       "code": "LAX"
     },
@@ -5176,8 +5176,8 @@
       "code": "TFN"
     },
     {
-      "city": "Losinj - Losinj Arpt",
-      "country": "Croatia (Hrvatska)",
+      "city": "Losinj",
+      "country": "Croatia",
       "code": "LSZ"
     },
     {
@@ -5186,17 +5186,17 @@
       "code": "LDE"
     },
     {
-      "city": "Louisville (KY)",
+      "city": "Louisville",
       "country": "USA",
       "code": "SDF"
     },
     {
-      "city": "Luanda - 4 de Fevereiro",
+      "city": "Luanda",
       "country": "Angola",
       "code": "LAD"
     },
     {
-      "city": "Lubbock (TX)",
+      "city": "Lubbock",
       "country": "USA",
       "code": "LBB"
     },
@@ -5227,11 +5227,11 @@
     },
     {
       "city": "Lumbumbashi",
-      "country": "Congo (DRC)",
+      "country": "Congo",
       "code": "FBM"
     },
     {
-      "city": "Lusaka - Lusaka International Airport",
+      "city": "Lusaka",
       "country": "Zambia",
       "code": "LUN"
     },
@@ -5246,8 +5246,8 @@
       "code": "LUX"
     },
     {
-      "city": "Luxi - Mangshi",
-      "country": "Yunnan, PR China",
+      "city": "Luxi",
+      "country": "Yunnan,",
       "code": "LUM"
     },
     {
@@ -5256,27 +5256,27 @@
       "code": "LXR"
     },
     {
-      "city": "Lvov (Lwow, Lemberg)",
+      "city": "Lvov",
       "country": "Ukraine",
       "code": "LWO"
     },
     {
-      "city": "Lydd - Lydd International Airport",
+      "city": "Lydd",
       "country": "United Kingdom",
       "code": "LYX"
     },
     {
-      "city": "Lynchburg (VA)",
+      "city": "Lynchburg",
       "country": "USA",
       "code": "LYH"
     },
     {
-      "city": "Lyon - Lyon-Saint Exupéry Airport ",
+      "city": "Lyon",
       "country": "France",
       "code": "LYS"
     },
     {
-      "city": "Lyons (KS) - Rice County Municipal",
+      "city": "Lyons",
       "country": "USA",
       "code": "LYO"
     },
@@ -5286,17 +5286,17 @@
       "code": "MST"
     },
     {
-      "city": "Macapa - Alberto Alcolumbre International Airport",
+      "city": "Macapa",
       "country": "Brazil",
       "code": "MCP"
     },
     {
       "city": "Macau",
-      "country": "Macau, China SAR",
+      "country": "Macau",
       "code": "MFM"
     },
     {
-      "city": "Maceio - Zumbi dos Palmares International Airport",
+      "city": "Maceio",
       "country": "Brazil",
       "code": "MCZ"
     },
@@ -5306,37 +5306,37 @@
       "code": "MKY"
     },
     {
-      "city": "Macon (GA)",
+      "city": "Macon",
       "country": "USA",
       "code": "MCN"
     },
     {
-      "city": "Mactan Island - Nab",
+      "city": "Mactan Island",
       "country": "Philippines",
       "code": "NOP"
     },
     {
-      "city": "Madinah, Mohammad Bin Abdulaziz",
+      "city": "Madinah",
       "country": "Saudi Arabia",
       "code": "MED"
     },
     {
-      "city": "Madison (WI)",
+      "city": "Madison",
       "country": "USA",
       "code": "MSN"
     },
     {
-      "city": "Madras (Chennai)",
+      "city": "Madras",
       "country": "India",
       "code": "MAA"
     },
     {
-      "city": "Madrid - Barajas",
+      "city": "Madrid",
       "country": "Spain",
       "code": "MAD"
     },
     {
-      "city": "Mahe - Seychelles International",
+      "city": "Mahe",
       "country": "Seychelles",
       "code": "SEZ"
     },
@@ -5376,7 +5376,7 @@
       "code": "MLX"
     },
     {
-      "city": "Male - International",
+      "city": "Male",
       "country": "Maledives",
       "code": "MLE"
     },
@@ -5386,12 +5386,12 @@
       "code": "MYD"
     },
     {
-      "city": "Malmo (Malmoe)",
+      "city": "Malmo",
       "country": "Sweden",
       "code": "MMA"
     },
     {
-      "city": "Malmo (Malmö) - Malmö Airport",
+      "city": "Malmo",
       "country": "Sweden",
       "code": "MMX"
     },
@@ -5401,12 +5401,12 @@
       "code": "MJC"
     },
     {
-      "city": "Managua - Augusto C Sandino",
+      "city": "Managua",
       "country": "Nicaragua",
       "code": "MGA"
     },
     {
-      "city": "Manaus - Eduardo Gomes International Airport",
+      "city": "Manaus",
       "country": "Brazil",
       "code": "MAO"
     },
@@ -5416,12 +5416,12 @@
       "code": "MAN"
     },
     {
-      "city": "Manchester (NH)",
+      "city": "Manchester",
       "country": "USA",
       "code": "MHT"
     },
     {
-      "city": "Mandalay - Annisaton",
+      "city": "Mandalay",
       "country": "Myanmar",
       "code": "MDL"
     },
@@ -5436,7 +5436,7 @@
       "code": "XMH"
     },
     {
-      "city": "Manila - Ninoy Aquino International",
+      "city": "Manila",
       "country": "Philippines",
       "code": "MNL"
     },
@@ -5446,12 +5446,12 @@
       "code": "ZLO"
     },
     {
-      "city": "Manzini - Matsapha International",
+      "city": "Manzini",
       "country": "Swaziland",
       "code": "MTS"
     },
     {
-      "city": "Maputo - Maputo International",
+      "city": "Maputo",
       "country": "Mozambique",
       "code": "MPM"
     },
@@ -5461,7 +5461,7 @@
       "code": "MDQ"
     },
     {
-      "city": "Maracaibo - La Chinita",
+      "city": "Maracaibo",
       "country": "Venezuela",
       "code": "MAR"
     },
@@ -5476,7 +5476,7 @@
       "code": "KCM"
     },
     {
-      "city": "Marathon (FL)",
+      "city": "Marathon",
       "country": "USA",
       "code": "MTH"
     },
@@ -5506,7 +5506,7 @@
       "code": "MBX"
     },
     {
-      "city": "Mariehamn (Maarianhamina)",
+      "city": "Mariehamn",
       "country": "Finland",
       "code": "MHQ"
     },
@@ -5516,12 +5516,12 @@
       "code": "MVR"
     },
     {
-      "city": "Marquette (MI)",
+      "city": "Marquette",
       "country": "USA",
       "code": "MQT"
     },
     {
-      "city": "Marrakesh - Menara Airport",
+      "city": "Marrakesh",
       "country": "Morocco",
       "code": "RAK"
     },
@@ -5531,7 +5531,7 @@
       "code": "RMF"
     },
     {
-      "city": "Marsa Matrah (Marsa Matruh)",
+      "city": "Marsa Matrah",
       "country": "Egypt",
       "code": "MUH"
     },
@@ -5546,12 +5546,12 @@
       "code": "MHH"
     },
     {
-      "city": "Martha's Vineyard (MA)",
+      "city": "Martha's Vineyard",
       "country": "USA",
       "code": "MVY"
     },
     {
-      "city": "Martinsburg (WV)",
+      "city": "Martinsburg",
       "country": "USA",
       "code": "MRB"
     },
@@ -5561,7 +5561,7 @@
       "code": "MBH"
     },
     {
-      "city": "Maseru - Moshoeshoe International",
+      "city": "Maseru",
       "country": "Lesotho",
       "code": "MSU"
     },
@@ -5576,7 +5576,7 @@
       "code": "MVZ"
     },
     {
-      "city": "Matsumoto, Nagano",
+      "city": "Matsumoto",
       "country": "Japan",
       "code": "MMJ"
     },
@@ -5586,7 +5586,7 @@
       "code": "MYJ"
     },
     {
-      "city": "Mattoon (IL)",
+      "city": "Mattoon",
       "country": "USA",
       "code": "MTO"
     },
@@ -5601,7 +5601,7 @@
       "code": "MAU"
     },
     {
-      "city": "Mauritius - S.Seewoosagur Ram International",
+      "city": "Mauritius",
       "country": "Mauritius",
       "code": "MRU"
     },
@@ -5616,17 +5616,17 @@
       "code": "MZT"
     },
     {
-      "city": "McAllen (TX)",
+      "city": "McAllen",
       "country": "USA",
       "code": "MFE"
     },
     {
-      "city": "Medan - Polania Int'l (now Soewondo AFB)",
+      "city": "Medan",
       "country": "Indonesia",
       "code": "MES"
     },
     {
-      "city": "Medan - Kualanamu International",
+      "city": "Medan",
       "country": "Indonesia",
       "code": "KNO"
     },
@@ -5636,7 +5636,7 @@
       "code": "MDE"
     },
     {
-      "city": "Medford (OR)",
+      "city": "Medford",
       "country": "USA",
       "code": "MFR"
     },
@@ -5651,12 +5651,12 @@
       "code": "MKR"
     },
     {
-      "city": "Melbourne - Tullamarine",
+      "city": "Melbourne",
       "country": "Australia",
       "code": "MEL"
     },
     {
-      "city": "Melbourne (FL)",
+      "city": "Melbourne",
       "country": "USA",
       "code": "MLB"
     },
@@ -5666,7 +5666,7 @@
       "code": "DOM"
     },
     {
-      "city": "Memphis (TN)",
+      "city": "Memphis",
       "country": "USA",
       "code": "MEM"
     },
@@ -5681,7 +5681,7 @@
       "code": "MDC"
     },
     {
-      "city": "Merced (CA)",
+      "city": "Merced",
       "country": "USA",
       "code": "MCE"
     },
@@ -5691,7 +5691,7 @@
       "code": "MID"
     },
     {
-      "city": "Meridian (MS)",
+      "city": "Meridian",
       "country": "USA",
       "code": "MEI"
     },
@@ -5706,12 +5706,12 @@
       "code": "MEZ"
     },
     {
-      "city": "Metlakatla (AK)",
+      "city": "Metlakatla",
       "country": "USA",
       "code": "MTM"
     },
     {
-      "city": "Metz -  Frescaty",
+      "city": "Metz",
       "country": "France",
       "code": "MZM"
     },
@@ -5726,22 +5726,22 @@
       "code": "MXL"
     },
     {
-      "city": "Mexico City - Mexico City International Airport",
+      "city": "Mexico City",
       "country": "Mexico",
       "code": "MEX"
     },
     {
-      "city": "Mexico City - Atizapan",
+      "city": "Mexico City",
       "country": "Mexico",
       "code": "AZP"
     },
     {
-      "city": "Mexico City - Juarez International",
+      "city": "Mexico City",
       "country": "Mexico",
       "code": "MEX"
     },
     {
-      "city": "Mexico City - Santa Lucia",
+      "city": "Mexico City",
       "country": "Mexico",
       "code": "NLU"
     },
@@ -5751,7 +5751,7 @@
       "code": "MFU"
     },
     {
-      "city": "Miami (FL)",
+      "city": "Miami",
       "country": "USA",
       "code": "MIA"
     },
@@ -5766,12 +5766,12 @@
       "code": "MMM"
     },
     {
-      "city": "Midland/Odessa (TX)",
+      "city": "Midland/Odessa",
       "country": "USA",
       "code": "MAF"
     },
     {
-      "city": "Midway Island - Sand Island Field",
+      "city": "Midway Island",
       "country": "US Minor Outlying Islands",
       "code": "MDY"
     },
@@ -5786,17 +5786,17 @@
       "code": "MIL"
     },
     {
-      "city": "Milan - Linate",
+      "city": "Milan",
       "country": "Italy",
       "code": "LIN"
     },
     {
-      "city": "Milan - Malpensa",
+      "city": "Milan",
       "country": "Italy",
       "code": "MXP"
     },
     {
-      "city": "Milan - Orio Al Serio",
+      "city": "Milan",
       "country": "Italy",
       "code": "BGY"
     },
@@ -5806,7 +5806,7 @@
       "code": "MQL"
     },
     {
-      "city": "Miles City (MT)",
+      "city": "Miles City",
       "country": "USA",
       "code": "MLS"
     },
@@ -5816,7 +5816,7 @@
       "code": "MFN"
     },
     {
-      "city": "Milwaukee (WI)",
+      "city": "Milwaukee",
       "country": "USA",
       "code": "MKE"
     },
@@ -5831,17 +5831,17 @@
       "code": "MRV"
     },
     {
-      "city": "Minneapolis - St. Paul International Airport (MN)",
+      "city": "Minneapolis",
       "country": "USA",
       "code": "MSP"
     },
     {
-      "city": "Minot (ND)",
+      "city": "Minot",
       "country": "USA",
       "code": "MOT"
     },
     {
-      "city": "Minsk, International",
+      "city": "Minsk",
       "country": "Belarus",
       "code": "MSQ"
     },
@@ -5856,17 +5856,17 @@
       "code": "QML"
     },
     {
-      "city": "Missula (MT)",
+      "city": "Missula",
       "country": "USA",
       "code": "MSO"
     },
     {
-      "city": "Mitchell (SD)",
+      "city": "Mitchell",
       "country": "USA",
       "code": "MHE"
     },
     {
-      "city": "Miyako Jima (Ryuku Islands) - Hirara",
+      "city": "Miyako Jima",
       "country": "Japan",
       "code": "MMY"
     },
@@ -5886,12 +5886,12 @@
       "code": "MFF"
     },
     {
-      "city": "Mobile (AL) - Pascagoula (MS)",
+      "city": "Mobile",
       "country": "USA",
       "code": "MOB"
     },
     {
-      "city": "Modesto (CA)",
+      "city": "Modesto",
       "country": "USA",
       "code": "MOD"
     },
@@ -5911,12 +5911,12 @@
       "code": "OKU"
     },
     {
-      "city": "Moline/Quad Cities (IL)",
+      "city": "Moline/Quad Cities",
       "country": "USA",
       "code": "MLI"
     },
     {
-      "city": "Mombasa - Moi International",
+      "city": "Mombasa",
       "country": "Kenya",
       "code": "MBA"
     },
@@ -5931,22 +5931,22 @@
       "code": "YQM"
     },
     {
-      "city": "Monroe, La",
+      "city": "Monroe",
       "country": "USA",
       "code": "MLU"
     },
     {
-      "city": "Monrovia - Metropolitan Area",
+      "city": "Monrovia",
       "country": "Liberia",
       "code": "MLW"
     },
     {
-      "city": "Monrovia - Roberts International",
+      "city": "Monrovia",
       "country": "Liberia",
       "code": "ROB"
     },
     {
-      "city": "Montego Bay - Sangster International",
+      "city": "Montego Bay",
       "country": "Jamaica",
       "code": "MBJ"
     },
@@ -5956,32 +5956,32 @@
       "code": "QGF"
     },
     {
-      "city": "Monterey (CA)",
+      "city": "Monterey",
       "country": "USA",
       "code": "MRY"
     },
     {
-      "city": "Monterrey - Gen. Mariano Escobedo",
+      "city": "Monterrey",
       "country": "Mexico",
       "code": "MTY"
     },
     {
-      "city": "Monterrey - Aeropuerto Del Norte",
+      "city": "Monterrey",
       "country": "Mexico",
       "code": "NTR"
     },
     {
-      "city": "Montevideo - Carrasco",
+      "city": "Montevideo",
       "country": "Uruguay",
       "code": "MVD"
     },
     {
-      "city": "Montgomery (AL)",
+      "city": "Montgomery",
       "country": "USA",
       "code": "MGM"
     },
     {
-      "city": "Montpellier - Frejorgues",
+      "city": "Montpellier",
       "country": "France",
       "code": "MPL"
     },
@@ -5991,17 +5991,17 @@
       "code": "YMQ"
     },
     {
-      "city": "Montreal - Dorval (Montréal-Trudeau)",
+      "city": "Montreal",
       "country": "Canada",
       "code": "YUL"
     },
     {
-      "city": "Montreal - Mirabel",
+      "city": "Montreal",
       "country": "Canada",
       "code": "YMX"
     },
     {
-      "city": "Montrose/Tellruide (CO)",
+      "city": "Montrose/Tellruide",
       "country": "USA",
       "code": "MTJ"
     },
@@ -6026,23 +6026,23 @@
       "code": "MLM"
     },
     {
-      "city": "Morgantown (WV)",
+      "city": "Morgantown",
       "country": "USA",
       "code": "MGW"
     },
     {
-      "city": "Morioka, Hanamaki",
+      "city": "Morioka",
       "country": "Japan",
       "code": "HNA"
     },
     {
-      "city": "Moroni - Prince Said Ibrahim",
-      "country": "Comoros (Comores)",
+      "city": "Moroni",
+      "country": "Comoros",
       "code": "HAH"
     },
     {
-      "city": "Moroni - Iconi",
-      "country": "Comoros (Comores)",
+      "city": "Moroni",
+      "country": "Comoros",
       "code": "YVA"
     },
     {
@@ -6051,27 +6051,27 @@
       "code": "MYA"
     },
     {
-      "city": "Moscow - Metropolitan Area",
+      "city": "Moscow",
       "country": "Russia",
       "code": "MOW"
     },
     {
-      "city": "Moscow - Domodedovo",
+      "city": "Moscow",
       "country": "Russia",
       "code": "DME"
     },
     {
-      "city": "Moscow - Sheremetyevo",
+      "city": "Moscow",
       "country": "Russia",
       "code": "SVO"
     },
     {
-      "city": "Moscow - Vnukovo",
+      "city": "Moscow",
       "country": "Russia",
       "code": "VKO"
     },
     {
-      "city": "Moses Lake (WA)",
+      "city": "Moses Lake",
       "country": "USA",
       "code": "MWH"
     },
@@ -6121,12 +6121,12 @@
       "code": "ISA"
     },
     {
-      "city": "Mt. McKinley (AK)",
+      "city": "Mt. McKinley",
       "country": "USA",
       "code": "MCL"
     },
     {
-      "city": "Muenchen (Munich) - Franz Josef Strauss",
+      "city": "Muenchen",
       "country": "Germany",
       "code": "MUC"
     },
@@ -6161,17 +6161,17 @@
       "code": "MSR"
     },
     {
-      "city": "Muscat - Seeb",
+      "city": "Muscat",
       "country": "Oman",
       "code": "MCT"
     },
     {
-      "city": "Muscle Shoals (AL)",
+      "city": "Muscle Shoals",
       "country": "USA",
       "code": "MSL"
     },
     {
-      "city": "Muskegon (MI)",
+      "city": "Muskegon",
       "country": "USA",
       "code": "MKG"
     },
@@ -6191,12 +6191,12 @@
       "code": "JMK"
     },
     {
-      "city": "Myrtle Beach (SC) - Myrtle Beach AFB",
+      "city": "Myrtle Beach",
       "country": "USA",
       "code": "MYR"
     },
     {
-      "city": "Myrtle Beach (SC) - Grand Strand Airport",
+      "city": "Myrtle Beach",
       "country": "USA",
       "code": "CRE"
     },
@@ -6206,7 +6206,7 @@
       "code": "MYQ"
     },
     {
-      "city": "Mytilene (Lesbos)",
+      "city": "Mytilene",
       "country": "Greece",
       "code": "MJT"
     },
@@ -6226,7 +6226,7 @@
       "code": "NGS"
     },
     {
-      "city": "Nagoya - Komaki AFB",
+      "city": "Nagoya",
       "country": "Japan",
       "code": "NGO"
     },
@@ -6262,16 +6262,16 @@
     },
     {
       "city": "Nanning",
-      "country": "Guangxi, PR China",
+      "country": "Guangxi,",
       "code": "NNG"
     },
     {
-      "city": "Nantes - Nantes Atlantique Airport",
+      "city": "Nantes",
       "country": "France",
       "code": "NTE"
     },
     {
-      "city": "Nantucket (MA)",
+      "city": "Nantucket",
       "country": "USA",
       "code": "ACK"
     },
@@ -6281,7 +6281,7 @@
       "code": "NAP"
     },
     {
-      "city": "Naples (FL)",
+      "city": "Naples",
       "country": "USA",
       "code": "APF"
     },
@@ -6301,7 +6301,7 @@
       "code": "UAK"
     },
     {
-      "city": "Nashville (TN)",
+      "city": "Nashville",
       "country": "USA",
       "code": "BNA"
     },
@@ -6311,7 +6311,7 @@
       "code": "NAS"
     },
     {
-      "city": "Natal - Augusto Severo International Airport",
+      "city": "Natal",
       "country": "Brazil",
       "code": "NAT"
     },
@@ -6326,7 +6326,7 @@
       "code": "WNS"
     },
     {
-      "city": "Naxos - Naxos Airport",
+      "city": "Naxos",
       "country": "Greece",
       "code": "JNX"
     },
@@ -6351,7 +6351,7 @@
       "code": "NLP"
     },
     {
-      "city": "Nelspruit - Kruger Mpumalanga International Airport",
+      "city": "Nelspruit",
       "country": "South Africa",
       "code": "MQP"
     },
@@ -6361,17 +6361,17 @@
       "code": "NEV"
     },
     {
-      "city": "New Bern (NC)",
+      "city": "New Bern",
       "country": "USA",
       "code": "EWN"
     },
     {
-      "city": "New Haven (CT)",
+      "city": "New Haven",
       "country": "USA",
       "code": "HVN"
     },
     {
-      "city": "New Orleans, La",
+      "city": "New Orleans",
       "country": "USA",
       "code": "MSY"
     },
@@ -6381,42 +6381,42 @@
       "code": "NQY"
     },
     {
-      "city": "New Valley - Kharga",
+      "city": "New Valley",
       "country": "Egypt",
       "code": "UVL"
     },
     {
-      "city": "New York - John F. Kennedy (NY)",
+      "city": "New York",
       "country": "USA",
       "code": "JFK"
     },
     {
-      "city": "New York - LaGuardia (NY)",
+      "city": "New York",
       "country": "USA",
       "code": "LGA"
     },
     {
-      "city": "New York - Newark (NJ)",
+      "city": "New York",
       "country": "USA",
       "code": "EWR"
     },
     {
-      "city": "New York (NY)",
+      "city": "New York",
       "country": "USA",
       "code": "NYC"
     },
     {
-      "city": "Newburgh (NY)",
+      "city": "Newburgh",
       "country": "USA",
       "code": "SWF"
     },
     {
-      "city": "Newcastle - Belmont",
+      "city": "Newcastle",
       "country": "Australia",
       "code": "BEO"
     },
     {
-      "city": "Newcastle - Williamtown",
+      "city": "Newcastle",
       "country": "Australia",
       "code": "NTL"
     },
@@ -6436,7 +6436,7 @@
       "code": "ZNE"
     },
     {
-      "city": "Newport News/Williamsburg (VA)",
+      "city": "Newport News/Williamsburg",
       "country": "USA",
       "code": "PHF"
     },
@@ -6456,7 +6456,7 @@
       "code": "NIM"
     },
     {
-      "city": "Nice - Cote D'Azur",
+      "city": "Nice",
       "country": "France",
       "code": "NCE"
     },
@@ -6486,7 +6486,7 @@
       "code": "INI"
     },
     {
-      "city": "Nome (AK)",
+      "city": "Nome",
       "country": "USA",
       "code": "OME"
     },
@@ -6501,7 +6501,7 @@
       "code": "NLK"
     },
     {
-      "city": "Norfolk/Virginia Beach (VA)",
+      "city": "Norfolk/Virginia Beach",
       "country": "USA",
       "code": "ORF"
     },
@@ -6516,7 +6516,7 @@
       "code": "NRK"
     },
     {
-      "city": "North Bend (OR)",
+      "city": "North Bend",
       "country": "USA",
       "code": "OTH"
     },
@@ -6531,7 +6531,7 @@
       "code": "NWI"
     },
     {
-      "city": "Nottingham - East Midlands",
+      "city": "Nottingham",
       "country": "United Kingdom",
       "code": "EMA"
     },
@@ -6556,12 +6556,12 @@
       "code": "QND"
     },
     {
-      "city": "Novosibirsk - Tolmachevo",
+      "city": "Novosibirsk",
       "country": "Russia",
       "code": "OVB"
     },
     {
-      "city": "Nürnberg (Nuremberg)",
+      "city": "Nürnberg",
       "country": "Germany",
       "code": "NUE"
     },
@@ -6571,17 +6571,17 @@
       "code": "NLD"
     },
     {
-      "city": "Nuku'alofa - Fua'Amotu International",
+      "city": "Nuku'alofa",
       "country": "Tonga",
       "code": "TBU"
     },
     {
-      "city": "Oakland (CA)",
+      "city": "Oakland",
       "country": "USA",
       "code": "OAK"
     },
     {
-      "city": "Oaxaca - Xoxocotlan",
+      "city": "Oaxaca",
       "country": "Mexico",
       "code": "OAX"
     },
@@ -6616,12 +6616,12 @@
       "code": "OKJ"
     },
     {
-      "city": "Okinawa, Ryukyo Island - Naha",
+      "city": "Okinawa",
       "country": "Japan",
       "code": "OKA"
     },
     {
-      "city": "Oklahoma City (OK) - Will Rogers World",
+      "city": "Oklahoma City",
       "country": "USA",
       "code": "OKC"
     },
@@ -6636,7 +6636,7 @@
       "code": "OLP"
     },
     {
-      "city": "Omaha (NE)",
+      "city": "Omaha",
       "country": "USA",
       "code": "OMA"
     },
@@ -6646,12 +6646,12 @@
       "code": "OND"
     },
     {
-      "city": "Ontario (CA)",
+      "city": "Ontario",
       "country": "USA",
       "code": "ONT"
     },
     {
-      "city": "Oran (Ouahran)",
+      "city": "Oran",
       "country": "Algeria",
       "code": "ORN"
     },
@@ -6661,7 +6661,7 @@
       "code": "OAG"
     },
     {
-      "city": "Orange County (Santa Ana) (CA)",
+      "city": "Orange County",
       "country": "USA",
       "code": "SNA"
     },
@@ -6671,22 +6671,22 @@
       "code": "OMD"
     },
     {
-      "city": "Oranjestad - Reina Beatrix International",
+      "city": "Oranjestad",
       "country": "Aruba",
       "code": "AUA"
     },
     {
-      "city": "Orkney - Kirkwall",
+      "city": "Orkney",
       "country": "United Kingdom",
       "code": "KOI"
     },
     {
-      "city": "Orlando Metropolitan Area (FL)",
+      "city": "Orlando",
       "country": "USA",
       "code": "ORL"
     },
     {
-      "city": "Orlando - International Airport (FL)",
+      "city": "Orlando",
       "country": "USA",
       "code": "MCO"
     },
@@ -6696,47 +6696,47 @@
       "code": "ORS"
     },
     {
-      "city": "Osaka, Metropolitan Area",
+      "city": "Osaka",
       "country": "Japan",
       "code": "OSA"
     },
     {
-      "city": "Osaka - Itami",
+      "city": "Osaka",
       "country": "Japan",
       "code": "ITM"
     },
     {
-      "city": "Osaka - Kansai International Airport",
+      "city": "Osaka",
       "country": "Japan",
       "code": "KIX"
     },
     {
-      "city": "Oshkosh (WI)",
+      "city": "Oshkosh",
       "country": "USA",
       "code": "OSH"
     },
     {
       "city": "Osijek",
-      "country": "Croatia (Hrvatska)",
+      "country": "Croatia",
       "code": "OSI"
     },
     {
-      "city": "Oslo - Oslo Airport, Gardermoen",
+      "city": "Oslo",
       "country": "Norway",
       "code": "OSL"
     },
     {
-      "city": "Oslo - Fornebu",
+      "city": "Oslo",
       "country": "Norway",
       "code": "FBU"
     },
     {
-      "city": "Oslo - Sandefjord",
+      "city": "Oslo",
       "country": "Norway",
       "code": "TRF"
     },
     {
-      "city": "Ottawa - Hull",
+      "city": "Ottawa",
       "country": "Canada",
       "code": "YOW"
     },
@@ -6771,7 +6771,7 @@
       "code": "OUL"
     },
     {
-      "city": "Out Skerries (Shetland)",
+      "city": "Out Skerries",
       "country": "United Kingdom",
       "code": "OUK"
     },
@@ -6781,12 +6781,12 @@
       "code": "OVD"
     },
     {
-      "city": "Owensboro (KY)",
+      "city": "Owensboro",
       "country": "USA",
       "code": "OWB"
     },
     {
-      "city": "Oxnard (CA)",
+      "city": "Oxnard",
       "country": "USA",
       "code": "OXR"
     },
@@ -6801,12 +6801,12 @@
       "code": "PAD"
     },
     {
-      "city": "Paducah (KY)",
+      "city": "Paducah",
       "country": "USA",
       "code": "PAH"
     },
     {
-      "city": "Page/Lake Powell (AZ)",
+      "city": "Page/Lake Powell",
       "country": "USA",
       "code": "PGA"
     },
@@ -6816,12 +6816,12 @@
       "code": "PPG"
     },
     {
-      "city": "Pakersburg (WV) /Marietta (OH)",
+      "city": "Pakersburg",
       "country": "USA",
       "code": "PKB"
     },
     {
-      "city": "Palermo - Punta Raisi",
+      "city": "Palermo",
       "country": "Italy",
       "code": "PMO"
     },
@@ -6836,7 +6836,7 @@
       "code": "PMW"
     },
     {
-      "city": "Palmdale/Lancaster (CA)",
+      "city": "Palmdale/Lancaster",
       "country": "USA",
       "code": "PMD"
     },
@@ -6846,17 +6846,17 @@
       "code": "PMR"
     },
     {
-      "city": "Palm Springs (CA)",
+      "city": "Palm Springs",
       "country": "USA",
       "code": "PSP"
     },
     {
-      "city": "Panama City - Tocumen International",
+      "city": "Panama City",
       "country": "Panama",
       "code": "PTY"
     },
     {
-      "city": "Panama City (FL)",
+      "city": "Panama City",
       "country": "USA",
       "code": "PFN"
     },
@@ -6871,8 +6871,8 @@
       "code": "PNL"
     },
     {
-      "city": "Papeete - Faaa",
-      "country": "French Polynesia (Tahiti)",
+      "city": "Papeete",
+      "country": "French Polynesia",
       "code": "PPT"
     },
     {
@@ -6886,7 +6886,7 @@
       "code": "PBO"
     },
     {
-      "city": "Paramaribo - Zanderij International",
+      "city": "Paramaribo",
       "country": "Suriname",
       "code": "PBM"
     },
@@ -6896,17 +6896,17 @@
       "code": "PAR"
     },
     {
-      "city": "Paris - Charles de Gaulle",
+      "city": "Paris",
       "country": "France",
       "code": "CDG"
     },
     {
-      "city": "Paris - Le Bourget",
+      "city": "Paris",
       "country": "France",
       "code": "LBG"
     },
     {
-      "city": "Paris - Orly",
+      "city": "Paris",
       "country": "France",
       "code": "ORY"
     },
@@ -6916,7 +6916,7 @@
       "code": "PBH"
     },
     {
-      "city": "Pasco (WA)",
+      "city": "Pasco",
       "country": "USA",
       "code": "PSC"
     },
@@ -6941,7 +6941,7 @@
       "code": "PUF"
     },
     {
-      "city": "Pellston (MI)",
+      "city": "Pellston",
       "country": "USA",
       "code": "PLN"
     },
@@ -6951,17 +6951,17 @@
       "code": "PEN"
     },
     {
-      "city": "Pendelton (OR)",
+      "city": "Pendelton",
       "country": "USA",
       "code": "PDT"
     },
     {
-      "city": "Pensacola (FL)",
+      "city": "Pensacola",
       "country": "USA",
       "code": "PNS"
     },
     {
-      "city": "Peoria/Bloomington (IL)",
+      "city": "Peoria/Bloomington",
       "country": "USA",
       "code": "PIA"
     },
@@ -6976,7 +6976,7 @@
       "code": "PGF"
     },
     {
-      "city": "Perth International",
+      "city": "Perth",
       "country": "Australia",
       "code": "PER"
     },
@@ -6996,7 +6996,7 @@
       "code": "PEW"
     },
     {
-      "city": "Petersburg (AK)",
+      "city": "Petersburg",
       "country": "USA",
       "code": "PSG"
     },
@@ -7006,17 +7006,17 @@
       "code": "PHW"
     },
     {
-      "city": "Philadelphia (PA) - International",
+      "city": "Philadelphia",
       "country": "USA",
       "code": "PHL"
     },
     {
-      "city": "Phnom Penh - Pochentong",
+      "city": "Phnom Penh",
       "country": "Cambodia",
       "code": "PNH"
     },
     {
-      "city": "Phoenix (AZ) - Sky Harbor International",
+      "city": "Phoenix",
       "country": "USA",
       "code": "PHX"
     },
@@ -7026,7 +7026,7 @@
       "code": "HKT"
     },
     {
-      "city": "Pierre (SD)",
+      "city": "Pierre",
       "country": "USA",
       "code": "PIR"
     },
@@ -7046,17 +7046,17 @@
       "code": "NTY"
     },
     {
-      "city": "Pisa - Galileo Galilei",
+      "city": "Pisa",
       "country": "Italy",
       "code": "PSA"
     },
     {
-      "city": "Pittsburgh International Airport (PA)",
+      "city": "Pittsburgh",
       "country": "USA",
       "code": "PIT"
     },
     {
-      "city": "Plattsburgh (NY)",
+      "city": "Plattsburgh",
       "country": "USA",
       "code": "PLB"
     },
@@ -7066,7 +7066,7 @@
       "code": "PBZ"
     },
     {
-      "city": "Pocatello (ID)",
+      "city": "Pocatello",
       "country": "USA",
       "code": "PIH"
     },
@@ -7087,11 +7087,11 @@
     },
     {
       "city": "Pointe Noire",
-      "country": "Congo (ROC)",
+      "country": "Congo",
       "code": "PNR"
     },
     {
-      "city": "Poitiers - Biard",
+      "city": "Poitiers",
       "country": "France",
       "code": "PIS"
     },
@@ -7111,7 +7111,7 @@
       "code": "POR"
     },
     {
-      "city": "Port Angeles (WA)",
+      "city": "Port Angeles",
       "country": "USA",
       "code": "CLM"
     },
@@ -7151,12 +7151,12 @@
       "code": "PTJ"
     },
     {
-      "city": "Portland (ME)",
+      "city": "Portland",
       "country": "USA",
       "code": "PWM"
     },
     {
-      "city": "Portland International (OR)",
+      "city": "Portland",
       "country": "USA",
       "code": "PDX"
     },
@@ -7171,12 +7171,12 @@
       "code": "PQQ"
     },
     {
-      "city": "Port Menier, PQ",
+      "city": "Port Menier",
       "country": "Canada",
       "code": "YPN"
     },
     {
-      "city": "Port Moresby - Jackson Field",
+      "city": "Port Moresby",
       "country": "Papua New Guinea",
       "code": "POM"
     },
@@ -7186,12 +7186,12 @@
       "code": "OPO"
     },
     {
-      "city": "Porto Alegre - Salgado Filho International Airport",
+      "city": "Porto Alegre",
       "country": "Brazil",
       "code": "POA"
     },
     {
-      "city": "Port of Spain - Piarco International",
+      "city": "Port of Spain",
       "country": "Trinidad and Tobago",
       "code": "POS"
     },
@@ -7216,17 +7216,17 @@
       "code": "VLI"
     },
     {
-      "city": "Poughkeepsie (NY)",
+      "city": "Poughkeepsie",
       "country": "USA",
       "code": "POU"
     },
     {
-      "city": "Poznan, Lawica",
+      "city": "Poznan",
       "country": "Poland",
       "code": "POZ"
     },
     {
-      "city": "Prague - Ruzyne",
+      "city": "Prague",
       "country": "Czech Republic",
       "code": "PRG"
     },
@@ -7236,12 +7236,12 @@
       "code": "RAI"
     },
     {
-      "city": "Presque Island (ME)",
+      "city": "Presque Island",
       "country": "USA",
       "code": "PQI"
     },
     {
-      "city": "Pretoria - Wonderboom Apt.",
+      "city": "Pretoria",
       "country": "South Africa",
       "code": "PRY"
     },
@@ -7271,12 +7271,12 @@
       "code": "PPP"
     },
     {
-      "city": "Providence (RI)",
+      "city": "Providence",
       "country": "USA",
       "code": "PVD"
     },
     {
-      "city": "Prudhoe Bay (AK)",
+      "city": "Prudhoe Bay",
       "country": "USA",
       "code": "SCC"
     },
@@ -7286,7 +7286,7 @@
       "code": "PBC"
     },
     {
-      "city": "Pueblo (CO)",
+      "city": "Pueblo",
       "country": "USA",
       "code": "PUB"
     },
@@ -7317,41 +7317,41 @@
     },
     {
       "city": "Pula",
-      "country": "Croatia (Hrvatska)",
+      "country": "Croatia",
       "code": "PUY"
     },
     {
-      "city": "Pullman (WA)",
+      "city": "Pullman",
       "country": "USA",
       "code": "PUW"
     },
     {
       "city": "Pune",
-      "country": "India, Maharashtra",
+      "country": "India,",
       "code": "PNQ"
     },
     {
-      "city": "Punta Arenas - Presidente Carlos Ibáñez del Campo",
+      "city": "Punta Arenas",
       "country": "Chile",
       "code": "PUQ"
     },
     {
-      "city": "Punta Cana - Punta Cana International",
+      "city": "Punta Cana",
       "country": "Dominican Republic",
       "code": "PUJ"
     },
     {
-      "city": "Pu San (Busan) - Gimhae International Airport",
+      "city": "Pu San",
       "country": "South Korea",
       "code": "PUS"
     },
     {
-      "city": "Pyongyang - Sunan International Airport",
+      "city": "Pyongyang",
       "country": "North Korea",
       "code": "FNJ"
     },
     {
-      "city": "Quebec - Quebec International",
+      "city": "Quebec",
       "country": "Canada",
       "code": "YQB"
     },
@@ -7372,7 +7372,7 @@
     },
     {
       "city": "Qingdao",
-      "country": "Shandong, PR China",
+      "country": "Shandong,",
       "code": "TAO"
     },
     {
@@ -7381,17 +7381,17 @@
       "code": "UIP"
     },
     {
-      "city": "Quincy (IL)",
+      "city": "Quincy",
       "country": "USA",
       "code": "UIN"
     },
     {
-      "city": "Quito - Mariscal Sucre International Airport",
+      "city": "Quito",
       "country": "Ecuador",
       "code": "UIO"
     },
     {
-      "city": "Rabat - Sale",
+      "city": "Rabat",
       "country": "Morocco",
       "code": "RBA"
     },
@@ -7406,7 +7406,7 @@
       "code": "RFP"
     },
     {
-      "city": "Rainbow Lake, AB",
+      "city": "Rainbow Lake",
       "country": "Canada",
       "code": "YOP"
     },
@@ -7416,7 +7416,7 @@
       "code": "RAJ"
     },
     {
-      "city": "Raleigh/Durham (NC)",
+      "city": "Raleigh/Durham",
       "country": "USA",
       "code": "RDU"
     },
@@ -7431,12 +7431,12 @@
       "code": "RGI"
     },
     {
-      "city": "Rangoon (Yangon) - Mingaladon",
+      "city": "Rangoon",
       "country": "Myanmar",
       "code": "RGN"
     },
     {
-      "city": "Rapid City (SD)",
+      "city": "Rapid City",
       "country": "USA",
       "code": "RAP"
     },
@@ -7446,7 +7446,7 @@
       "code": "RAR"
     },
     {
-      "city": "Ras al Khaymah (Ras al Khaimah)",
+      "city": "Ras al Khaymah",
       "country": "United Arab Emirates",
       "code": "RKT"
     },
@@ -7461,22 +7461,22 @@
       "code": "RWP"
     },
     {
-      "city": "Reading (PA)",
+      "city": "Reading",
       "country": "USA",
       "code": "RDG"
     },
     {
-      "city": "Recife - Guararapes-Gilberto Freyre International",
+      "city": "Recife",
       "country": "Brazil",
       "code": "REC"
     },
     {
-      "city": "Redding (CA)",
+      "city": "Redding",
       "country": "USA",
       "code": "RDD"
     },
     {
-      "city": "Redmond (OR)",
+      "city": "Redmond",
       "country": "USA",
       "code": "RDM"
     },
@@ -7501,7 +7501,7 @@
       "code": "RNS"
     },
     {
-      "city": "Reno (NV)",
+      "city": "Reno",
       "country": "USA",
       "code": "RNO"
     },
@@ -7516,17 +7516,17 @@
       "code": "REU"
     },
     {
-      "city": "Reykjavik - Metropolitan Area",
+      "city": "Reykjavik",
       "country": "Iceland",
       "code": "REK"
     },
     {
-      "city": "Reykjavik - Keflavik International",
+      "city": "Reykjavik",
       "country": "Iceland",
       "code": "KEF"
     },
     {
-      "city": "Rhinelander (WI)",
+      "city": "Rhinelander",
       "country": "USA",
       "code": "RHI"
     },
@@ -7541,7 +7541,7 @@
       "code": "RCB"
     },
     {
-      "city": "Richmond (VA)",
+      "city": "Richmond",
       "country": "USA",
       "code": "RIC"
     },
@@ -7552,7 +7552,7 @@
     },
     {
       "city": "Rijeka",
-      "country": "Croatia (Hrvatska)",
+      "country": "Croatia",
       "code": "RJK"
     },
     {
@@ -7561,17 +7561,17 @@
       "code": "RMI"
     },
     {
-      "city": "Rio Branco - Plácido de Castro International Airport",
+      "city": "Rio Branco",
       "country": "Brazil",
       "code": "RBR"
     },
     {
-      "city": "Rio de Janeiro - Galeao",
+      "city": "Rio de Janeiro",
       "country": "Brazil",
       "code": "GIG"
     },
     {
-      "city": "Rio de Janeiro - Santos Dumont",
+      "city": "Rio de Janeiro",
       "country": "Brazil",
       "code": "SDU"
     },
@@ -7581,7 +7581,7 @@
       "code": "RIO"
     },
     {
-      "city": "Riyadh - King Khaled International",
+      "city": "Riyadh",
       "country": "Saudi Arabia",
       "code": "RUH"
     },
@@ -7591,7 +7591,7 @@
       "code": "RNE"
     },
     {
-      "city": "Roanoke (VA)",
+      "city": "Roanoke",
       "country": "USA",
       "code": "ROA"
     },
@@ -7601,12 +7601,12 @@
       "code": "RTB"
     },
     {
-      "city": "Rochester (MN)",
+      "city": "Rochester",
       "country": "USA",
       "code": "RST"
     },
     {
-      "city": "Rochester (NY)",
+      "city": "Rochester",
       "country": "USA",
       "code": "ROC"
     },
@@ -7616,12 +7616,12 @@
       "code": "RSD"
     },
     {
-      "city": "Rock Springs (WY)",
+      "city": "Rock Springs",
       "country": "USA",
       "code": "RKS"
     },
     {
-      "city": "Rockford (IL)",
+      "city": "Rockford",
       "country": "USA",
       "code": "RFD"
     },
@@ -7631,12 +7631,12 @@
       "code": "ROK"
     },
     {
-      "city": "Rockland (ME)",
+      "city": "Rockland",
       "country": "USA",
       "code": "RKD"
     },
     {
-      "city": "Rocky Mount - Wilson (NC)",
+      "city": "Rocky Mount",
       "country": "USA",
       "code": "RWI"
     },
@@ -7661,12 +7661,12 @@
       "code": "ROM"
     },
     {
-      "city": "Rome - Ciampino",
+      "city": "Rome",
       "country": "Italy",
       "code": "CIA"
     },
     {
-      "city": "Rome - Fuimicino",
+      "city": "Rome",
       "country": "Italy",
       "code": "FCO"
     },
@@ -7711,7 +7711,7 @@
       "code": "SCN"
     },
     {
-      "city": "Sacramento (CA)",
+      "city": "Sacramento",
       "country": "USA",
       "code": "SMF"
     },
@@ -7721,7 +7721,7 @@
       "code": "SDS"
     },
     {
-      "city": "Saginaw/Bay City/Midland (MI)",
+      "city": "Saginaw/Bay City/Midland",
       "country": "USA",
       "code": "MBS"
     },
@@ -7731,7 +7731,7 @@
       "code": "SDT"
     },
     {
-      "city": "Saigon (Ho Chi Minh City)",
+      "city": "Saigon",
       "country": "Viet Nam",
       "code": "SGN"
     },
@@ -7766,12 +7766,12 @@
       "code": "SLL"
     },
     {
-      "city": "Salem (OR)",
+      "city": "Salem",
       "country": "USA",
       "code": "SLE"
     },
     {
-      "city": "Salinas (CA)",
+      "city": "Salinas",
       "country": "USA",
       "code": "SNS"
     },
@@ -7786,7 +7786,7 @@
       "code": "SAY"
     },
     {
-      "city": "Salisbury (MD)",
+      "city": "Salisbury",
       "country": "USA",
       "code": "SBY"
     },
@@ -7796,22 +7796,22 @@
       "code": "SKG"
     },
     {
-      "city": "Salta, Gen Belgrano",
+      "city": "Salta",
       "country": "Argentina",
       "code": "SLA"
     },
     {
-      "city": "Salt Lake City (UT)",
+      "city": "Salt Lake City",
       "country": "USA",
       "code": "SLC"
     },
     {
-      "city": "Salvador - Salvador International Airport",
+      "city": "Salvador",
       "country": "Brazil",
       "code": "SSA"
     },
     {
-      "city": "Salzburg - W.A. Mozart",
+      "city": "Salzburg",
       "country": "Austria",
       "code": "SZG"
     },
@@ -7836,12 +7836,12 @@
       "code": "ADZ"
     },
     {
-      "city": "San Angelo (TX)",
+      "city": "San Angelo",
       "country": "USA",
       "code": "SJT"
     },
     {
-      "city": "San Antonio (TX)",
+      "city": "San Antonio",
       "country": "USA",
       "code": "SAT"
     },
@@ -7851,12 +7851,12 @@
       "code": "BRC"
     },
     {
-      "city": "San Diego - Lindberg Field International (CA)",
+      "city": "San Diego",
       "country": "USA",
       "code": "SAN"
     },
     {
-      "city": "San Francisco - International Airport, SA",
+      "city": "San Francisco",
       "country": "USA",
       "code": "SFO"
     },
@@ -7871,7 +7871,7 @@
       "code": "SJO"
     },
     {
-      "city": "San Jose (CA)",
+      "city": "San Jose",
       "country": "USA",
       "code": "SJC"
     },
@@ -7881,7 +7881,7 @@
       "code": "SJU"
     },
     {
-      "city": "San Luis Obisco (CA)",
+      "city": "San Luis Obisco",
       "country": "USA",
       "code": "SBP"
     },
@@ -7916,7 +7916,7 @@
       "code": "EAS"
     },
     {
-      "city": "Sanaa (Sana'a) - Sana'a International",
+      "city": "Sanaa",
       "country": "Yemen",
       "code": "SAH"
     },
@@ -7926,12 +7926,12 @@
       "code": "YZP"
     },
     {
-      "city": "Santa Ana - John Wayne Airport (CA)",
+      "city": "Santa Ana",
       "country": "USA",
       "code": "SNA"
     },
     {
-      "city": "Santa Barbara (CA)",
+      "city": "Santa Barbara",
       "country": "USA",
       "code": "SBA"
     },
@@ -7946,7 +7946,7 @@
       "code": "SRZ"
     },
     {
-      "city": "Santa Katarina - Mount Sinai",
+      "city": "Santa Katarina",
       "country": "Egypt",
       "code": "SKV"
     },
@@ -7956,7 +7956,7 @@
       "code": "SMA"
     },
     {
-      "city": "Santa Maria (CA)",
+      "city": "Santa Maria",
       "country": "USA",
       "code": "SMX"
     },
@@ -7966,7 +7966,7 @@
       "code": "SDR"
     },
     {
-      "city": "Santa Rosa (CA)",
+      "city": "Santa Rosa",
       "country": "USA",
       "code": "STS"
     },
@@ -7986,7 +7986,7 @@
       "code": "RSA"
     },
     {
-      "city": "Santa Rosa, Copan",
+      "city": "Santa Rosa",
       "country": "Honduras",
       "code": "SDH"
     },
@@ -8001,12 +8001,12 @@
       "code": "SRL"
     },
     {
-      "city": "Santiago - Antonio Maceo Airport",
+      "city": "Santiago",
       "country": "Cuba",
       "code": "SCU"
     },
     {
-      "city": "Santiago de Chile - Arturo Merino Benitez",
+      "city": "Santiago de Chile",
       "country": "Chile",
       "code": "SCL"
     },
@@ -8026,7 +8026,7 @@
       "code": "SDQ"
     },
     {
-      "city": "Sao Luis - Marechal Cunha Machado International",
+      "city": "Sao Luis",
       "country": "Brazil",
       "code": "SLZ"
     },
@@ -8036,17 +8036,17 @@
       "code": "SAO"
     },
     {
-      "city": "Sao Paulo - Congonhas",
+      "city": "Sao Paulo",
       "country": "Brazil",
       "code": "CGH"
     },
     {
-      "city": "Sao Paulo - Guarulhos",
+      "city": "Sao Paulo",
       "country": "Brazil",
       "code": "GRU"
     },
     {
-      "city": "Sao Paulo - Viracopos",
+      "city": "Sao Paulo",
       "country": "Brazil",
       "code": "VCP"
     },
@@ -8057,16 +8057,16 @@
     },
     {
       "city": "Sapporo",
-      "country": "Hokkaido, Japan",
+      "country": "Hokkaido",
       "code": "SPK"
     },
     {
-      "city": "Sapporo - Okadama",
-      "country": "Hokkaido, Japan",
+      "city": "Sapporo",
+      "country": "Hokkaido",
       "code": "OKD"
     },
     {
-      "city": "Sapporo - New Chitose Airport",
+      "city": "Sapporo",
       "country": "Japan",
       "code": "CTS"
     },
@@ -8076,7 +8076,7 @@
       "code": "SJJ"
     },
     {
-      "city": "Sarasota/Bradenton (FL)",
+      "city": "Sarasota/Bradenton",
       "country": "USA",
       "code": "SRQ"
     },
@@ -8091,7 +8091,7 @@
       "code": "ZSS"
     },
     {
-      "city": "Savannah (GA)",
+      "city": "Savannah",
       "country": "USA",
       "code": "SAV"
     },
@@ -8101,7 +8101,7 @@
       "code": "SVL"
     },
     {
-      "city": "Scarborough - Crown Point International",
+      "city": "Scarborough",
       "country": "Trinidad and Tobago",
       "code": "TAB"
     },
@@ -8111,12 +8111,12 @@
       "code": "NSO"
     },
     {
-      "city": "Scottsdale (AZ)",
+      "city": "Scottsdale",
       "country": "USA",
       "code": "SCF"
     },
     {
-      "city": "Seattle/Tacoma (WA)",
+      "city": "Seattle/Tacoma",
       "country": "USA",
       "code": "SEA"
     },
@@ -8141,12 +8141,12 @@
       "code": "SDJ"
     },
     {
-      "city": "Seoul - Incheon International Airport",
+      "city": "Seoul",
       "country": "South Korea",
       "code": "ICN"
     },
     {
-      "city": "Seoul - Kimpo",
+      "city": "Seoul",
       "country": "South Korea",
       "code": "SEL"
     },
@@ -8161,22 +8161,22 @@
       "code": "SFA"
     },
     {
-      "city": "Shamattawa, MB",
+      "city": "Shamattawa",
       "country": "Canada",
       "code": "ZTM"
     },
     {
-      "city": "Shanghai - Hongqiao",
+      "city": "Shanghai",
       "country": "China",
       "code": "SHA"
     },
     {
-      "city": "Shanghai - Pu Dong",
+      "city": "Shanghai",
       "country": "China",
       "code": "PVG"
     },
     {
-      "city": "Shannon (Limerick)",
+      "city": "Shannon",
       "country": "Ireland",
       "code": "SNN"
     },
@@ -8191,37 +8191,37 @@
       "code": "SSH"
     },
     {
-      "city": "Sheffield, City Airport",
+      "city": "Sheffield",
       "country": "United Kingdom",
       "code": "SZD"
     },
     {
-      "city": "Sheffield, Doncaster, Robin Hood International Airport",
+      "city": "Sheffield",
       "country": "United Kingdom",
       "code": "DSA"
     },
     {
-      "city": "Shenandoah Valley/Stauton (VA)",
+      "city": "Shenandoah Valley/Stauton",
       "country": "USA",
       "code": "SHD"
     },
     {
       "city": "Shenyang",
-      "country": "Liaoning, PR China",
+      "country": "Liaoning,",
       "code": "SHE"
     },
     {
-      "city": "Shenzhen - Baoan",
-      "country": "Guangdong, PR China",
+      "city": "Shenzhen",
+      "country": "Guangdong,",
       "code": "SZX"
     },
     {
-      "city": "Sheridan (WY)",
+      "city": "Sheridan",
       "country": "USA",
       "code": "SHR"
     },
     {
-      "city": "Shreveport, La",
+      "city": "Shreveport",
       "country": "USA",
       "code": "SHV"
     },
@@ -8236,7 +8236,7 @@
       "code": "SBW"
     },
     {
-      "city": "Sidney (MT)",
+      "city": "Sidney",
       "country": "USA",
       "code": "SDY"
     },
@@ -8256,17 +8256,17 @@
       "code": "MPD"
     },
     {
-      "city": "Singapore - Changi",
+      "city": "Singapore",
       "country": "Singapore",
       "code": "SIN"
     },
     {
-      "city": "Singapore - Paya Lebar",
+      "city": "Singapore",
       "country": "Singapore",
       "code": "QPG"
     },
     {
-      "city": "Singapore - Seletar",
+      "city": "Singapore",
       "country": "Singapore",
       "code": "XSP"
     },
@@ -8281,7 +8281,7 @@
       "code": "SUX"
     },
     {
-      "city": "Sioux Falls (SD)",
+      "city": "Sioux Falls",
       "country": "USA",
       "code": "FSD"
     },
@@ -8291,7 +8291,7 @@
       "code": "SIS"
     },
     {
-      "city": "Sitka (AK)",
+      "city": "Sitka",
       "country": "USA",
       "code": "SIT"
     },
@@ -8306,7 +8306,7 @@
       "code": "SEW"
     },
     {
-      "city": "Skagway (AK)",
+      "city": "Skagway",
       "country": "USA",
       "code": "SGY"
     },
@@ -8361,7 +8361,7 @@
       "code": "SFJ"
     },
     {
-      "city": "Sofia - Vrazhdebna",
+      "city": "Sofia",
       "country": "Bulgaria",
       "code": "SOF"
     },
@@ -8371,17 +8371,17 @@
       "code": "SOG"
     },
     {
-      "city": "Southampton - Eastleigh",
+      "city": "Southampton",
       "country": "United Kingdom",
       "code": "SOU"
     },
     {
-      "city": "South Bend (IN)",
+      "city": "South Bend",
       "country": "USA",
       "code": "SBN"
     },
     {
-      "city": "South Indian Lake, MB",
+      "city": "South Indian Lake",
       "country": "Canada",
       "code": "XSI"
     },
@@ -8391,17 +8391,17 @@
       "code": "SOI"
     },
     {
-      "city": "Southend (London)",
+      "city": "Southend",
       "country": "United Kingdom",
       "code": "SEN"
     },
     {
       "city": "Split",
-      "country": "Croatia (Hrvatska)",
+      "country": "Croatia",
       "code": "SPU"
     },
     {
-      "city": "Spokane (WA)",
+      "city": "Spokane",
       "country": "USA",
       "code": "GEG"
     },
@@ -8411,12 +8411,12 @@
       "code": "SBU"
     },
     {
-      "city": "Springfield (IL)",
+      "city": "Springfield",
       "country": "USA",
       "code": "SPI"
     },
     {
-      "city": "Springfield (MO)",
+      "city": "Springfield",
       "country": "USA",
       "code": "SGF"
     },
@@ -8426,13 +8426,13 @@
       "code": "SXR"
     },
     {
-      "city": "St. Augustin, PQ",
+      "city": "St. Augustin",
       "country": "Canada",
       "code": "YIF"
     },
     {
       "city": "St. Croix",
-      "country": "Virgin Islands (U.S.)",
+      "country": "Virgin Islands",
       "code": "STX"
     },
     {
@@ -8441,7 +8441,7 @@
       "code": "EBU"
     },
     {
-      "city": "St. George (UT)",
+      "city": "St. George",
       "country": "USA",
       "code": "SGU"
     },
@@ -8456,7 +8456,7 @@
       "code": "SKB"
     },
     {
-      "city": "St. Louis (MO) Lambert–St. Louis International Airport",
+      "city": "St. Louis",
       "country": "USA",
       "code": "STL"
     },
@@ -8477,22 +8477,22 @@
     },
     {
       "city": "St. Martin",
-      "country": "St. Martin (Guadeloupe)",
+      "country": "St. Martin",
       "code": "SFG"
     },
     {
-      "city": "St. Petersburg (Leningrad) - Pulkovo",
+      "city": "St. Petersburg",
       "country": "Russia",
       "code": "LED"
     },
     {
-      "city": "St. Pierre, NF",
+      "city": "St. Pierre",
       "country": "Canada",
       "code": "FSP"
     },
     {
       "city": "St. Thomas",
-      "country": "Virgin Islands (U.S.)",
+      "country": "Virgin Islands",
       "code": "STT"
     },
     {
@@ -8501,12 +8501,12 @@
       "code": "SVD"
     },
     {
-      "city": "Stansted (London)",
+      "city": "Stansted",
       "country": "United Kingdom",
       "code": "STN"
     },
     {
-      "city": "State College/Belefonte (PA)",
+      "city": "State College/Belefonte",
       "country": "USA",
       "code": "SCE"
     },
@@ -8516,7 +8516,7 @@
       "code": "SVG"
     },
     {
-      "city": "Steamboat Springs (CO)",
+      "city": "Steamboat Springs",
       "country": "USA",
       "code": "HDN"
     },
@@ -8526,22 +8526,22 @@
       "code": "SZZ"
     },
     {
-      "city": "Stockholm Metropolitan Area",
+      "city": "Stockholm",
       "country": "Sweden",
       "code": "STO"
     },
     {
-      "city": "Stockholm - Arlanda",
+      "city": "Stockholm",
       "country": "Sweden",
       "code": "ARN"
     },
     {
-      "city": "Stockholm - Bromma",
+      "city": "Stockholm",
       "country": "Sweden",
       "code": "BMA"
     },
     {
-      "city": "Stockton (CA)",
+      "city": "Stockton",
       "country": "USA",
       "code": "SCK"
     },
@@ -8561,7 +8561,7 @@
       "code": "KBY"
     },
     {
-      "city": "Stuttgart - Echterdingen",
+      "city": "Stuttgart",
       "country": "Germany",
       "code": "STR"
     },
@@ -8576,12 +8576,12 @@
       "code": "SKZ"
     },
     {
-      "city": "Sumburgh (Shetland)",
+      "city": "Sumburgh",
       "country": "United Kingdom",
       "code": "LSI"
     },
     {
-      "city": "Sun Valley (ID)",
+      "city": "Sun Valley",
       "country": "USA",
       "code": "SUN"
     },
@@ -8596,7 +8596,7 @@
       "code": "MCY"
     },
     {
-      "city": "Surabaya - Juanda",
+      "city": "Surabaya",
       "country": "Indonesia",
       "code": "SUB"
     },
@@ -8626,7 +8626,7 @@
       "code": "ZYL"
     },
     {
-      "city": "Syracuse (NY)",
+      "city": "Syracuse",
       "country": "USA",
       "code": "SYR"
     },
@@ -8641,18 +8641,18 @@
       "code": "TIF"
     },
     {
-      "city": "Taipei - Chiang Kai Shek",
+      "city": "Taipei",
       "country": "Taiwan",
       "code": "TPE"
     },
     {
-      "city": "Taipei - Sung Shan",
+      "city": "Taipei",
       "country": "Taiwan",
       "code": "TAY"
     },
     {
       "city": "Taiyuan",
-      "country": "Shanxi, PR China",
+      "country": "Shanxi,",
       "code": "TYN"
     },
     {
@@ -8661,27 +8661,27 @@
       "code": "TAK"
     },
     {
-      "city": "Talkeetna (AK)",
+      "city": "Talkeetna",
       "country": "USA",
       "code": "TKA"
     },
     {
-      "city": "Tallahassee (FL)",
+      "city": "Tallahassee",
       "country": "USA",
       "code": "TLH"
     },
     {
-      "city": "Tallinn - Pirita Harbour",
+      "city": "Tallinn",
       "country": "Estonia",
       "code": "QUF"
     },
     {
-      "city": "Tallinn - Ulemiste",
+      "city": "Tallinn",
       "country": "Estonia",
       "code": "TLL"
     },
     {
-      "city": "Tampa - International (FL)",
+      "city": "Tampa",
       "country": "USA",
       "code": "TPA"
     },
@@ -8691,7 +8691,7 @@
       "code": "TMP"
     },
     {
-      "city": "Tampico - Gen. F. Javier Mina",
+      "city": "Tampico",
       "country": "Mexico",
       "code": "TAM"
     },
@@ -8701,7 +8701,7 @@
       "code": "TMW"
     },
     {
-      "city": "Tangier - Boukhalef",
+      "city": "Tangier",
       "country": "Morocco",
       "code": "TNG"
     },
@@ -8716,7 +8716,7 @@
       "code": "TGV"
     },
     {
-      "city": "Tashkent - International",
+      "city": "Tashkent",
       "country": "Uzbekistan",
       "code": "TAS"
     },
@@ -8726,7 +8726,7 @@
       "code": "TWU"
     },
     {
-      "city": "Tbilisi - Novo Alexeyevka",
+      "city": "Tbilisi",
       "country": "Georgia",
       "code": "TBS"
     },
@@ -8736,7 +8736,7 @@
       "code": "TEU"
     },
     {
-      "city": "Teesside, Durham Tees Valley",
+      "city": "Teesside",
       "country": "United Kingdom",
       "code": "MME"
     },
@@ -8746,22 +8746,22 @@
       "code": "TGU"
     },
     {
-      "city": "Tehran (Teheran) - Mehrabad",
+      "city": "Tehran",
       "country": "Iran",
       "code": "THR"
     },
     {
-      "city": "Tekirdag - Corlu",
+      "city": "Tekirdag",
       "country": "Turkey",
       "code": "TEQ"
     },
     {
-      "city": "Tel Aviv - Ben Gurion International",
+      "city": "Tel Aviv",
       "country": "Israel",
       "code": "TLV"
     },
     {
-      "city": "Telluride (CO)",
+      "city": "Telluride",
       "country": "USA",
       "code": "TEX"
     },
@@ -8776,12 +8776,12 @@
       "code": "TCI"
     },
     {
-      "city": "Tenerife - Sur Reina Sofia",
+      "city": "Tenerife",
       "country": "Spain",
       "code": "TFS"
     },
     {
-      "city": "Tenerife - Norte Los Rodeos",
+      "city": "Tenerife",
       "country": "Spain",
       "code": "TFN"
     },
@@ -8801,7 +8801,7 @@
       "code": "THE"
     },
     {
-      "city": "Termez (Termes)",
+      "city": "Termez",
       "country": "Uzbekistan",
       "code": "TMZ"
     },
@@ -8811,12 +8811,12 @@
       "code": "YXT"
     },
     {
-      "city": "Terre Haute (IN)",
+      "city": "Terre Haute",
       "country": "USA",
       "code": "HUF"
     },
     {
-      "city": "Texarkana (AR)",
+      "city": "Texarkana",
       "country": "USA",
       "code": "TXK"
     },
@@ -8831,12 +8831,12 @@
       "code": "YQD"
     },
     {
-      "city": "Thessaloniki - Makedonia Apt.",
+      "city": "Thessaloniki",
       "country": "Greece",
       "code": "SKG"
     },
     {
-      "city": "Thief River Falls (MN)",
+      "city": "Thief River Falls",
       "country": "USA",
       "code": "TVF"
     },
@@ -8861,7 +8861,7 @@
       "code": "YTH"
     },
     {
-      "city": "Thorne Bay (AK)",
+      "city": "Thorne Bay",
       "country": "USA",
       "code": "KTB"
     },
@@ -8881,7 +8881,7 @@
       "code": "TSN"
     },
     {
-      "city": "Tijuana - Rodriguez",
+      "city": "Tijuana",
       "country": "Mexico",
       "code": "TIJ"
     },
@@ -8891,7 +8891,7 @@
       "code": "TOD"
     },
     {
-      "city": "Tirana - Rinas",
+      "city": "Tirana",
       "country": "Albania",
       "code": "TIA"
     },
@@ -8921,17 +8921,17 @@
       "code": "TYO"
     },
     {
-      "city": "Tokyo - Haneda",
+      "city": "Tokyo",
       "country": "Japan",
       "code": "HND"
     },
     {
-      "city": "Tokyo - Narita",
+      "city": "Tokyo",
       "country": "Japan",
       "code": "NRT"
     },
     {
-      "city": "Toledo (OH)",
+      "city": "Toledo",
       "country": "USA",
       "code": "TOL"
     },
@@ -8946,12 +8946,12 @@
       "code": "TWB"
     },
     {
-      "city": "Toronto - Billy Bishop Toronto City Airport",
+      "city": "Toronto",
       "country": "Canada",
       "code": "YTZ"
     },
     {
-      "city": "Toronto - Toronto Pearson International Airport",
+      "city": "Toronto",
       "country": "Canada",
       "code": "YYZ"
     },
@@ -8971,7 +8971,7 @@
       "code": "TOU"
     },
     {
-      "city": "Toulouse - Blagnac Airport",
+      "city": "Toulouse",
       "country": "France",
       "code": "TLS"
     },
@@ -8996,7 +8996,7 @@
       "code": "TPS"
     },
     {
-      "city": "Traverse City (MI)",
+      "city": "Traverse City",
       "country": "USA",
       "code": "TVC"
     },
@@ -9006,7 +9006,7 @@
       "code": "TCB"
     },
     {
-      "city": "Trenton/Princeton (NJ)",
+      "city": "Trenton/Princeton",
       "country": "USA",
       "code": "TTN"
     },
@@ -9016,7 +9016,7 @@
       "code": "TSF"
     },
     {
-      "city": "Tri-Cities Regional (TN) /VA",
+      "city": "Tri-Cities Regional",
       "country": "USA",
       "code": "TRI"
     },
@@ -9026,7 +9026,7 @@
       "code": "TRS"
     },
     {
-      "city": "Tripoli - Tripoli International",
+      "city": "Tripoli",
       "country": "Libya",
       "code": "TIP"
     },
@@ -9046,22 +9046,22 @@
       "code": "TSB"
     },
     {
-      "city": "Tucson (AZ)",
+      "city": "Tucson",
       "country": "USA",
       "code": "TUS"
     },
     {
-      "city": "Tulepo (MS)",
+      "city": "Tulepo",
       "country": "USA",
       "code": "TUP"
     },
     {
-      "city": "Tulsa (OK)",
+      "city": "Tulsa",
       "country": "USA",
       "code": "TUL"
     },
     {
-      "city": "Tunis - Carthage",
+      "city": "Tunis",
       "country": "Tunisia",
       "code": "TUN"
     },
@@ -9081,7 +9081,7 @@
       "code": "TKU"
     },
     {
-      "city": "Tuscaloosa (AL)",
+      "city": "Tuscaloosa",
       "country": "USA",
       "code": "TCL"
     },
@@ -9091,12 +9091,12 @@
       "code": "TGZ"
     },
     {
-      "city": "Twin Falls (ID)",
+      "city": "Twin Falls",
       "country": "USA",
       "code": "TWF"
     },
     {
-      "city": "Tyler (TX)",
+      "city": "Tyler",
       "country": "USA",
       "code": "TYR"
     },
@@ -9121,22 +9121,22 @@
       "code": "UBA"
     },
     {
-      "city": "Uberlandia - Eduardo Gomes Airport",
+      "city": "Uberlandia",
       "country": "Brazil",
       "code": "UDI"
     },
     {
-      "city": "Ubon Ratchathani - Muang Ubon Airport",
+      "city": "Ubon Ratchathani",
       "country": "Thailand",
       "code": "UBP"
     },
     {
-      "city": "Udaipur - Dabok Airport",
+      "city": "Udaipur",
       "country": "India",
       "code": "UDR"
     },
     {
-      "city": "Uden - Volkel Airport",
+      "city": "Uden",
       "country": "Netherlands",
       "code": "UDE"
     },
@@ -9161,7 +9161,7 @@
       "code": "UGO"
     },
     {
-      "city": "Ujung Pandang - Hasanudin Airport",
+      "city": "Ujung Pandang",
       "country": "Indonesia",
       "code": "UPG"
     },
@@ -9171,12 +9171,12 @@
       "code": "UCT"
     },
     {
-      "city": "Ukiah (CA)",
+      "city": "Ukiah",
       "country": "USA",
       "code": "UKI"
     },
     {
-      "city": "Ulaanbaatar - Buyant Uhaa Airport",
+      "city": "Ulaanbaatar",
       "country": "Mongolia",
       "code": "ULN"
     },
@@ -9221,7 +9221,7 @@
       "code": "UTT"
     },
     {
-      "city": "Unalakleet (AK)",
+      "city": "Unalakleet",
       "country": "USA",
       "code": "UNK"
     },
@@ -9231,7 +9231,7 @@
       "code": "UNI"
     },
     {
-      "city": "Unst (Shetland Island) - Baltasound Airport",
+      "city": "Unst",
       "country": "United Kingdom",
       "code": "UNT"
     },
@@ -9241,7 +9241,7 @@
       "code": "UPL"
     },
     {
-      "city": "Upernavik - Upernavik Heliport",
+      "city": "Upernavik",
       "country": "Greenland",
       "code": "JUV"
     },
@@ -9251,7 +9251,7 @@
       "code": "UTN"
     },
     {
-      "city": "Upolu Point (HI)",
+      "city": "Upolu Point",
       "country": "USA",
       "code": "UPP"
     },
@@ -9271,7 +9271,7 @@
       "code": "URM"
     },
     {
-      "city": "Urmiehm (Orumieh)",
+      "city": "Urmiehm",
       "country": "Iran",
       "code": "OMH"
     },
@@ -9281,18 +9281,18 @@
       "code": "UPN"
     },
     {
-      "city": "Urubupunga - Ernesto Pochler Airport",
+      "city": "Urubupunga",
       "country": "Brazil",
       "code": "URB"
     },
     {
-      "city": "Uruguaiana - Ruben Berta Airport",
+      "city": "Uruguaiana",
       "country": "Brazil",
       "code": "URG"
     },
     {
       "city": "Urumqi",
-      "country": "Xinjiang, PR China",
+      "country": "Xinjiang,",
       "code": "URC"
     },
     {
@@ -9301,17 +9301,17 @@
       "code": "URZ"
     },
     {
-      "city": "Ushuaia - Islas Malvinas Airport",
+      "city": "Ushuaia",
       "country": "Argentina",
       "code": "USH"
     },
     {
-      "city": "Utapao (Pattaya)",
+      "city": "Utapao",
       "country": "Thailand",
       "code": "UTP"
     },
     {
-      "city": "Utica (NY) - Oneida County Airport",
+      "city": "Utica",
       "country": "USA",
       "code": "UCA"
     },
@@ -9341,7 +9341,7 @@
       "code": "VXO"
     },
     {
-      "city": "Vail (CO)",
+      "city": "Vail",
       "country": "USA",
       "code": "EGE"
     },
@@ -9351,12 +9351,12 @@
       "code": "YVO"
     },
     {
-      "city": "Valdez (AK)",
+      "city": "Valdez",
       "country": "USA",
       "code": "VDZ"
     },
     {
-      "city": "Valdosta (GA)",
+      "city": "Valdosta",
       "country": "USA",
       "code": "VLD"
     },
@@ -9386,12 +9386,12 @@
       "code": "VDE"
     },
     {
-      "city": "Van - Ferit Melen",
+      "city": "Van",
       "country": "Turkey",
       "code": "VAN"
     },
     {
-      "city": "Vancouver - Vancouver International",
+      "city": "Vancouver",
       "country": "Canada",
       "code": "YVR"
     },
@@ -9421,12 +9421,12 @@
       "code": "VST"
     },
     {
-      "city": "Velikiye Luki (Welikije Luki)",
+      "city": "Velikiye Luki",
       "country": "Russia",
       "code": "VLU"
     },
     {
-      "city": "Venice - Marco Polo",
+      "city": "Venice",
       "country": "Italy",
       "code": "VCE"
     },
@@ -9436,17 +9436,17 @@
       "code": "VER"
     },
     {
-      "city": "Vernal (UT)",
+      "city": "Vernal",
       "country": "USA",
       "code": "VEL"
     },
     {
-      "city": "Vero Beach/Ft. Pierce (FL)",
+      "city": "Vero Beach/Ft. Pierce",
       "country": "USA",
       "code": "VRB"
     },
     {
-      "city": "Verona (Brescia) Montichiari",
+      "city": "Verona",
       "country": "Italy",
       "code": "VBS"
     },
@@ -9471,7 +9471,7 @@
       "code": "VID"
     },
     {
-      "city": "Vientiane - Wattay",
+      "city": "Vientiane",
       "country": "Lao PDR",
       "code": "VTE"
     },
@@ -9492,11 +9492,11 @@
     },
     {
       "city": "Virgin Gorda",
-      "country": "Virgin Islands (British)",
+      "country": "Virgin Islands",
       "code": "VIJ"
     },
     {
-      "city": "Visalia (CA)",
+      "city": "Visalia",
       "country": "USA",
       "code": "VIS"
     },
@@ -9511,7 +9511,7 @@
       "code": "VIT"
     },
     {
-      "city": "Vitoria - Eurico de Aguiar Salles Airport",
+      "city": "Vitoria",
       "country": "Brazil",
       "code": "VIX"
     },
@@ -9526,7 +9526,7 @@
       "code": "YWK"
     },
     {
-      "city": "Waco (TX)",
+      "city": "Waco",
       "country": "USA",
       "code": "ACT"
     },
@@ -9536,7 +9536,7 @@
       "code": "WGA"
     },
     {
-      "city": "Walla Walla (WA)",
+      "city": "Walla Walla",
       "country": "USA",
       "code": "ALW"
     },
@@ -9556,22 +9556,22 @@
       "code": "WMB"
     },
     {
-      "city": "Warsaw - Frédéric Chopin",
+      "city": "Warsaw",
       "country": "Poland",
       "code": "WAW"
     },
     {
-      "city": "Washington DC - Baltimore Washington International",
+      "city": "Washington DC",
       "country": "USA",
       "code": "BWI"
     },
     {
-      "city": "Washington DC - Dulles International",
+      "city": "Washington DC",
       "country": "USA",
       "code": "IAD"
     },
     {
-      "city": "Washington DC - Ronald Reagan National",
+      "city": "Washington DC",
       "country": "USA",
       "code": "DCA"
     },
@@ -9586,12 +9586,12 @@
       "code": "ALO"
     },
     {
-      "city": "Watertown (SD)",
+      "city": "Watertown",
       "country": "USA",
       "code": "ATY"
     },
     {
-      "city": "Wausau/Stevens Point (WI)",
+      "city": "Wausau/Stevens Point",
       "country": "USA",
       "code": "CWA"
     },
@@ -9611,22 +9611,22 @@
       "code": "WLG"
     },
     {
-      "city": "Wenatchee (WA)",
+      "city": "Wenatchee",
       "country": "USA",
       "code": "EAT"
     },
     {
-      "city": "West Palm Beach (FL)",
+      "city": "West Palm Beach",
       "country": "USA",
       "code": "PBI"
     },
     {
-      "city": "West Yellowstone (MT)",
+      "city": "West Yellowstone",
       "country": "USA",
       "code": "WYS"
     },
     {
-      "city": "Westerland, Sylt Airport",
+      "city": "Westerland",
       "country": "Germany",
       "code": "GWT"
     },
@@ -9636,7 +9636,7 @@
       "code": "WHK"
     },
     {
-      "city": "Whale Cove, NT",
+      "city": "Whale Cove",
       "country": "Canada",
       "code": "YXN"
     },
@@ -9646,7 +9646,7 @@
       "code": "WRE"
     },
     {
-      "city": "White Plains (NY)",
+      "city": "White Plains",
       "country": "USA",
       "code": "HPN"
     },
@@ -9666,12 +9666,12 @@
       "code": "WYA"
     },
     {
-      "city": "Wichita Falls (TX)",
+      "city": "Wichita Falls",
       "country": "USA",
       "code": "SPS"
     },
     {
-      "city": "Wichita (KS)",
+      "city": "Wichita",
       "country": "USA",
       "code": "ICT"
     },
@@ -9686,37 +9686,37 @@
       "code": "WHM"
     },
     {
-      "city": "Wien (Vienna) - Vienna International",
+      "city": "Wien",
       "country": "Austria",
       "code": "VIE"
     },
     {
-      "city": "Wiesbaden, Air Base",
+      "city": "Wiesbaden",
       "country": "Germany",
       "code": "WIE"
     },
     {
-      "city": "Wilkes Barre/Scranton (PA)",
+      "city": "Wilkes Barre/Scranton",
       "country": "USA",
       "code": "AVP"
     },
     {
-      "city": "Williamsport (PA)",
+      "city": "Williamsport",
       "country": "USA",
       "code": "IPT"
     },
     {
-      "city": "Williston (ND)",
+      "city": "Williston",
       "country": "USA",
       "code": "ISL"
     },
     {
-      "city": "Wilmington (NC)",
+      "city": "Wilmington",
       "country": "USA",
       "code": "ILM"
     },
     {
-      "city": "Wilna (Vilnius)",
+      "city": "Wilna",
       "country": "Lithuania",
       "code": "VNO"
     },
@@ -9726,12 +9726,12 @@
       "code": "WUN"
     },
     {
-      "city": "Windhoek - Eros",
+      "city": "Windhoek",
       "country": "Namibia",
       "code": "ERS"
     },
     {
-      "city": "Windhoek - Hosea Kutako International",
+      "city": "Windhoek",
       "country": "Namibia",
       "code": "WDH"
     },
@@ -9746,7 +9746,7 @@
       "code": "YWG"
     },
     {
-      "city": "Wolf Point (MT)",
+      "city": "Wolf Point",
       "country": "USA",
       "code": "OLF"
     },
@@ -9761,23 +9761,23 @@
       "code": "UMR"
     },
     {
-      "city": "Worcester (MA)",
+      "city": "Worcester",
       "country": "USA",
       "code": "ORH"
     },
     {
-      "city": "Worland (WY)",
+      "city": "Worland",
       "country": "USA",
       "code": "WRL"
     },
     {
-      "city": "Wrangell (AK)",
+      "city": "Wrangell",
       "country": "USA",
       "code": "WRG"
     },
     {
       "city": "Wuhan",
-      "country": "Hubei, PR China",
+      "country": "Hubei,",
       "code": "WUH"
     },
     {
@@ -9787,21 +9787,21 @@
     },
     {
       "city": "Xiamen",
-      "country": "Fujian, PR China",
+      "country": "Fujian,",
       "code": "XMN"
     },
     {
-      "city": "Xi'an - Xianyang",
-      "country": "Shaanxi, PR China",
+      "city": "Xi'an",
+      "country": "Shaanxi,",
       "code": "XIY"
     },
     {
-      "city": "Yakima (WA)",
+      "city": "Yakima",
       "country": "USA",
       "code": "YKM"
     },
     {
-      "city": "Yakutat (AK)",
+      "city": "Yakutat",
       "country": "USA",
       "code": "YAK"
     },
@@ -9811,7 +9811,7 @@
       "code": "YKS"
     },
     {
-      "city": "Yamagata, Junmachi",
+      "city": "Yamagata",
       "country": "Japan",
       "code": "GAJ"
     },
@@ -9826,7 +9826,7 @@
       "code": "YNB"
     },
     {
-      "city": "Yangon (Rangoon) - Mingaladon",
+      "city": "Yangon",
       "country": "Myanmar",
       "code": "RGN"
     },
@@ -9842,7 +9842,7 @@
     },
     {
       "city": "Yichang",
-      "country": "Hubei, PR China",
+      "country": "Hubei,",
       "code": "YIH"
     },
     {
@@ -9851,7 +9851,7 @@
       "code": "YOK"
     },
     {
-      "city": "Yuma (AZ)",
+      "city": "Yuma",
       "country": "USA",
       "code": "YUM"
     },
@@ -9862,12 +9862,12 @@
     },
     {
       "city": "Zadar",
-      "country": "Croatia (Hrvatska)",
+      "country": "Croatia",
       "code": "ZAD"
     },
     {
-      "city": "Zagreb - Pleso",
-      "country": "Croatia (Hrvatska)",
+      "city": "Zagreb",
+      "country": "Croatia",
       "code": "ZAG"
     },
     {
@@ -9896,7 +9896,7 @@
       "code": "OUZ"
     },
     {
-      "city": "Zurich (Zürich) - Kloten",
+      "city": "Zurich",
       "country": "Switzerland",
       "code": "ZRH"
     }
