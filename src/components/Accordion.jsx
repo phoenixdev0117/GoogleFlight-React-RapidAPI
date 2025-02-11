@@ -4,11 +4,11 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import { Box, Typography, useTheme } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import { AccordionSummaryDesktopUnexpand, AccordionSummaryDesktopExpand, AccordionDetailedDesktop } from './AccordionComponent';
+import { AccordionSummaryDesktopUnexpand, AccordionSummaryDesktopExpand, AccordionDetailedDesktop, AccordionSummaryMobileUnexpand } from './AccordionComponent';
 
 export default function AccordionExpandDefault({ props, tripType }) {
   const theme = useTheme();
-  
+
   // State to track the currently expanded accordion index
   const [expandedIndex, setExpandedIndex] = React.useState(null);
 
@@ -24,6 +24,7 @@ export default function AccordionExpandDefault({ props, tripType }) {
           key={index} // Always add a unique key for each item
           expanded={expandedIndex === index} // Check if this index is the currently expanded one
           onChange={() => handleChange(index)} // Pass the index to handleChange
+          className='md:block hidden'
           sx={{ backgroundColor: theme.palette.background.default, border: "1px solid white" }}
         >
           <AccordionSummary
@@ -42,6 +43,11 @@ export default function AccordionExpandDefault({ props, tripType }) {
             <AccordionDetailedDesktop prop={prop} />
           </AccordionDetails>
         </Accordion>
+      ))}
+      {props.map((prop, index) => (
+        <AccordionSummaryMobileUnexpand prop={prop} tripType={tripType}>
+
+        </AccordionSummaryMobileUnexpand>
       ))}
     </div>
   );
