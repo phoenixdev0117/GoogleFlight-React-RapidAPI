@@ -12,6 +12,7 @@ const Home = () => {
   const [tripType, setTripType] = useState("Round trip");
 
   const [counts, setCounts] = useState([1, 0, 0, 0]); // [adultCount, childCount, infantSeatCount, infantLapCount]
+  
 
   useEffect(() => {
     setAdults(counts[0]);
@@ -19,7 +20,7 @@ const Home = () => {
     if (counts[2] + counts[3]) setInfants(counts[2] + counts[3]);
   }, [counts]);
 
-  const [date, setDate] = useState(new Date(2025, 2, 10));
+  const [date, setDate] = useState(new Date(2025, 2, 12));
   const [returnDate, setReturnDate] = useState(new Date(2025, 2, 15));
   const [cabinClass, setCabinClass] = useState("economy");
 
@@ -38,6 +39,7 @@ const Home = () => {
   const [loading, setLoading] = useState(false);
   const [openIndex, setOpenIndex] = useState(null);
   const [data, setData] = useState([]);
+  const [accordionData, setAccordionData] = useState([]);
 
   function formatDate(date) {
     const year = date.getFullYear();
@@ -148,11 +150,49 @@ const Home = () => {
     setLoading(false);
     console.log(dataList);
 
+    let accordionDataList = [];
+
     for(let id=0; id<dataList.length; id++){
       const dataItem = dataList[id];
-      console.log(dataItem.price.formatted);
+      // console.log(dataItem.price.formatted);
+      const legs = dataItem.legs[0].segments;
+
+      let legsNeedDataList = [];
+      let sublogoflag = true;
+      if (dataItem.legs[0].carriers.marketing.length > 1) sublogoflag = false;
+      let sublogo = dataItem.legs[0].carriers.marketing[0].logoUrl;
+      for(let i=0; i < legs.length; i++) {
+        const eachlegs = legs[i];
+        if (dataItem.legs[0].carriers.marketing[i])
+        sublogo = dataItem.legs[0].carriers.marketing[i].logoUrl;
+
+        const legsEachdata = {
+          departure: eachlegs.departure,
+          origin: `${eachlegs.origin.name} Airport (${eachlegs.origin.displayCode})`,
+          arrival: eachlegs.arrival,
+          destination: `${eachlegs.destination.name} Airport (${eachlegs.destination.displayCode})`,
+          logo: sublogo,
+        };
+
+        legsNeedDataList = legsNeedDataList.concat(legsEachdata);
+      }
+
+
+      const virtdata = {
+
+        price: dataItem.price.formatted,
+        legs: legsNeedDataList,
+        logo: sublogoflag
+          ? dataItem.legs[0].carriers.marketing[0].logoUrl
+          : "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+        flag: sublogoflag,
+      };
+
+      accordionDataList = accordionDataList.concat(virtdata);
     }
 
+    console.log(accordionDataList);
+    setAccordionData(accordionDataList);
     
     // navigate('/search');
   };
@@ -219,7 +259,7 @@ const Home = () => {
         >
           <FontAwesomeIcon icon={faMagnifyingGlass} /> Search
         </button>
-        <DataAccordianModel tripType={tripType} />
+        <DataAccordianModel tripType={tripType} accordionData = {accordionData}/>
       </ThemeProvider>
 
     </div>
