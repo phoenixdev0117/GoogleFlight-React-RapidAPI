@@ -5,7 +5,7 @@ import { ThemeProvider, CssBaseline } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
-import { useTheme } from '@mui/material';
+import { useTheme } from "@mui/material";
 import DataAccordianModel from "../../components/DataAccordianModel";
 import BestSwitch from "../../components/BestSwitch";
 
@@ -13,7 +13,6 @@ const Home = () => {
   const [tripType, setTripType] = useState("Round trip");
 
   const [counts, setCounts] = useState([1, 0, 0, 0]); // [adultCount, childCount, infantSeatCount, infantLapCount]
-  
 
   useEffect(() => {
     setAdults(counts[0]);
@@ -42,8 +41,7 @@ const Home = () => {
   const [data, setData] = useState([]);
   const [accordionData, setAccordionData] = useState([]);
 
-
-  const [switchBestToCheapest, setSwitchBestToCheapest] = useState(false);
+  const [switchBestToCheapest, setSwitchBestToCheapest] = useState(true);
 
   function formatDate(date) {
     const year = date.getFullYear();
@@ -64,7 +62,7 @@ const Home = () => {
         method: "GET",
         headers: {
           "x-rapidapi-key":
-            "e79837316amshc59b29c39bbe969p195a09jsn62e98e9b7086",
+            "9389cc89e0msh7feb867a63df98ap109416jsn0aded6dc7b99",
           "x-rapidapi-host": "sky-scrapper.p.rapidapi.com",
         },
       }
@@ -81,7 +79,7 @@ const Home = () => {
         method: "GET",
         headers: {
           "x-rapidapi-key":
-            "e79837316amshc59b29c39bbe969p195a09jsn62e98e9b7086",
+            "9389cc89e0msh7feb867a63df98ap109416jsn0aded6dc7b99",
           "x-rapidapi-host": "sky-scrapper.p.rapidapi.com",
         },
       }
@@ -136,7 +134,7 @@ const Home = () => {
           method: "GET",
           headers: {
             "x-rapidapi-key":
-              "e79837316amshc59b29c39bbe969p195a09jsn62e98e9b7086",
+              "9389cc89e0msh7feb867a63df98ap109416jsn0aded6dc7b99",
             "x-rapidapi-host": "sky-scrapper.p.rapidapi.com",
           },
         });
@@ -156,7 +154,7 @@ const Home = () => {
 
     let accordionDataList = [];
 
-    for(let id=0; id<dataList.length; id++){
+    for (let id = 0; id < dataList.length; id++) {
       const dataItem = dataList[id];
       // console.log(dataItem.price.formatted);
       const legs = dataItem.legs[0].segments;
@@ -165,10 +163,10 @@ const Home = () => {
       let sublogoflag = true;
       if (dataItem.legs[0].carriers.marketing.length > 1) sublogoflag = false;
       let sublogo = dataItem.legs[0].carriers.marketing[0].logoUrl;
-      for(let i=0; i < legs.length; i++) {
+      for (let i = 0; i < legs.length; i++) {
         const eachlegs = legs[i];
         if (dataItem.legs[0].carriers.marketing[i])
-        sublogo = dataItem.legs[0].carriers.marketing[i].logoUrl;
+          sublogo = dataItem.legs[0].carriers.marketing[i].logoUrl;
 
         const legsEachdata = {
           departure: eachlegs.departure,
@@ -181,9 +179,9 @@ const Home = () => {
         legsNeedDataList = legsNeedDataList.concat(legsEachdata);
       }
 
-
       const virtdata = {
-
+        score: dataItem.score,
+        pricesort: dataItem.price.raw,
         price: dataItem.price.formatted,
         legs: legsNeedDataList,
         logo: sublogoflag
@@ -196,8 +194,9 @@ const Home = () => {
     }
 
     console.log(accordionDataList);
-    setAccordionData(accordionDataList);
-    
+    setSwitchBestToCheapest(true);
+    setAccordionData((_prev) => accordionDataList);
+
     // navigate('/search');
   };
   useEffect(() => {
@@ -205,6 +204,21 @@ const Home = () => {
       // console.log(data);
     }
   }, [data, loading]);
+
+  useEffect(() => {
+    if (!switchBestToCheapest) {
+      const sortedData = [...accordionData].sort(
+        (a, b) => a.pricesort - b.pricesort
+      );
+      setAccordionData(sortedData);
+    } else {
+      const sortedData = [...accordionData].sort((a, b) => b.score - a.score);
+      setAccordionData(sortedData);
+    }
+    console.log(accordionData);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [switchBestToCheapest]);
+
   // }, [adults, cabinClass, carriersIds, childrens, countryCode, currency, date, destinationEntityId, destinationLocation, destinationSkyId, infants, limit, market, originEntityId, originLocation, originSkyId, returnDate, sortBy]);
 
   // Create themes
@@ -224,18 +238,18 @@ const Home = () => {
     "(prefers-color-scheme: dark)"
   ).matches;
   const theme = prefersDarkMode ? darkTheme : lightTheme;
-  const banner = prefersDarkMode ?
-    "https://www.gstatic.com/travel-frontend/animation/hero/flights_nc_dark_theme_4.svg" :
-    "https://www.gstatic.com/travel-frontend/animation/hero/flights_nc_4.svg";
+  const banner = prefersDarkMode
+    ? "https://www.gstatic.com/travel-frontend/animation/hero/flights_nc_dark_theme_4.svg"
+    : "https://www.gstatic.com/travel-frontend/animation/hero/flights_nc_4.svg";
+
+  useEffect(() => {
+    console.log("accordionData------------->", accordionData);
+  }, [accordionData]);
 
   return (
     <div className="flex flex-col justify-center w-full items-center">
       <div className=" flex flex-col items-center">
-        <img
-          src={banner}
-          alt="flight"
-          className="xl:w-[1248px] w-screen"
-        />
+        <img src={banner} alt="flight" className="xl:w-[1248px] w-screen" />
         <div className=" text-[56px] -translate-y-10 ">Flights</div>
       </div>
 
@@ -264,11 +278,13 @@ const Home = () => {
           <FontAwesomeIcon icon={faMagnifyingGlass} /> Search
         </button>
 
-        <BestSwitch switchBestToCheapest={switchBestToCheapest} setSwitchBestToCheapest={setSwitchBestToCheapest}/>
+        <BestSwitch
+          switchBestToCheapest={switchBestToCheapest}
+          setSwitchBestToCheapest={setSwitchBestToCheapest}
+        />
 
-        <DataAccordianModel tripType={tripType} accordionData = {accordionData}/>
+        <DataAccordianModel tripType={tripType} accordionData={accordionData} />
       </ThemeProvider>
-
     </div>
   );
 };
