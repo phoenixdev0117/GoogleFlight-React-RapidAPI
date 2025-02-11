@@ -5,7 +5,7 @@ import "react-google-flight-datepicker/dist/main.css";
 import "./effect.scss";
 import AccordionExpandIcon from "./Accordion";
 
-export default function DataAccordianModel({tripType}) {
+export default function DataAccordianModel({tripType, accordionData}) {
   const theme = useTheme(); // Access the current theme
 
   const data = [
@@ -52,7 +52,7 @@ export default function DataAccordianModel({tripType}) {
 
   return (
     <div className={`w-[1000px] ${theme.palette.mode}-date-theme`}>
-      <AccordionExpandIcon props={data} tripType={tripType} />
+      <AccordionExpandIcon props={accordionData} tripType={tripType} />
     </div>
   );
 }
