@@ -160,11 +160,11 @@ export function AccordionDetailedDesktop({ prop }) {
   return (
     <div className="flex flex-col w-full mr-[1px] border-t-[1px] pt-8">
       {prop.legs.map((leg, index) => (
-        <Box className="flex">
+        <Box className="flex" key={index}>
           {
-            prop.flag ? <div style={{ width: "35px", height: "35px", marginLeft: '30px',marginRight: '30px' }}></div> : <img
+            prop.flag ? <div style={{ width: "35px", height: "35px", marginLeft: '30px', marginRight: '30px' }}></div> : <img
               src={prop.logo}
-              style={{ width: "35px", height: "35px", marginLeft: '30px',marginRight: '30px', marginTop: '30px' }}
+              style={{ width: "35px", height: "35px", marginLeft: '30px', marginRight: '30px', marginTop: '30px' }}
               alt=""
             />
           }
@@ -205,7 +205,7 @@ export function AccordionSummaryMobileUnexpand({ prop, tripType }) {
   };
 
   return (
-    <Box className='flex w-full p-4 md:hidden border-[1px] border-gray-300 rounded-t-md duration-300'>
+    <Box className='flex w-full md:hidden border-[1px] border-gray-300 rounded-t-md duration-300'>
       {/* sky logo */}
       {
         isClicked ? <></> : prop.flag ? <img
@@ -252,11 +252,15 @@ export function AccordionSummaryMobileUnexpand({ prop, tripType }) {
 
         <div className={`w-full mr-[1px] ${isClicked ? "flex flex-col" : "hidden"}`}>
           {prop.legs.map((leg, index) => (
-            <Box className="flex">
+            <Box className="flex" key={index}>
               {
-                prop.flag ? <div style={{ width: "35px", height: "35px", marginRight: '30px' }}></div> : <img
+                prop.flag ? <img
                   src={prop.logo}
-                  style={{ width: "35px", height: "35px", marginRight: '30px', marginTop: '30px' }}
+                  style={{ width: "35px", height: "35px" }}
+                  alt=""
+                /> : <img
+                  src={leg.logo}
+                  style={{ width: "35px", height: "35px" }}
                   alt=""
                 />
               }
