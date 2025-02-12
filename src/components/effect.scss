@@ -136,3 +136,29 @@
 .accordion-button-select:active {
   background-color: #dddddd;
 }
+
+.checkbox-only-button-container {
+  .checkbox-only-button {
+    opacity: 0;
+    color: rgb(26, 115, 232);
+    background-color: rgb(26, 115, 232, 0.1);
+    width: 65px;
+    height: 35px;
+    font-size: 14px;
+    border-radius: 100px;
+    position: absolute;
+    right: 10px;
+    top: 4px;
+  }
+
+  &:hover{
+    .checkbox-only-button {
+      opacity: 1;
+    }
+
+    .checkbox-only-button:active {
+      opacity: 1;
+      background-color: rgb(26, 115, 232, 0.5);
+    }
+  }
+}

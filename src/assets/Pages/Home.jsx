@@ -10,6 +10,7 @@ import DataAccordianModel from "../../components/DataAccordianModel";
 import BestSwitch from "../../components/BestSwitch";
 import DurationDropdown from "../../components/DurationDropdown";
 import { calculateMinuteDifference } from "../../action/date";
+import Airlines from "../../components/Filters/Airlines";
 const Home = () => {
   const [tripType, setTripType] = useState("Round trip");
 
@@ -300,6 +301,13 @@ const Home = () => {
           <FontAwesomeIcon icon={faMagnifyingGlass} /> Search
         </button>
         <div className=" flex justify-center items-center p-4 gap-4">
+          <Airlines 
+            value={duration}
+            onChange={(val)=>setDuration(val)}
+            min={0}
+            max={durationMax}
+            step={1}
+          />
           <DurationDropdown
             value={duration}
             onChange={(val)=>setDuration(val)}
