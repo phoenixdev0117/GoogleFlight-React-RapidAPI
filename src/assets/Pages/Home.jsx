@@ -2,7 +2,7 @@ import React, { useEffect, useState, useCallback } from "react";
 import "./effect.scss";
 import SkySearchForm from "../../components/SkySearchForm";
 import { ThemeProvider, CssBaseline } from "@mui/material";
-import { createTheme } from "@mui/material/styles";
+import { createTheme, duration } from "@mui/material/styles";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { useTheme } from "@mui/material";
@@ -15,6 +15,7 @@ import StopsDropdown from "../../components/Filters/StopDropdown";
 import Airlines from '../../components/Filters/Airlines'
 import BagsDropdown from "../../components/Filters/BagsDropdown";
 import EmissionsDropdown from "../../components/Filters/EmissionsDropdown";
+import ConnectingAirportsDropdown from "../../components/Filters/ConnectingAirportsDropdown";
 const Home = () => {
   const [tripType, setTripType] = useState("Round trip");
 
@@ -57,6 +58,8 @@ const Home = () => {
   const [stopsFilter, setStopsFilter] = useState('any');
   const [bagsFilter, setBagsFilter] = useState(0);
   const [emissionsFilter, setEmissionsFilter] = useState('any');
+  const [selectedAirports, setSelectedAirports] = useState([]);  
+  const [layoverRange, setLayoverRange] = useState([0, 60]);
 
 
 
@@ -340,6 +343,12 @@ const Home = () => {
           <EmissionsDropdown
             value={emissionsFilter}  
             onChange={(val)=>setEmissionsFilter(val)} 
+          />
+          <ConnectingAirportsDropdown  
+            selectedAirports={selectedAirports}  
+            onAirportsChange={(airports)=>setSelectedAirports(airports)}  
+            layoverRange={layoverRange} 
+            onLayoverChange={(range)=>setLayoverRange(range)}  
           />
           <DurationDropdown
             value={durationfilter}
