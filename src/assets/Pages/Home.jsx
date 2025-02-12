@@ -12,6 +12,7 @@ import DurationDropdown from "../../components/DurationDropdown";
 import { calculateMinuteDifference } from "../../action/date";
 import PriceDropdown from "../../components/Filters/PriceDropdown";
 import StopsDropdown from "../../components/Filters/StopDropdown";
+import Airlines from "../../components/Filters/Airlines";
 const Home = () => {
   const [tripType, setTripType] = useState("Round trip");
 
@@ -315,20 +316,6 @@ const Home = () => {
           <FontAwesomeIcon icon={faMagnifyingGlass} /> Search
         </button>
         <div className=" flex justify-center items-center p-4 gap-4">
-
-          <StopsDropdown  
-            value={stopsFilter}  
-            onChange={(val)=>setStopsFilter(val)}  
-          /> 
-
-          <PriceDropdown
-            value={pricefilter}
-            onChange={(val)=>setPricefilter(val)}
-            min={500}
-            max={16000}
-            step={500}
-          />
-
           <DurationDropdown
             value={durationfilter}
             onChange={(val)=>setDurationfilter(val)}
