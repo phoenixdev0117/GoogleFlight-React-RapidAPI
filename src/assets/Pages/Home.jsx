@@ -10,6 +10,8 @@ import DataAccordianModel from "../../components/DataAccordianModel";
 import BestSwitch from "../../components/BestSwitch";
 import DurationDropdown from "../../components/DurationDropdown";
 import { calculateMinuteDifference } from "../../action/date";
+import PriceDropdown from "../../components/Filters/PriceDropdown";
+import StopsDropdown from "../../components/Filters/StopDropdown";
 import Airlines from "../../components/Filters/Airlines";
 const Home = () => {
   const [tripType, setTripType] = useState("Round trip");
@@ -47,8 +49,10 @@ const Home = () => {
   const [switchBestToCheapest, setSwitchBestToCheapest] = useState(true);
 
 
-  const [duration, setDuration] = useState(60);
-  const [durationMax, setDurationMax] = useState(60);
+  const [durationfilter, setDurationfilter] = useState(60);
+  const [pricefilter, setPricefilter] = useState(16000);
+
+  const [stopsFilter, setStopsFilter] = useState('any');
 
 
 
@@ -176,10 +180,15 @@ const Home = () => {
 
       for (let i = 0; i < legs.length; i++) {
         const eachlegs = legs[i];
-        if (sublogoflag)
-          dataItem.legs[0].carriers.marketing[i]
-            ? (sublogo = dataItem.legs[0].carriers.marketing[i].logoUrl)
-            : dataItem.legs[0].carriers.marketing[0];
+        if (!sublogoflag) {
+          for(let j = 0; j < dataItem.legs[0].carriers.marketing.length; j ++ ){
+            if(dataItem.legs[0].carriers.marketing[j].alternateId == eachlegs.marketingCarrier.alternateId){
+              sublogo = dataItem.legs[0].carriers.marketing[j].logoUrl
+              break;
+            }
+            else sublogo = dataItem.legs[0].carriers.marketing[0].logoUrl;
+          }
+        }
 
         const legsEachdata = {
           departure: eachlegs.departure,
@@ -202,6 +211,7 @@ const Home = () => {
           ? dataItem.legs[0].carriers.marketing[0].logoUrl
           : "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
         flag: sublogoflag,
+        stopcount:dataItem.legs[0].stopCount
       };
 
       accordionDataList = accordionDataList.concat(virtdata);
@@ -235,10 +245,15 @@ const Home = () => {
   }, [switchBestToCheapest]);
 
   useEffect(()=>{
-    const durationFiltered = [...allData].filter(item => item.duration < duration * 60);
-    setAccordionData(durationFiltered);
+    const durationFiltered = [...allData].filter(item => item.duration < durationfilter * 60);
+    const priceFiltered = [...durationFiltered].filter(item => item.pricesort < pricefilter);
+    if(stopsFilter == 'any') setAccordionData(priceFiltered);
+    else {
+      const stopFiltered = [...priceFiltered].filter(item => item.stopcount <= (stopsFilter-'0'));
+      setAccordionData(stopFiltered);
+    }
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  },[duration])
+  },[durationfilter, pricefilter, stopsFilter])
 
 
   // }, [adults, cabinClass, carriersIds, childrens, countryCode, currency, date, destinationEntityId, destinationLocation, destinationSkyId, infants, limit, market, originEntityId, originLocation, originSkyId, returnDate, sortBy]);
@@ -301,18 +316,11 @@ const Home = () => {
           <FontAwesomeIcon icon={faMagnifyingGlass} /> Search
         </button>
         <div className=" flex justify-center items-center p-4 gap-4">
-          <Airlines 
-            value={duration}
-            onChange={(val)=>setDuration(val)}
-            min={0}
-            max={durationMax}
-            step={1}
-          />
           <DurationDropdown
-            value={duration}
-            onChange={(val)=>setDuration(val)}
+            value={durationfilter}
+            onChange={(val)=>setDurationfilter(val)}
             min={0}
-            max={durationMax}
+            max={60}
             step={1}
           />
         </div>
