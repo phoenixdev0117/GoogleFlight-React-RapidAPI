@@ -9,7 +9,7 @@ import { useTheme } from "@mui/material";
 import DataAccordianModel from "../../components/DataAccordianModel";
 import BestSwitch from "../../components/BestSwitch";
 import DurationDropdown from "../../components/DurationDropdown";
-import { calculateMinuteDifference } from "../../action/date";
+import { calculateMinuteDifference, getWeight } from "../../action/date";
 import PriceDropdown from "../../components/Filters/PriceDropdown";
 import StopsDropdown from "../../components/Filters/StopDropdown";
 import Airlines from '../../components/Filters/Airlines'
@@ -220,6 +220,7 @@ const Home = () => {
           ? dataItem.legs[0].carriers.marketing[0].logoUrl
           : "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
         flag: sublogoflag,
+        flue: getWeight(),
         stopcount:dataItem.legs[0].stopCount
       };
 
@@ -325,7 +326,7 @@ const Home = () => {
         >
           <FontAwesomeIcon icon={faMagnifyingGlass} /> Search
         </button>
-        <div className=" flex justify-center items-center p-4 gap-4">
+        <div className="flex p-4 gap-4 w-full md:w-[736px] lg:w-[900px] flex-wrap">
 
           <StopsDropdown  
             value={stopsFilter}  

@@ -74,7 +74,7 @@ export function AccordionSummaryDesktopUnexpand({ prop, tripType }) {
 
       {/* fuel amount and emissions */}
       <Box className='flex flex-col justify-between lg:w-[130px] w-[80px]'>
-        <Typography className='md:truncate lg:text-ellipsis text-[16px]'>{getWeight()} kg CO2e</Typography>
+        <Typography className='md:truncate lg:text-ellipsis text-[16px]'>{prop.flue} kg CO2e</Typography>
         <Typography className='md:truncate lg:text-ellipsis text-[12px] opacity-70' sx={{ fontSize: "12px", color: theme.palette.text.primary, opacity: '0.7' }}>
           +22% emissions
           <FontAwesomeIcon
@@ -129,7 +129,7 @@ export function AccordionSummaryDesktopExpand({ prop, tripType }) {
         Departure · {formatDate2(prop.legs[0].departure.split("T")[0])}
       </Typography>
       <Box className='flex flex-col justify-between lg:w-[130px] w-[110px]'>
-        <Typography sx={{ fontSize: "16px" }}>{getWeight()} kg CO2e</Typography>
+        <Typography sx={{ fontSize: "16px" }}>{prop.flue} kg CO2e</Typography>
         <Typography sx={{ fontSize: "12px", color: theme.palette.text.primary, opacity: '0.7' }}>
           +22% emissions
           <FontAwesomeIcon
@@ -158,9 +158,9 @@ export function AccordionDetailedDesktop({ prop }) {
   const theme = useTheme();
 
   return (
-    <div className="flex flex-col w-full mr-[1px] border-t-[1px] pt-8">
+    <div className="flex flex-col w-full mr-[1px] border-t-[1px] py-2">
       {prop.legs.map((leg, index) => (
-        <div className='grid grid-flow-col grid-cols-[80px_20px_auto_auto] grid-rows-[auto_40px_auto_60px_auto] mb-8'>
+        <div className='grid grid-flow-col grid-cols-[80px_20px_auto_auto] grid-rows-[auto_40px_auto_60px_auto] pt-2'>
           {
             prop.flag ? <div className='row-span-3 my-auto w-[35px] h-[35px] mx-[30px]'></div> :
               <img src={leg.logo} className='row-span-3 my-auto w-[35px] h-[35px] mx-[30px]' alt="" />
@@ -172,9 +172,9 @@ export function AccordionDetailedDesktop({ prop }) {
           </div>
           <div></div>
           <div></div>
-          <Typography sx={{ alignItems: "center", display: "flex" }}>{formatTimeManual(leg.departure)}{getDateDiff(prop.legs[index].departure, prop.legs[0].departure) ? <span className='text-[12px]'>+{getDateDiff(prop.legs[index].departure, prop.legs[0].departure)}</span> : ""} · {prop.legs[index].origin}</Typography>
+          <Typography sx={{ alignItems: "center", display: "flex" }}>{formatTimeManual(leg.departure)}{getDateDiff(prop.legs[index].departure, prop.legs[0].departure) ? <span className='text-[12px] h-full flex items-start pt-1'>+{getDateDiff(prop.legs[index].departure, prop.legs[0].departure)}</span> : ""} · {prop.legs[index].origin}</Typography>
           <Typography sx={{ alignItems: "center", display: "flex", fontSize: "14px", color: "#70757a", margin: "12px 0" }}>Travel time: {calculateTimeDifference(leg.arrival, leg.departure)}</Typography>
-          <Typography sx={{ alignItems: "end", display: "flex" }}>{formatTimeManual(leg.arrival)}{getDateDiff(prop.legs[index].arrival, prop.legs[0].departure) ? <span className='text-[12px]'>+{getDateDiff(prop.legs[index].arrival, prop.legs[0].departure)}</span> : ""} · {prop.legs[index].destination}</Typography>
+          <Typography sx={{ alignItems: "end", display: "flex" }}>{formatTimeManual(leg.arrival)}{getDateDiff(prop.legs[index].arrival, prop.legs[0].departure) ? <span className='text-[12px] h-full flex items-center'>+{getDateDiff(prop.legs[index].arrival, prop.legs[0].departure)}</span> : ""} · {prop.legs[index].destination}</Typography>
           <Typography sx={{ alignItems: "end", display: "flex", fontSize: "12px", color: "#70757a", margin: "12px 0" }}>JAL · Premium Economy · Boeing 777 · JL 2</Typography>
           {index != prop.legs.length - 1 ?
             <Typography
@@ -188,7 +188,20 @@ export function AccordionDetailedDesktop({ prop }) {
                 padding: "16px 24px 16px 0",
                 width: "100%",
               }}>{calculateTimeDifference(prop.legs[index + 1].departure, prop.legs[index].arrival)} {prop.legs[index].destination}</Typography> : <></>}
-          <AccordionSkyEstimate className="row-span-3" />
+          {index == prop.legs.length - 1 ?
+            <Typography
+              className='col-span-2'
+              sx={{
+                fontSize: "12px",
+                margin: "10px 0 0",
+                padding: "16px 24px 16px 0",
+                width: "100%",
+                color: "#70757a"
+              }}>1 checked bag up to 23 kg included · Fare non-refundable, taxes may be refundable · Free change, possible fare difference<br />
+              Bag and fare conditions depend on the return flight</Typography> : <></>}
+          <div className='flex row-span-3 justify-end'>
+            <AccordionSkyEstimate className="" flue={prop.flue} />
+          </div>
         </div>
       ))}
     </div>

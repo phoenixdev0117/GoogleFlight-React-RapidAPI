@@ -120,6 +120,7 @@ export default function TimeSelection() {
           "& .MuiPopover-paper": {
             width: 300,
             mt: 1,
+            borderRadius: "10px"
           },
         }}
       >
@@ -141,10 +142,22 @@ export default function TimeSelection() {
               <CloseIcon fontSize="small" />
             </IconButton>
           </Box>
-          <Box sx={{ display: "flex", justifyContent: "start", borderBottom: "1px solid gray" }}>
+          <Box sx={{ display: "flex", justifyContent: "start", borderBottom: "1px solid gray", paddingLeft: "12px" }}>
             <Tabs value={tabValue} onChange={handleTabChange}>
-              <Tab label="Outbound" />
-              <Tab label="Return" />
+              <Tab
+                label="Outbound"
+                sx={{
+                  fontWeight: tabValue === 0 ? "bold" : "normal", // Bold if active
+                  color: tabValue === 0 ? "black" : "inherit", // Black if active
+                }}
+              />
+              <Tab
+                label="Return"
+                sx={{
+                  fontWeight: tabValue === 1 ? "bold" : "normal", // Bold if active
+                  color: tabValue === 1 ? "black" : "inherit", // Black if active
+                }}
+              />
             </Tabs>
           </Box>
           {tabValue === 0 && (
