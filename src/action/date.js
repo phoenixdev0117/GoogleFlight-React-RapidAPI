@@ -56,6 +56,24 @@ export function calculateTimeDifference(datetime1, datetime2) {
   }
 }
 
+export function calculateMinuteDifference(time1, time2){  
+  try {  
+    const date1 = new Date(time1);  
+    const date2 = new Date(time2);  
+    
+    // Check for invalid dates  
+    if (isNaN(date1.getTime()) || isNaN(date2.getTime())) {  
+      throw new Error('Invalid date format');  
+    }  
+    
+    const diffInMs = Math.abs(date1 - date2);  
+    return Math.floor(diffInMs / (1000 * 60));  
+  } catch (error) {  
+    console.error('Error calculating time difference:', error);  
+    return null;  
+  }  
+}
+
 //2025-02-12T09:00:00, 2025-02-11T18:30:00 -> 1
 export function getDateDiff(date1, date2) {
   // Create new dates using only the date part  
