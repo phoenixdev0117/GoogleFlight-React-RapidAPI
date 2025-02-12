@@ -175,10 +175,15 @@ const Home = () => {
 
       for (let i = 0; i < legs.length; i++) {
         const eachlegs = legs[i];
-        if (sublogoflag)
-          dataItem.legs[0].carriers.marketing[i]
-            ? (sublogo = dataItem.legs[0].carriers.marketing[i].logoUrl)
-            : dataItem.legs[0].carriers.marketing[0];
+        if (!sublogoflag) {
+          for(let j = 0; j < dataItem.legs[0].carriers.marketing.length; j ++ ){
+            if(dataItem.legs[0].carriers.marketing[j].alternateId == eachlegs.marketingCarrier.alternateId){
+              sublogo = dataItem.legs[0].carriers.marketing[j].logoUrl
+              break;
+            }
+            else sublogo = dataItem.legs[0].carriers.marketing[0].logoUrl;
+          }
+        }
 
         const legsEachdata = {
           departure: eachlegs.departure,
@@ -201,6 +206,7 @@ const Home = () => {
           ? dataItem.legs[0].carriers.marketing[0].logoUrl
           : "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
         flag: sublogoflag,
+        stopcount:dataItem.legs[0].stopCount
       };
 
       accordionDataList = accordionDataList.concat(virtdata);
