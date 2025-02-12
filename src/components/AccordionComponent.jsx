@@ -160,36 +160,36 @@ export function AccordionDetailedDesktop({ prop }) {
   return (
     <div className="flex flex-col w-full mr-[1px] border-t-[1px] pt-8">
       {prop.legs.map((leg, index) => (
-        <Box className="flex" key={index}>
+        <div className='grid grid-flow-col grid-cols-[80px_20px_auto_auto] grid-rows-[auto_40px_auto_60px_auto] mb-8'>
           {
-            prop.flag ? <div style={{ width: "35px", height: "35px", marginLeft: '30px', marginRight: '30px' }}></div> : <img
-              src={prop.logo}
-              style={{ width: "35px", height: "35px", marginLeft: '30px', marginRight: '30px', marginTop: '30px' }}
-              alt=""
-            />
+            prop.flag ? <div className='row-span-3 my-auto w-[35px] h-[35px] mx-[30px]'></div> :
+              <img src={leg.logo} className='row-span-3 my-auto w-[35px] h-[35px] mx-[30px]' alt="" />
           }
-          <LegsImg />
-          <Box key={index} sx={{ display: "flex", flexDirection: "column", marginLeft: "20px", width: "100%" }}>
-            <Box sx={{ display: "flex", justifyContent: "space-between" }}>
-              <Box className="lg:w-auto w-[350px]">
-                <Typography sx={{ display: "flex" }}>{formatTimeManual(leg.departure)}{getDateDiff(prop.legs[index].departure, prop.legs[0].departure) ? <span className='text-[12px]'>+{getDateDiff(prop.legs[index].departure, prop.legs[0].departure)}</span> : ""} · {prop.legs[index].origin}</Typography>
-                <Typography sx={{ fontSize: "14px", color: "#70757a", margin: "12px 0" }}>Travel time: {calculateTimeDifference(leg.arrival, leg.departure)}</Typography>
-                <Typography sx={{ display: "flex" }}>{formatTimeManual(leg.arrival)}{getDateDiff(prop.legs[index].arrival, prop.legs[0].departure) ? <span className='text-[12px]'>+{getDateDiff(prop.legs[index].arrival, prop.legs[0].departure)}</span> : ""} · {prop.legs[index].destination}</Typography>
-                <Typography sx={{ fontSize: "12px", color: "#70757a", margin: "12px 0" }}>JAL · Premium Economy · Boeing 777 · JL 2</Typography>
-              </Box>
-              <AccordionSkyEstimate />
-            </Box>
-            {index != prop.legs.length - 1 ? <Typography sx={{
-              fontSize: "14px",
-              margin: "20px 0",
-              border: "1px solid #dadce0",
-              borderLeft: "0px",
-              borderRight: "0px",
-              padding: "16px 24px 16px 0",
-              width: "100%",
-            }}>{calculateTimeDifference(prop.legs[index + 1].departure, prop.legs[index].arrival)} {prop.legs[index].destination}</Typography> : <></>}
-          </Box>
-        </Box>
+          <div></div>
+          <div></div>
+          <div className="row-span-3 py-1">
+            <LegsImg />
+          </div>
+          <div></div>
+          <div></div>
+          <Typography sx={{ alignItems: "center", display: "flex" }}>{formatTimeManual(leg.departure)}{getDateDiff(prop.legs[index].departure, prop.legs[0].departure) ? <span className='text-[12px]'>+{getDateDiff(prop.legs[index].departure, prop.legs[0].departure)}</span> : ""} · {prop.legs[index].origin}</Typography>
+          <Typography sx={{ alignItems: "center", display: "flex", fontSize: "14px", color: "#70757a", margin: "12px 0" }}>Travel time: {calculateTimeDifference(leg.arrival, leg.departure)}</Typography>
+          <Typography sx={{ alignItems: "end", display: "flex" }}>{formatTimeManual(leg.arrival)}{getDateDiff(prop.legs[index].arrival, prop.legs[0].departure) ? <span className='text-[12px]'>+{getDateDiff(prop.legs[index].arrival, prop.legs[0].departure)}</span> : ""} · {prop.legs[index].destination}</Typography>
+          <Typography sx={{ alignItems: "end", display: "flex", fontSize: "12px", color: "#70757a", margin: "12px 0" }}>JAL · Premium Economy · Boeing 777 · JL 2</Typography>
+          {index != prop.legs.length - 1 ?
+            <Typography
+              className='col-span-2'
+              sx={{
+                fontSize: "14px",
+                margin: "10px 0",
+                border: "1px solid #dadce0",
+                borderLeft: "0px",
+                borderRight: "0px",
+                padding: "16px 24px 16px 0",
+                width: "100%",
+              }}>{calculateTimeDifference(prop.legs[index + 1].departure, prop.legs[index].arrival)} {prop.legs[index].destination}</Typography> : <></>}
+          <AccordionSkyEstimate className="row-span-3" />
+        </div>
       ))}
     </div>
   );
@@ -205,16 +205,16 @@ export function AccordionSummaryMobileUnexpand({ prop, tripType }) {
   };
 
   return (
-    <Box className='flex w-full md:hidden border-[1px] border-gray-300 rounded-t-md duration-300'>
+    <Box className='flex w-full md:hidden py-4 border-[1px] border-gray-300 rounded-t-md duration-300'>
       {/* sky logo */}
       {
         isClicked ? <></> : prop.flag ? <img
           src={prop.logo}
-          style={{ width: "35px", height: "35px", marginRight: '20px' }}
+          style={{ width: "35px", height: "35px", marginRight: '20px', marginLeft: '20px' }}
           alt=""
         /> : <img
           src={"https://www.gstatic.com/flights/airline_logos/70px/multi.png"}
-          style={{ width: "35px", height: "35px", marginRight: '20px' }}
+          style={{ width: "35px", height: "35px", marginRight: '20px', marginLeft: '20px' }}
           alt=""
         />
       }
@@ -250,30 +250,33 @@ export function AccordionSummaryMobileUnexpand({ prop, tripType }) {
           </Typography>
         </Box>
 
-        <div className={`w-full mr-[1px] ${isClicked ? "flex flex-col" : "hidden"}`}>
+        <div className={`w-full mr-[1px] py-4 ${isClicked ? "flex flex-col" : "hidden"}`}>
           {prop.legs.map((leg, index) => (
             <Box className="flex" key={index}>
               {
                 prop.flag ? <img
                   src={prop.logo}
-                  style={{ width: "35px", height: "35px" }}
+                  style={{ width: "35px", height: "35px", marginLeft: '20px' }}
                   alt=""
                 /> : <img
                   src={leg.logo}
-                  style={{ width: "35px", height: "35px" }}
+                  style={{ width: "35px", height: "35px", marginLeft: '20px' }}
                   alt=""
                 />
               }
               <Box key={index} sx={{ display: "flex", flexDirection: "column", marginLeft: "20px", width: "100%" }}>
-                <Box sx={{ display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
-                  <Box sx={{ display: "flex", gap: "8px" }} className={`${isClicked && index == 0 ? "pr-32" : ""}`}>
-                    <LegsImg />
-                    <Box>
-                      <Typography sx={{ display: "flex" }}>{formatTimeManual(leg.departure)}{getDateDiff(prop.legs[index].departure, prop.legs[0].departure) ? <span className='text-[12px]'>+{getDateDiff(prop.legs[index].departure, prop.legs[0].departure)}</span> : ""} · {prop.legs[index].origin}</Typography>
-                      <Typography sx={{ fontSize: "14px", color: "#70757a", margin: "12px 0" }}>Travel time: {calculateTimeDifference(leg.arrival, leg.departure)}</Typography>
-                      <Typography sx={{ display: "flex" }}>{formatTimeManual(leg.arrival)}{getDateDiff(prop.legs[index].arrival, prop.legs[0].departure) ? <span className='text-[12px]'>+{getDateDiff(prop.legs[index].arrival, prop.legs[0].departure)}</span> : ""} · {prop.legs[index].destination}</Typography>
-                    </Box>
-                  </Box>
+                <Box className={`${index == 0 ? 'pr-16' : ''}`} sx={{ display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+                  <div className='grid grid-flow-col grid-cols-[20px_auto] grid-rows-[auto_auto_40px_auto_auto]'>
+                    <div className="row-span-4">
+                      <LegsImg />
+                    </div>
+                    <div className='w-[10px]'></div>
+                    <Typography sx={{ display: "flex" }}>{formatTimeManual(leg.departure)}{getDateDiff(prop.legs[index].departure, prop.legs[0].departure) ? <span className='text-[12px]'>+{getDateDiff(prop.legs[index].departure, prop.legs[0].departure)}</span> : ""}</Typography>
+                    <Typography sx={{ fontSize: "12px" }}>{prop.legs[index].origin}</Typography>
+                    <Typography className='flex items-center' sx={{ fontSize: "12px", color: "#70757a" }}>Travel time: {calculateTimeDifference(leg.arrival, leg.departure)}</Typography>
+                    <Typography sx={{ display: "flex" }}>{formatTimeManual(leg.arrival)}{getDateDiff(prop.legs[index].arrival, prop.legs[0].departure) ? <span className='text-[12px]'>+{getDateDiff(prop.legs[index].arrival, prop.legs[0].departure)}</span> : ""}</Typography>
+                    <Typography sx={{ fontSize: "12px" }}>{prop.legs[index].destination}</Typography>
+                  </div>
                   <Typography sx={{ fontSize: "12px", color: "#70757a", margin: "12px 0" }}>JAL · Premium Economy · Boeing 777 · JL 2</Typography>
                   <AccordionSkyEstimate />
                 </Box>
@@ -293,7 +296,6 @@ export function AccordionSummaryMobileUnexpand({ prop, tripType }) {
 
         {/* price of flight */}
         <Box className="flex flex-col items-end gap-1 absolute top-0 right-16">
-          {/* price of flight */}
           <Typography sx={{ fontSize: "16px" }}>{prop.price}</Typography>
           <Typography sx={{ fontSize: "12px", opacity: "0.7" }}>{tripType}</Typography>
           <Box className={`${isClicked ? "hidden" : "flex items-center"}`} sx={{ fontSize: "12px", color: theme.palette.text.primary, opacity: '0.7' }}>
@@ -312,11 +314,11 @@ export function AccordionSummaryMobileUnexpand({ prop, tripType }) {
           </Box>
         </Box>
 
-        <button className={`absolute top-0 right-0 hover:bg-gray-100 w-[40px] h-[40px] flex justify-center items-center rounded-full accordion-button-select duration-200 ${isClicked ? 'rotate-180' : 'rotate-0'}`} onClick={handleButtonClick}>
-          <svg focusable="false" width="24" height="24" viewBox="0 0 24 24" class="SadNne NMm5M"><path d="M12 16.41l-6.71-6.7 1.42-1.42 5.29 5.3 5.29-5.3 1.42 1.42z"></path></svg>
+        <button className={`absolute top-0 right-4 hover:bg-gray-100 w-[40px] h-[40px] flex justify-center items-center rounded-full accordion-button-select duration-200 ${isClicked ? 'rotate-180' : 'rotate-0'}`} onClick={handleButtonClick}>
+          <svg focusable="false" width="24" height="24" viewBox="0 0 24 24" className="SadNne NMm5M"><path d="M12 16.41l-6.71-6.7 1.42-1.42 5.29 5.3 5.29-5.3 1.42 1.42z"></path></svg>
         </button>
 
-        <button className={`absolute top-16 right-0 w-[128px] h-[32px] rounded-full border-[1px] border-gray-400 bg-inherit text-[14px] text-[rgb(138,180,248)] duration-300 ${isClicked ? 'block' : 'hidden'}`}>Select flight</button>
+        <button className={`absolute top-16 right-4 w-[128px] h-[32px] rounded-full border-[1px] border-gray-400 bg-inherit text-[14px] text-[rgb(138,180,248)] duration-300 ${isClicked ? 'block' : 'hidden'}`}>Select flight</button>
       </Box>
 
     </Box>
