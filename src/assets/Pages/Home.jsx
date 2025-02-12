@@ -17,6 +17,7 @@ import BagsDropdown from "../../components/Filters/BagsDropdown";
 import EmissionsDropdown from "../../components/Filters/EmissionsDropdown";
 import ConnectingAirportsDropdown from "../../components/Filters/ConnectingAirportsDropdown";
 import LoadingSpinner from "../../components/LoadingSpinner";
+import TimeSelection from "../../components/Filters/TimeSelection";
 const Home = () => {
   const [tripType, setTripType] = useState("Round trip");
 
@@ -352,6 +353,7 @@ const Home = () => {
             layoverRange={layoverRange} 
             onLayoverChange={(range)=>setLayoverRange(range)}  
           />
+          <TimeSelection />
           <DurationDropdown
             value={durationfilter}
             onChange={(val)=>setDurationfilter(val)}
