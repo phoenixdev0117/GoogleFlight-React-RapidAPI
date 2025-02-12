@@ -46,6 +46,7 @@ export default function Airlines() {
   const [alliancesCheckedStates, setAlliancesCheckedStates] = useState(
     Array(airlineLabelList.length).fill(false) // Initialize all checkboxes as unchecked
   );
+  const [airlineAllCheckState, setAirlineAllCheckState] = useState(true);
 
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
@@ -79,6 +80,18 @@ export default function Airlines() {
     setAirlineCheckedStates(Array(airlineLabelList.length).fill(false)); // Uncheck all checkboxes
     setAlliancesCheckedStates(Array(alliancesLabelList.length).fill(false)); // Uncheck all checkboxes
   };
+
+  const handleSelectAllClick = () => {
+    let airlineAllCheck = airlineCheckedStates.every(item => item === true);
+    if(!airlineAllCheckState) {setAirlineCheckedStates(
+      Array(airlineLabelList.length).fill(
+        !airlineCheckedStates.every(item => item === true)
+      )
+    )} else {
+      setAirlineCheckedStates(Array(airlineLabelList.length).fill(false));
+    }
+    setAirlineAllCheckState(!airlineAllCheckState);
+  }
 
   const open = Boolean(anchorEl);
   const id = open ? "duration-popover" : undefined;
@@ -157,7 +170,7 @@ export default function Airlines() {
               >
                 Select all airlines
               </Typography>
-              <Switch defaultChecked />
+              <Switch defaultChecked onClick={handleSelectAllClick} />
             </Box>
 
             <Box sx={{ padding: "0px", marginTop: "10px" }}>
