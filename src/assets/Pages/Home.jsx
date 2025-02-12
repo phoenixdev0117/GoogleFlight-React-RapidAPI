@@ -16,6 +16,7 @@ import Airlines from '../../components/Filters/Airlines'
 import BagsDropdown from "../../components/Filters/BagsDropdown";
 import EmissionsDropdown from "../../components/Filters/EmissionsDropdown";
 import ConnectingAirportsDropdown from "../../components/Filters/ConnectingAirportsDropdown";
+import LoadingSpinner from "../../components/LoadingSpinner";
 const Home = () => {
   const [tripType, setTripType] = useState("Round trip");
 
@@ -300,6 +301,7 @@ const Home = () => {
 
       <ThemeProvider theme={theme}>
         <CssBaseline />
+        {loading && <LoadingSpinner />}
         <SkySearchForm
           tripType={tripType}
           setTripType={setTripType}
