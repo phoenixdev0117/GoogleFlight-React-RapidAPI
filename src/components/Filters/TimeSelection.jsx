@@ -11,6 +11,7 @@ import {
   IconButton,
 } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
 export default function TimeSelection() {
   const [anchorEl, setAnchorEl] = useState(null);
@@ -53,10 +54,10 @@ export default function TimeSelection() {
   };
 
   const handleClearClick = () => {
-    setOutboundDeparture([0,24]);
-    setOutboundArrival([0,24]);
-    setReturnDeparture([0,24]);
-    setReturnArrival([0,24]);
+    setOutboundDeparture([0, 24]);
+    setOutboundArrival([0, 24]);
+    setReturnDeparture([0, 24]);
+    setReturnArrival([0, 24]);
   }
 
   const open = Boolean(anchorEl);
@@ -85,7 +86,21 @@ export default function TimeSelection() {
 
   return (
     <div>
-      <Button onClick={handleClick} variant="outlined">
+      <Button
+        aria-describedby={id}
+        onClick={handleClick}
+        variant="outlined"
+        endIcon={<KeyboardArrowDownIcon />}
+        sx={{
+          textTransform: "none",
+          color: "inherit",
+          borderColor: "grey.300",
+          "&:hover": {
+            borderColor: "grey.400",
+            backgroundColor: "transparent"
+          }
+        }}
+      >
         Times
       </Button>
       <Popover
