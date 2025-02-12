@@ -160,21 +160,21 @@ export function AccordionDetailedDesktop({ prop }) {
   return (
     <div className="flex flex-col w-full mr-[1px] border-t-[1px] pt-8">
       {prop.legs.map((leg, index) => (
-        <div className='grid grid-flow-col grid-cols-[80px_20px_auto_auto] grid-rows-[24px_40px_24px_60px_auto] mb-8'>
+        <div className='grid grid-flow-col grid-cols-[80px_20px_auto_auto] grid-rows-[auto_40px_auto_60px_auto] mb-8'>
           {
             prop.flag ? <div className='row-span-3 my-auto w-[35px] h-[35px] mx-[30px]'></div> :
               <img src={leg.logo} className='row-span-3 my-auto w-[35px] h-[35px] mx-[30px]' alt="" />
           }
           <div></div>
           <div></div>
-          <div className="row-span-3">
+          <div className="row-span-3 py-1">
             <LegsImg />
           </div>
           <div></div>
           <div></div>
           <Typography sx={{ alignItems: "center", display: "flex" }}>{formatTimeManual(leg.departure)}{getDateDiff(prop.legs[index].departure, prop.legs[0].departure) ? <span className='text-[12px]'>+{getDateDiff(prop.legs[index].departure, prop.legs[0].departure)}</span> : ""} · {prop.legs[index].origin}</Typography>
           <Typography sx={{ alignItems: "center", display: "flex", fontSize: "14px", color: "#70757a", margin: "12px 0" }}>Travel time: {calculateTimeDifference(leg.arrival, leg.departure)}</Typography>
-          <Typography sx={{ alignItems: "center", display: "flex" }}>{formatTimeManual(leg.arrival)}{getDateDiff(prop.legs[index].arrival, prop.legs[0].departure) ? <span className='text-[12px]'>+{getDateDiff(prop.legs[index].arrival, prop.legs[0].departure)}</span> : ""} · {prop.legs[index].destination}</Typography>
+          <Typography sx={{ alignItems: "end", display: "flex" }}>{formatTimeManual(leg.arrival)}{getDateDiff(prop.legs[index].arrival, prop.legs[0].departure) ? <span className='text-[12px]'>+{getDateDiff(prop.legs[index].arrival, prop.legs[0].departure)}</span> : ""} · {prop.legs[index].destination}</Typography>
           <Typography sx={{ alignItems: "end", display: "flex", fontSize: "12px", color: "#70757a", margin: "12px 0" }}>JAL · Premium Economy · Boeing 777 · JL 2</Typography>
           {index != prop.legs.length - 1 ?
             <Typography
