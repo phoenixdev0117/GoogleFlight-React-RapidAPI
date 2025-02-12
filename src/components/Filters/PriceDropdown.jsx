@@ -8,12 +8,12 @@ import Box from "@mui/material/Box";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import CloseIcon from "@mui/icons-material/Close";
 
-export default function PriceDropdown({ 
-  value,              // Current value from parent
-  onChange,           // Callback when value is committed
-  min = 500,           // Minimum value
-  max = 16000,         // Maximum value
-  step = 500          // Step size
+export default function PriceDropdown({
+  value, // Current value from parent
+  onChange, // Callback when value is committed
+  min = 500, // Minimum value
+  max = 16000, // Maximum value
+  step = 500, // Step size
 }) {
   const [anchorEl, setAnchorEl] = useState(null);
   const [localValue, setLocalValue] = useState(value); // Local state for smooth sliding
@@ -59,8 +59,8 @@ export default function PriceDropdown({
           borderColor: "grey.300",
           "&:hover": {
             borderColor: "grey.400",
-            backgroundColor: "transparent"
-          }
+            backgroundColor: "transparent",
+          },
         }}
       >
         Price
@@ -107,21 +107,15 @@ export default function PriceDropdown({
           </Box>
 
           <Box sx={{ p: 3 }}>
-              {localValue == 16000
-                ?(<Typography
-                    variant="body2"
-                    color="text.secondary"
-                    sx={{ mb: 3 }}
-                  >All prices
-                  </Typography>
-                  )
-                :(<Typography
-                  variant="body2"
-                  color="text.primary"
-                  sx={{ mb: 3 }}
-                >up to ${localValue}
-                </Typography>
-                )}
+            {localValue == 16000 ? (
+              <Typography variant="body2" color="text.secondary" sx={{ mb: 3 }}>
+                All prices
+              </Typography>
+            ) : (
+              <Typography variant="body2" color="text.primary" sx={{ mb: 3 }}>
+                up to ${localValue}
+              </Typography>
+            )}
             <Box sx={{ px: 1 }}>
               <Slider
                 value={localValue}
@@ -131,15 +125,15 @@ export default function PriceDropdown({
                 onChange={handleSliderChange}
                 onChangeCommitted={handleSliderChangeCommitted}
                 sx={{
-                  '& .MuiSlider-thumb': {
+                  "& .MuiSlider-thumb": {
                     width: 16,
                     height: 16,
-                    border: '2px solid currentColor',
+                    border: "2px solid currentColor",
                   },
-                  '& .MuiSlider-track': {
+                  "& .MuiSlider-track": {
                     height: 4,
                   },
-                  '& .MuiSlider-rail': {
+                  "& .MuiSlider-rail": {
                     height: 4,
                   },
                 }}

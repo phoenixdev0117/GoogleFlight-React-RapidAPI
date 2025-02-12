@@ -45,8 +45,8 @@ export default function StopsDropdown({ value, onChange }) {
           borderColor: "rgb(229, 231, 235)",
           "&:hover": {
             borderColor: "rgb(209, 213, 219)",
-            backgroundColor: "transparent"
-          }
+            backgroundColor: "transparent",
+          },
         }}
       >
         Stops
@@ -69,7 +69,8 @@ export default function StopsDropdown({ value, onChange }) {
             width: 300,
             mt: 1,
             borderRadius: 1,
-            boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)'
+            boxShadow:
+              "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
           },
         }}
       >
@@ -84,11 +85,11 @@ export default function StopsDropdown({ value, onChange }) {
               alignItems: "center",
             }}
           >
-            <Typography 
-              sx={{ 
-                fontSize: '16px',
+            <Typography
+              sx={{
+                fontSize: "16px",
                 fontWeight: 500,
-                color: 'rgb(17, 24, 39)'
+                color: "rgb(17, 24, 39)",
               }}
             >
               Stops
@@ -96,13 +97,13 @@ export default function StopsDropdown({ value, onChange }) {
             <IconButton
               size="small"
               onClick={handleClose}
-              sx={{ 
-                color: 'rgb(156, 163, 175)',
+              sx={{
+                color: "rgb(156, 163, 175)",
                 p: 0,
-                '&:hover': {
-                  backgroundColor: 'transparent',
-                  color: 'rgb(107, 114, 128)'
-                }
+                "&:hover": {
+                  backgroundColor: "transparent",
+                  color: "rgb(107, 114, 128)",
+                },
               }}
             >
               <CloseIcon sx={{ fontSize: 20 }} />
@@ -115,36 +116,36 @@ export default function StopsDropdown({ value, onChange }) {
               value={value}
               onChange={handleChange}
               sx={{
-                '& .MuiRadio-root': {
-                  color: 'rgb(209, 213, 219)',
-                  '&.Mui-checked': {
-                    color: '#2563eb'
-                  }
+                "& .MuiRadio-root": {
+                  color: "rgb(209, 213, 219)",
+                  "&.Mui-checked": {
+                    color: "#2563eb",
+                  },
                 },
-                '& .MuiFormControlLabel-label': {
-                  fontSize: '14px',
-                  color: 'rgb(55, 65, 81)'
-                }
+                "& .MuiFormControlLabel-label": {
+                  fontSize: "14px",
+                  color: "rgb(55, 65, 81)",
+                },
               }}
             >
-              <FormControlLabel 
-                value="any" 
-                control={<Radio />} 
+              <FormControlLabel
+                value="any"
+                control={<Radio />}
                 label="Any number of stops"
               />
-              <FormControlLabel 
-                value='0'
-                control={<Radio />} 
+              <FormControlLabel
+                value="0"
+                control={<Radio />}
                 label="Nonstop only"
               />
-              <FormControlLabel 
-                value="1" 
-                control={<Radio />} 
+              <FormControlLabel
+                value="1"
+                control={<Radio />}
                 label="1 stop or fewer"
               />
-              <FormControlLabel 
-                value="2" 
-                control={<Radio />} 
+              <FormControlLabel
+                value="2"
+                control={<Radio />}
                 label="2 stops or fewer"
               />
             </RadioGroup>
@@ -157,21 +158,21 @@ export default function StopsDropdown({ value, onChange }) {
               py: 2,
               display: "flex",
               justifyContent: "flex-end",
-              borderTop: '1px solid',
-              borderColor: 'rgb(229, 231, 235)'
+              borderTop: "1px solid",
+              borderColor: "rgb(229, 231, 235)",
             }}
           >
             <Button
               onClick={handleClear}
               sx={{
                 textTransform: "none",
-                color: '#2563eb',
-                minWidth: 'auto',
+                color: "#2563eb",
+                minWidth: "auto",
                 padding: 0,
-                fontSize: '14px',
+                fontSize: "14px",
                 fontWeight: 500,
-                '&:hover': {
-                  backgroundColor: 'transparent',
+                "&:hover": {
+                  backgroundColor: "transparent",
                 },
               }}
             >

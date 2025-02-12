@@ -50,8 +50,8 @@ export default function BagsDropdown({ value = 0, onChange }) {
           borderColor: "rgb(229, 231, 235)",
           "&:hover": {
             borderColor: "rgb(209, 213, 219)",
-            backgroundColor: "transparent"
-          }
+            backgroundColor: "transparent",
+          },
         }}
       >
         Bags
@@ -74,7 +74,8 @@ export default function BagsDropdown({ value = 0, onChange }) {
             width: 300,
             mt: 1,
             borderRadius: 1,
-            boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)'
+            boxShadow:
+              "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
           },
         }}
       >
@@ -89,11 +90,11 @@ export default function BagsDropdown({ value = 0, onChange }) {
               alignItems: "center",
             }}
           >
-            <Typography 
-              sx={{ 
-                fontSize: '16px',
+            <Typography
+              sx={{
+                fontSize: "16px",
                 fontWeight: 500,
-                color: 'rgb(17, 24, 39)'
+                color: "rgb(17, 24, 39)",
               }}
             >
               Bags
@@ -101,13 +102,13 @@ export default function BagsDropdown({ value = 0, onChange }) {
             <IconButton
               size="small"
               onClick={handleClose}
-              sx={{ 
-                color: 'rgb(156, 163, 175)',
+              sx={{
+                color: "rgb(156, 163, 175)",
                 p: 0,
-                '&:hover': {
-                  backgroundColor: 'transparent',
-                  color: 'rgb(107, 114, 128)'
-                }
+                "&:hover": {
+                  backgroundColor: "transparent",
+                  color: "rgb(107, 114, 128)",
+                },
               }}
             >
               <CloseIcon sx={{ fontSize: 20 }} />
@@ -118,46 +119,54 @@ export default function BagsDropdown({ value = 0, onChange }) {
           <Box sx={{ px: 3, pb: 3 }}>
             {/* Counter Section */}
             <Box sx={{ mb: 2 }}>
-              <Box sx={{ 
-                display: 'flex', 
-                justifyContent: 'space-between', 
-                alignItems: 'center',
-                mb: 2
-              }}>
-                <Typography sx={{ 
-                  fontSize: '14px',
-                  color: 'rgb(55, 65, 81)'
-                }}>
+              <Box
+                sx={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                  mb: 2,
+                }}
+              >
+                <Typography
+                  sx={{
+                    fontSize: "14px",
+                    color: "rgb(55, 65, 81)",
+                  }}
+                >
                   Carry-on bag
                 </Typography>
-                <Box sx={{ 
-                  display: 'flex', 
-                  alignItems: 'center',
-                  gap: 1
-                }}>
+                <Box
+                  sx={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: 1,
+                  }}
+                >
                   <IconButton
                     onClick={handleDecrement}
                     disabled={value === 0}
                     sx={{
                       width: 28,
                       height: 28,
-                      backgroundColor: 'rgb(243, 244, 246)',
-                      '&:hover': {
-                        backgroundColor: 'rgb(229, 231, 235)'
+                      backgroundColor: "rgb(243, 244, 246)",
+                      "&:hover": {
+                        backgroundColor: "rgb(229, 231, 235)",
                       },
-                      '&.Mui-disabled': {
-                        backgroundColor: 'rgb(243, 244, 246)',
-                      }
+                      "&.Mui-disabled": {
+                        backgroundColor: "rgb(243, 244, 246)",
+                      },
                     }}
                   >
                     <RemoveIcon sx={{ fontSize: 16 }} />
                   </IconButton>
-                  <Typography sx={{ 
-                    minWidth: '20px', 
-                    textAlign: 'center',
-                    fontSize: '14px',
-                    color: 'rgb(55, 65, 81)'
-                  }}>
+                  <Typography
+                    sx={{
+                      minWidth: "20px",
+                      textAlign: "center",
+                      fontSize: "14px",
+                      color: "rgb(55, 65, 81)",
+                    }}
+                  >
                     {value}
                   </Typography>
                   <IconButton
@@ -165,10 +174,10 @@ export default function BagsDropdown({ value = 0, onChange }) {
                     sx={{
                       width: 28,
                       height: 28,
-                      backgroundColor: 'rgb(243, 244, 246)',
-                      '&:hover': {
-                        backgroundColor: 'rgb(229, 231, 235)'
-                      }
+                      backgroundColor: "rgb(243, 244, 246)",
+                      "&:hover": {
+                        backgroundColor: "rgb(229, 231, 235)",
+                      },
                     }}
                   >
                     <AddIcon sx={{ fontSize: 16 }} />
@@ -178,15 +187,15 @@ export default function BagsDropdown({ value = 0, onChange }) {
               <Button
                 sx={{
                   p: 0,
-                  minWidth: 'auto',
-                  textTransform: 'none',
-                  color: '#2563eb',
-                  fontSize: '14px',
+                  minWidth: "auto",
+                  textTransform: "none",
+                  color: "#2563eb",
+                  fontSize: "14px",
                   fontWeight: 400,
-                  '&:hover': {
-                    backgroundColor: 'transparent',
-                    textDecoration: 'underline'
-                  }
+                  "&:hover": {
+                    backgroundColor: "transparent",
+                    textDecoration: "underline",
+                  },
                 }}
               >
                 Learn more about bag selection
@@ -201,21 +210,21 @@ export default function BagsDropdown({ value = 0, onChange }) {
               py: 2,
               display: "flex",
               justifyContent: "flex-end",
-              borderTop: '1px solid',
-              borderColor: 'rgb(229, 231, 235)'
+              borderTop: "1px solid",
+              borderColor: "rgb(229, 231, 235)",
             }}
           >
             <Button
               onClick={handleClear}
               sx={{
                 textTransform: "none",
-                color: '#2563eb',
-                minWidth: 'auto',
+                color: "#2563eb",
+                minWidth: "auto",
                 padding: 0,
-                fontSize: '14px',
+                fontSize: "14px",
                 fontWeight: 500,
-                '&:hover': {
-                  backgroundColor: 'transparent',
+                "&:hover": {
+                  backgroundColor: "transparent",
                 },
               }}
             >
