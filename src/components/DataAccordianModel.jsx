@@ -4,6 +4,7 @@ import { RangeDatePicker } from "react-google-flight-datepicker";
 import "react-google-flight-datepicker/dist/main.css";
 import "./effect.scss";
 import AccordionExpandIcon from "./Accordion";
+import { getWeight } from "../action/date";
 
 export default function DataAccordianModel({tripType, accordionData}) {
   const theme = useTheme(); // Access the current theme
@@ -11,6 +12,7 @@ export default function DataAccordianModel({tripType, accordionData}) {
   const data = [
     {
       price:"$1551",
+      flue: getWeight(),
       legs:[
         {
           arrival:"2025-03-11T09:30:00",
@@ -36,6 +38,7 @@ export default function DataAccordianModel({tripType, accordionData}) {
     },
     {
       price:"$551",
+      flue: getWeight(),
       legs:[
         {
           arrival:"2025-03-11T21:30:00",
@@ -57,6 +60,7 @@ export default function DataAccordianModel({tripType, accordionData}) {
     ,
     {
       price:"$551",
+      flue: getWeight(),
       legs:[
         {
           arrival:"2025-03-11T21:30:00",
@@ -87,7 +91,7 @@ export default function DataAccordianModel({tripType, accordionData}) {
   return (
 
     <div className={`w-11/12 md:w-[736px] lg:w-[900px] ${theme.palette.mode}-date-theme`}>
-      <AccordionExpandIcon props={accordionData} tripType={tripType} />
+      <AccordionExpandIcon props={data} tripType={tripType} />
 
     </div>
   );
