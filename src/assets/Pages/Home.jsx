@@ -11,6 +11,7 @@ import BestSwitch from "../../components/BestSwitch";
 import DurationDropdown from "../../components/DurationDropdown";
 import { calculateMinuteDifference } from "../../action/date";
 import PriceDropdown from "../../components/Filters/PriceDropdown";
+import StopsDropdown from "../../components/Filters/StopDropdown";
 const Home = () => {
   const [tripType, setTripType] = useState("Round trip");
 
@@ -49,6 +50,8 @@ const Home = () => {
 
   const [durationfilter, setDurationfilter] = useState(60);
   const [pricefilter, setPricefilter] = useState(16000);
+
+  const [stopsFilter, setStopsFilter] = useState('any');
 
 
 
@@ -243,9 +246,13 @@ const Home = () => {
   useEffect(()=>{
     const durationFiltered = [...allData].filter(item => item.duration < durationfilter * 60);
     const priceFiltered = [...durationFiltered].filter(item => item.pricesort < pricefilter);
-    setAccordionData(priceFiltered);
+    if(stopsFilter == 'any') setAccordionData(priceFiltered);
+    else {
+      const stopFiltered = [...priceFiltered].filter(item => item.stopcount <= (stopsFilter-'0'));
+      setAccordionData(stopFiltered);
+    }
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  },[durationfilter, pricefilter])
+  },[durationfilter, pricefilter, stopsFilter])
 
 
   // }, [adults, cabinClass, carriersIds, childrens, countryCode, currency, date, destinationEntityId, destinationLocation, destinationSkyId, infants, limit, market, originEntityId, originLocation, originSkyId, returnDate, sortBy]);
@@ -308,6 +315,12 @@ const Home = () => {
           <FontAwesomeIcon icon={faMagnifyingGlass} /> Search
         </button>
         <div className=" flex justify-center items-center p-4 gap-4">
+
+          <StopsDropdown  
+            value={stopsFilter}  
+            onChange={(val)=>setStopsFilter(val)}  
+          /> 
+
           <PriceDropdown
             value={pricefilter}
             onChange={(val)=>setPricefilter(val)}
