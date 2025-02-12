@@ -8,7 +8,8 @@ import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { useTheme } from "@mui/material";
 import DataAccordianModel from "../../components/DataAccordianModel";
 import BestSwitch from "../../components/BestSwitch";
-
+import DurationDropdown from "../../components/DurationDropdown";
+import { calculateMinuteDifference } from "../../action/date";
 const Home = () => {
   const [tripType, setTripType] = useState("Round trip");
 
@@ -40,8 +41,15 @@ const Home = () => {
   const [openIndex, setOpenIndex] = useState(null);
   const [data, setData] = useState([]);
   const [accordionData, setAccordionData] = useState([]);
+  const [allData, setAllData] = useState([]);
 
   const [switchBestToCheapest, setSwitchBestToCheapest] = useState(true);
+
+
+  const [duration, setDuration] = useState(60);
+  const [durationMax, setDurationMax] = useState(60);
+
+
 
   function formatDate(date) {
     const year = date.getFullYear();
@@ -164,11 +172,13 @@ const Home = () => {
       if (dataItem.legs[0].carriers.marketing.length > 1) sublogoflag = false;
 
       let sublogo = dataItem.legs[0].carriers.marketing[0].logoUrl;
-      
-      for (let i = 0; i < legs.length; i++) {
 
+      for (let i = 0; i < legs.length; i++) {
         const eachlegs = legs[i];
-        if (sublogoflag)  dataItem.legs[0].carriers.marketing[i] ? sublogo = dataItem.legs[0].carriers.marketing[i].logoUrl : dataItem.legs[0].carriers.marketing[0];
+        if (sublogoflag)
+          dataItem.legs[0].carriers.marketing[i]
+            ? (sublogo = dataItem.legs[0].carriers.marketing[i].logoUrl)
+            : dataItem.legs[0].carriers.marketing[0];
 
         const legsEachdata = {
           departure: eachlegs.departure,
@@ -183,6 +193,7 @@ const Home = () => {
 
       const virtdata = {
         score: dataItem.score,
+        duration:calculateMinuteDifference(dataItem.legs[0].arrival, dataItem.legs[0].departure),
         pricesort: dataItem.price.raw,
         price: dataItem.price.formatted,
         legs: legsNeedDataList,
@@ -197,6 +208,7 @@ const Home = () => {
 
     console.log(accordionDataList);
     setSwitchBestToCheapest(true);
+    setAllData((_prev) => accordionDataList);
     setAccordionData((_prev) => accordionDataList);
 
     // navigate('/search');
@@ -218,8 +230,15 @@ const Home = () => {
       setAccordionData(sortedData);
     }
     console.log(accordionData);
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [switchBestToCheapest]);
+
+  useEffect(()=>{
+    const durationFiltered = [...allData].filter(item => item.duration < duration * 60);
+    setAccordionData(durationFiltered);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  },[duration])
+
 
   // }, [adults, cabinClass, carriersIds, childrens, countryCode, currency, date, destinationEntityId, destinationLocation, destinationSkyId, infants, limit, market, originEntityId, originLocation, originSkyId, returnDate, sortBy]);
 
@@ -246,6 +265,7 @@ const Home = () => {
 
   useEffect(() => {
     console.log("accordionData------------->", accordionData);
+    // console.log(duration);
   }, [accordionData]);
 
   return (
@@ -279,12 +299,19 @@ const Home = () => {
         >
           <FontAwesomeIcon icon={faMagnifyingGlass} /> Search
         </button>
-
+        <div className=" flex justify-center items-center p-4 gap-4">
+          <DurationDropdown
+            value={duration}
+            onChange={(val)=>setDuration(val)}
+            min={0}
+            max={durationMax}
+            step={1}
+          />
+        </div>
         <BestSwitch
           switchBestToCheapest={switchBestToCheapest}
           setSwitchBestToCheapest={setSwitchBestToCheapest}
         />
-
         <DataAccordianModel tripType={tripType} accordionData={accordionData} />
       </ThemeProvider>
     </div>
