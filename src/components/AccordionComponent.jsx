@@ -160,7 +160,7 @@ export function AccordionDetailedDesktop({ prop }) {
   return (
     <div className="flex flex-col w-full mr-[1px] border-t-[1px] py-2">
       {prop.legs.map((leg, index) => (
-        <div className='grid grid-flow-col grid-cols-[80px_20px_auto_auto] grid-rows-[auto_40px_auto_60px_auto] pt-2'>
+        <div key={index} className='grid grid-flow-col grid-cols-[80px_20px_auto_auto] grid-rows-[auto_40px_auto_60px_auto] pt-2'>
           {
             prop.flag ? <div className='row-span-3 my-auto w-[35px] h-[35px] mx-[30px]'></div> :
               <img src={leg.logo} className='row-span-3 my-auto w-[35px] h-[35px] mx-[30px]' alt="" />
