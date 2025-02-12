@@ -11,17 +11,37 @@ import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import CloseIcon from "@mui/icons-material/Close";
 
 const airports = [
-  { code: "AMS", name: "Amsterdam" },
-  { code: "BCN", name: "Barcelona" },
-  { code: "BEG", name: "Belgrade" },
-  { code: "BOS", name: "Boston" },
-  { code: "BRU", name: "Brussels" },
-  { code: "CAI", name: "Cairo" },
-  { code: "CPH", name: "Copenhagen" },
-  { code: "DUB", name: "Dublin" },
-  { code: "FRA", name: "Frankfurt" },
-  { code: "GVA", name: "Geneva" },
-];
+  {code:"AMS", name: "Amsterdam" },
+  {code:"BCN", name: "Barcelona" },
+  {code:"BEG", name: "Belgrade" },
+  {code:"BOS", name: "Boston" },
+  {code:"BRU", name: "Brussels" },
+  {code:"CAI", name: "Cairo" },
+  {code:"CPH", name: "Copenhagen" },
+  {code:"DUB", name: "Dublin" },
+  {code:"FRA", name: "Frankfurt" },
+  {code:"GVA", name: "Geneva" },
+  {code:"HEL", name: "Helsinki" },
+  {code:"IST", name: "İstanbul" },
+  {code:"LIS", name: "Lisbon" },
+  {code:"LCY", name: "London" },
+  {code:"LHR", name: "London" },
+  {code:"MAD", name: "Madrid" },
+  {code:"LIN", name: "Milan" },
+  {code:"YUL", name: "Montreal" },
+  {code:"MUC", name: "Munich" },
+  {code:"OSL", name: "Oslo" },
+  {code:"CDG", name: "Paris" },
+  {code:"PDL", name: "Ponta Delgada" },
+  {code:"KEF", name: "Reykjavík" },
+  {code:"RIX", name: "Riga" },
+  {code:"ARN", name: "Stockholm" },
+  {code:"TLV", name: "Tel Aviv-Yafo" },
+  {code:"YYZ", name: "Toronto" },
+  {code:"VIE", name: "Vienna" },
+  {code:"WAW", name: "Warsaw" },
+  {code:"ZRH", name: "Zürich" },
+]
 
 const DEFAULT_RANGE = [0, 60];
 
