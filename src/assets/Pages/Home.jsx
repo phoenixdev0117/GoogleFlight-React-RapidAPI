@@ -10,6 +10,7 @@ import DataAccordianModel from "../../components/DataAccordianModel";
 import BestSwitch from "../../components/BestSwitch";
 import DurationDropdown from "../../components/DurationDropdown";
 import { calculateMinuteDifference } from "../../action/date";
+import PriceDropdown from "../../components/Filters/PriceDropdown";
 const Home = () => {
   const [tripType, setTripType] = useState("Round trip");
 
@@ -46,8 +47,8 @@ const Home = () => {
   const [switchBestToCheapest, setSwitchBestToCheapest] = useState(true);
 
 
-  const [duration, setDuration] = useState(60);
-  const [durationMax, setDurationMax] = useState(60);
+  const [durationfilter, setDurationfilter] = useState(60);
+  const [pricefilter, setPricefilter] = useState(16000);
 
 
 
@@ -240,10 +241,11 @@ const Home = () => {
   }, [switchBestToCheapest]);
 
   useEffect(()=>{
-    const durationFiltered = [...allData].filter(item => item.duration < duration * 60);
-    setAccordionData(durationFiltered);
+    const durationFiltered = [...allData].filter(item => item.duration < durationfilter * 60);
+    const priceFiltered = [...durationFiltered].filter(item => item.pricesort < pricefilter);
+    setAccordionData(priceFiltered);
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  },[duration])
+  },[durationfilter, pricefilter])
 
 
   // }, [adults, cabinClass, carriersIds, childrens, countryCode, currency, date, destinationEntityId, destinationLocation, destinationSkyId, infants, limit, market, originEntityId, originLocation, originSkyId, returnDate, sortBy]);
@@ -306,11 +308,19 @@ const Home = () => {
           <FontAwesomeIcon icon={faMagnifyingGlass} /> Search
         </button>
         <div className=" flex justify-center items-center p-4 gap-4">
+          <PriceDropdown
+            value={pricefilter}
+            onChange={(val)=>setPricefilter(val)}
+            min={500}
+            max={16000}
+            step={500}
+          />
+
           <DurationDropdown
-            value={duration}
-            onChange={(val)=>setDuration(val)}
+            value={durationfilter}
+            onChange={(val)=>setDurationfilter(val)}
             min={0}
-            max={durationMax}
+            max={60}
             step={1}
           />
         </div>
