@@ -13,6 +13,8 @@ import { calculateMinuteDifference } from "../../action/date";
 import PriceDropdown from "../../components/Filters/PriceDropdown";
 import StopsDropdown from "../../components/Filters/StopDropdown";
 import Airlines from '../../components/Filters/Airlines'
+import BagsDropdown from "../../components/Filters/BagsDropdown";
+import EmissionsDropdown from "../../components/Filters/EmissionsDropdown";
 const Home = () => {
   const [tripType, setTripType] = useState("Round trip");
 
@@ -53,6 +55,8 @@ const Home = () => {
   const [pricefilter, setPricefilter] = useState(16000);
 
   const [stopsFilter, setStopsFilter] = useState('any');
+  const [bagsFilter, setBagsFilter] = useState(0);
+  const [emissionsFilter, setEmissionsFilter] = useState('any');
 
 
 
@@ -322,6 +326,10 @@ const Home = () => {
             onChange={(val)=>setStopsFilter(val)}  
           /> 
           <Airlines/>
+          <BagsDropdown  
+            value={bagsFilter}  
+            onChange={(val)=>setBagsFilter(val)}  
+          />
           <PriceDropdown
             value={pricefilter}
             onChange={(val)=>setPricefilter(val)}
@@ -329,7 +337,10 @@ const Home = () => {
             max={16000}
             step={500}
           />
-
+          <EmissionsDropdown
+            value={emissionsFilter}  
+            onChange={(val)=>setEmissionsFilter(val)} 
+          />
           <DurationDropdown
             value={durationfilter}
             onChange={(val)=>setDurationfilter(val)}
