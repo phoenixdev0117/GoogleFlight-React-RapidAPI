@@ -18,6 +18,9 @@ import EmissionsDropdown from "../../components/Filters/EmissionsDropdown";
 import ConnectingAirportsDropdown from "../../components/Filters/ConnectingAirportsDropdown";
 import LoadingSpinner from "../../components/LoadingSpinner";
 import TimeSelection from "../../components/Filters/TimeSelection";
+// eslint-disable-next-line no-undef
+const apiKey = process.env.VITE_RAPIDAPI_KEY
+console.log(apiKey);
 const Home = () => {
   const [tripType, setTripType] = useState("Round trip");
 
@@ -83,8 +86,8 @@ const Home = () => {
       {
         method: "GET",
         headers: {
-          "x-rapidapi-key":
-            "9389cc89e0msh7feb867a63df98ap109416jsn0aded6dc7b99",
+
+          "x-rapidapi-key": apiKey,
           "x-rapidapi-host": "sky-scrapper.p.rapidapi.com",
         },
       }
@@ -100,8 +103,8 @@ const Home = () => {
       {
         method: "GET",
         headers: {
-          "x-rapidapi-key":
-            "9389cc89e0msh7feb867a63df98ap109416jsn0aded6dc7b99",
+
+          "x-rapidapi-key": apiKey,
           "x-rapidapi-host": "sky-scrapper.p.rapidapi.com",
         },
       }
@@ -155,8 +158,8 @@ const Home = () => {
         const reponse = await fetch(url, {
           method: "GET",
           headers: {
-            "x-rapidapi-key":
-              "9389cc89e0msh7feb867a63df98ap109416jsn0aded6dc7b99",
+  
+            "x-rapidapi-key": apiKey,
             "x-rapidapi-host": "sky-scrapper.p.rapidapi.com",
           },
         });
